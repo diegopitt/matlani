@@ -114,7 +114,7 @@ function Main(props) {
 }
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+    img: '/reishi.jpg',
     title: 'HONGO REISHI',
     author: 'TINTURA - Ganoderma Lucidum',
     rows: 2,
@@ -127,7 +127,7 @@ const itemData = [
     author: 'TINTURA - Tagetes Nelsonii Greenm',
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
+    img: '/macuna.jpg',
     title: 'MACUNA PRURIENS',
     author: 'Dopamina y Proteina vegetal',
   },
@@ -138,13 +138,13 @@ const itemData = [
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+    img: '/cacao2.webp',
     title: 'CACAO SECADO AL SOL',
     author: 'Theobroma Cacao',
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+    img: '-cardo.webp',
     title: 'CARDOMOMO',
     author: 'Elattaria Cardomumum',
     rows: 2,
