@@ -10,7 +10,6 @@ import Paper from '@mui/material/Paper';
 
 function Main(props) {
   const { } = props;
-
   return (
     <Grid
       item
@@ -48,13 +47,7 @@ function Main(props) {
       />
       <Grid container>
         <Grid item md={6}>
-          <Box
-            sx={{
-              position: 'relative',
-              p: { xs: 3, md: 6 },
-              pr: { md: 0 },
-            }}
-          >
+          <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 },}}>
             <Typography component="h1" variant="h3" color="inherit" gutterBottom>
               MATLANI
             </Typography>
@@ -63,12 +56,6 @@ function Main(props) {
             </Typography>
             <Typography variant="subtitle1" gutterBottom="true">
               Somos un colectivo dedicado al rescate y prevalencia de los conocimientos tradicionales de las plantas medicinales y sus usos para la nutricion y salud
-            </Typography>
-            <Typography variant="subtitle1" gutterBottom="true">
-              Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
-            </Typography>
-            <Typography variant="subtitle1">
-              Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
             </Typography>
           </Box>
         </Grid>
@@ -98,6 +85,30 @@ function Main(props) {
         </ImageListItem>
       ))}
     </ImageList>
+    <Grid container>
+        <Grid item md={12}>
+          <Paper
+            sx={{
+              position: 'relative',
+              backgroundColor: 'rgb(59, 34, 11)',
+              color: '#fff',
+              mb: 4,
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
+            }}
+          >
+          <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, pr: { md: 0 },}}>
+            <Typography variant="subtitle1" gutterBottom="true">
+              Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
+            </Typography>
+            <Typography variant="subtitle1">
+              Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
+            </Typography>
+          </Box>
+          </Paper>
+        </Grid>
+      </Grid>
   </Grid>
   );
 }
