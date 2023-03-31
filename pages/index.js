@@ -132,7 +132,7 @@ const itemData = [
     author: 'Dopamina y Proteina vegetal',
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
+    img: '/coma.jpg',
     title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS',
     author: 'Cafe con MACUNA PRURIENS',
     cols: 2,
@@ -144,7 +144,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: '-cardo.webp',
+    img: '/cardo.webp',
     title: 'CARDOMOMO',
     author: 'Elattaria Cardomumum',
     rows: 2,
