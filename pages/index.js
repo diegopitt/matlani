@@ -28,11 +28,11 @@ function Main(props) {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        backgroundImage: `url(https://matlani.vercel.app/cacao.png)`,
+        backgroundImage: `url(/cacao.png)`,
       }}
     >
       {/* Increase the priority of the hero background image */}
-      {<img style={{ display: 'none' }} src='https://matlani.vercel.app/cacao.png' alt='Matlani' />}
+      {<img style={{ display: 'none' }} src='/cacao.png' alt='Matlani' />}
       <Box
         sx={{
           position: 'absolute',
@@ -40,7 +40,7 @@ function Main(props) {
           bottom: 0,
           right: 0,
           left: 0,
-          backgroundColor: '#756858',
+          backgroundColor: 'rgba(0,0,0,.4)',
         }}
       />
       <Grid container>
@@ -53,13 +53,19 @@ function Main(props) {
             }}
           >
             <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-              Matlani
+              MATLANI
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
-              descripcion
+              Catalogo de Productos
+            </Typography>
+            <Typography variant="subtitle1" gutterBottom="true">
+              Somos un colectivo dedicado al rescate y prevalencia de los conocimientos tradicionales de las plantas medicinales y sus usos para la nutricion y salud
+            </Typography>
+            <Typography variant="subtitle1" gutterBottom="true">
+              Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
             </Typography>
             <Typography variant="subtitle1">
-              text
+              Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
             </Typography>
           </Box>
         </Grid>
