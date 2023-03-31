@@ -2,12 +2,11 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 function Main(props) {
-  const { posts, title } = props;
+  const { } = props;
 
   return (
     <Grid
@@ -20,10 +19,6 @@ function Main(props) {
         },
       }}
     >
-      <Typography variant="h6" gutterBottom>
-        {title}
-      </Typography>
-      <Divider />
       <Paper
       sx={{
         position: 'relative',
@@ -33,11 +28,11 @@ function Main(props) {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        backgroundImage: `url()`,
+        backgroundImage: `url(https://matlani.vercel.app/cacao.png)`,
       }}
     >
       {/* Increase the priority of the hero background image */}
-      {<img style={{ display: 'none' }} src='' alt='Matlani' />}
+      {<img style={{ display: 'none' }} src='https://matlani.vercel.app/cacao.png' alt='Matlani' />}
       <Box
         sx={{
           position: 'absolute',
@@ -74,9 +69,6 @@ function Main(props) {
   );
 }
 
-Main.propTypes = {
-  title: PropTypes.string.isRequired,
-  posts: PropTypes.arrayOf(PropTypes.string).isRequired
-};
+Main.propTypes = {};
 
 export default Main;
