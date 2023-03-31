@@ -75,7 +75,7 @@ function Main(props) {
       </Grid>
     </Paper>
     <ImageList>
-      <ImageListItem key="Subheader" cols={4}></ImageListItem>
+      <ImageListItem key="Subheader" cols={2}></ImageListItem>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
