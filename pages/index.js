@@ -32,9 +32,7 @@ function Main(props) {
         </Grid>
       </Grid>
     </Paper>
-    <Grid container  direction="row"
-  justifyContent="center"
-  alignItems="center">
+    <Grid container direction="row" justifyContent="center" alignItems="center">
     <Grid item xs={12} sm={10}>
       <ImageList>
         <ImageListItem key="Subheader" cols={2}></ImageListItem>
