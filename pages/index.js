@@ -3,8 +3,10 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
+import Fab from '@mui/material/Fab';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper'; 
 
@@ -23,7 +25,7 @@ function Main(props) {
               MATLANI
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
-              Catalogo de Productos
+              Herbolaria, salud y nutricion
             </Typography>
             <Typography variant="subtitle1" gutterBottom="true">
               Somos un colectivo dedicado al rescate y prevalencia de los conocimientos tradicionales de las plantas medicinales y sus usos para la nutricion y salud
@@ -46,19 +48,35 @@ function Main(props) {
     </Grid>
     </Grid>
     <Grid container>
-        <Grid item md={12}>
-          <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
-            <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, pr: { md: 0 },}}>
-              <Typography variant="subtitle1" gutterBottom="true">
-                Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
-              </Typography>
-              <Typography variant="subtitle1">
-                Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
-              </Typography>
-            </Box>
-          </Paper>
-        </Grid>
+      <Grid item md={12}>
+        <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
+          <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, pr: { md: 0 },}}>
+            <Typography variant="subtitle1" gutterBottom="true">
+              Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
+            </Typography>
+            <Typography variant="subtitle1">
+              Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
+            </Typography>
+          </Box>
+        </Paper>
       </Grid>
+    </Grid>
+    <Grid container>
+      <Grid container md={6} direction="row" justifyContent="flex-start" alignItems="flex-start">
+        <Box sx={{ }}>
+          1
+        </Box>
+      </Grid>
+      <Grid container md={6} direction="row" justifyContent="flex-end" alignItems="flex-end">
+        <Fab sx={{
+        bgcolor: '#25D366',
+        color: '#fff',
+        margin: '24px'
+      }} aria-label="Whatsapp">
+          <WhatsAppIcon />
+        </Fab>
+      </Grid>
+    </Grid>
   </Grid>
   );
 }
