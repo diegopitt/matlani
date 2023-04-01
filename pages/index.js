@@ -69,7 +69,7 @@ function Main(props) {
       </Grid>
       <Grid container md={6} direction="row" justifyContent="flex-end" alignItems="flex-end">
         <Fab style={{boxShadow: "none"}} sx={{ bgcolor: '#25D366', color: '#fff', margin: '24px', padding: '4px', border: '2px solid #25D366' }} aria-label="Whatsapp">
-          <WhatsAppIcon sx={{ fontSize: 32 }} />
+          <WhatsAppIcon sx={{ fontSize: 40 }} />
         </Fab>
       </Grid>
     </Grid>
