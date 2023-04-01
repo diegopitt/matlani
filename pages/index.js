@@ -144,14 +144,6 @@ const itemData = [
     cols: 2,
   },
   {
-    img: '/cardo.webp',
-    title: 'CARDOMOMO',
-    author: 'Elattaria Cardomumum',
-    rows: 2,
-    cols: 2,
-    featured: true,
-  },
-  {
     img: '/maza.jpg',
     title: 'MAZAPAN',
     author: 'Mazapan Artezanal Tradicional',
@@ -159,6 +151,14 @@ const itemData = [
     cols: 2,
     featured: true,
   },
+  {
+    img: '/cardo.webp',
+    title: 'CARDOMOMO',
+    author: 'Elattaria Cardomumum',
+    rows: 2,
+    cols: 2,
+    featured: true,
+  }
 ];
 
 export default Main;
