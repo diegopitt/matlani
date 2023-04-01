@@ -64,11 +64,11 @@ function Main(props) {
     <Grid container>
       <Grid container md={6} direction="row" justifyContent="flex-start" alignItems="flex-start">
         <Box sx={{ }}>
-          1
+
         </Box>
       </Grid>
       <Grid container md={6} direction="row" justifyContent="flex-end" alignItems="flex-end">
-        <Fab style={{boxShadow: "none"}} sx={{ bgcolor: '#25D366', color: '#fff', margin: '24px', padding: '4px', border: '2px solid #25D366' }} aria-label="Whatsapp">
+        <Fab style={{boxShadow: "none"}} sx={{ bgcolor: '#25D366', color: '#fff', margin: '24px', padding: '6px', border: '2px solid #25D366' }} aria-label="Whatsapp">
           <WhatsAppIcon sx={{ fontSize: 40 }} />
         </Fab>
       </Grid>
