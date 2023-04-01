@@ -151,6 +151,14 @@ const itemData = [
     cols: 2,
     featured: true,
   },
+  {
+    img: '/maza1.jpg',
+    title: 'MAZAPAN',
+    author: 'Mazapan Artezanal Tradicional',
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
 ];
 
 export default Main;
