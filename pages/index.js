@@ -24,8 +24,8 @@ function Main(props) {
             <Grid item md={12}>
               <Drawer />
               <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 },}}>
-                <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                MATLANI
+                <Typography component="span" variant="h3" color="inherit">
+                  MATLANI
                 </Typography>
                 <Typography variant="h5" color="inherit" paragraph>
                   Herbolaria, salud y nutricion
