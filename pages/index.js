@@ -43,10 +43,8 @@ function Main(props) {
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {itemData.map((item) => (
               <ImageListItem key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
-    
-                  <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
-
+                <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
               </ImageListItem>
               ))}
             </ImageList>
