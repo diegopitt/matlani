@@ -53,7 +53,7 @@ function Main(props) {
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10}>
             <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
-              <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, pr: { md: 0 },}}>
+              <Box sx={{ position: 'relative', p: { xs: 2, md: 4 },}}>
                 <Typography variant="subtitle1" gutterBottom="true">
                   Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
                 </Typography>
