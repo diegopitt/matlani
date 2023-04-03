@@ -54,10 +54,10 @@ function Main(props) {
           <Grid item xs={12} sm={10}>
             <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
               <Box sx={{ position: 'relative', p: { xs: 2, md: 4 },}}>
-                <Typography variant="subtitle1" gutterBottom="true">
+                <Typography align='justify' variant="subtitle1" gutterBottom="true">
                   Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
                 </Typography>
-                <Typography variant="subtitle1">
+                <Typography align='justify' variant="subtitle1">
                   Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
                 </Typography>
               </Box>
