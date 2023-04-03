@@ -31,16 +31,7 @@ export default function TemporaryDrawer() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}>
-        <Typography sx={{ padding: "18px 0px 0px 18px"}} variant="h5" gutterBottom="true" color='secondary'>Carrito</Typography>
-      <List>
-        {['Mazapan Tradicional', 'Macuna Pruriens', 'Hongo Reishi', 'Chilchahua'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItem>
-              <ListItemText primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'body2', }} primary={text} secondary={text} />
-            </ListItem>
-          </ListItem>
-        ))}
-      </List>
+
       <Divider />
     </Box>
   );
