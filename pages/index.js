@@ -50,8 +50,8 @@ function Main(props) {
             </ImageList>
           </Grid>
         </Grid>
-        <Grid container>
-          <Grid item md={12}>
+        <Grid container direction="row" justifyContent="center" alignItems="center">
+          <Grid item xs={12} sm={10}>
             <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
               <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, pr: { md: 0 },}}>
                 <Typography variant="subtitle1" gutterBottom="true">

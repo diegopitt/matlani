@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
-import ShoppingCartTwoToneIcon from '@mui/icons-material/ShoppingCartTwoTone';
+import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
@@ -38,7 +38,7 @@ export default function TemporaryDrawer() {
 
   return (
     <div sx={{ color: "#ffffff", fontSize: 34 }} style={{ paddingTop: "24px", paddingRight: "24px", textAlign: "right", width: '100%'}}>
-      <IconButton onClick={toggleDrawer('right', true)}><ShoppingCartTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+      <IconButton onClick={toggleDrawer('right', true)}><MenuTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
       <Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)}>
         {list('right')}
       </Drawer>
