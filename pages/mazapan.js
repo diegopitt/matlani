@@ -6,7 +6,6 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
@@ -16,13 +15,6 @@ import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
 import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
-import InboxIcon from '@mui/icons-material/Inbox';
-import DraftsIcon from '@mui/icons-material/Drafts';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Avatar from '@mui/material/Avatar';
-import ImageIcon from '@mui/icons-material/Image';
-import WorkIcon from '@mui/icons-material/Work';
-import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 
 const theme = createTheme();
 
@@ -67,19 +59,19 @@ export default function Blog() {
                     <ListItemIcon>
                       <AddCircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Photos"  />
+                    <ListItemText primary="Cacahuate"  />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <AddCircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Work"  />
+                    <ListItemText primary="Avena"  />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <AddCircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Vacation" />
+                    <ListItemText primary="Piloncillo (Panela)" />
                   </ListItem>
                 </List>
               </Paper>
