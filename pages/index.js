@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper'; 
+import Link from '@mui/material/Link';
 
 function Main(props) {
   const { } = props;
@@ -42,10 +43,12 @@ function Main(props) {
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {itemData.map((item) => (
-              <ImageListItem key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
-                <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
-              </ImageListItem>
+              <Link display="block" variant="body1" href="/mazapan" key="/mazapan">
+                <ImageListItem key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
+                  <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                  <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
+                </ImageListItem>
+              </Link>
               ))}
             </ImageList>
           </Grid>
@@ -80,13 +83,13 @@ function Main(props) {
   );
 }
 const itemData = [
-  {img: '/reishi.jpg', title: 'HONGO REISHI', author: 'TINTURA - Ganoderma Lucidum', rows: 2, cols: 2, featured: true,},
-  {img: '/chil.jpg', title: 'CHILCHAHUA', author: 'TINTURA - Tagetes Nelsonii Greenm', },
-  {img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal',  },
-  {img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe con MACUNA PRURIENS', cols: 2,},
-  {img: '/cacao2.webp', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2,},
-  {img: '/maza.jpg', title: 'MAZAPAN', author: 'Mazapan Artezanal Tradicional', rows: 2, cols: 2, featured: true,},
-  {img: '/cardo.webp', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, }
+  {link:'/mazapan', img: '/reishi.jpg', title: 'HONGO REISHI', author: 'TINTURA - Ganoderma Lucidum', rows: 2, cols: 2, featured: true,},
+  {link:'/chilchaua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'TINTURA - Tagetes Nelsonii Greenm', },
+  {link:'/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal',  },
+  {link:'/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe con MACUNA PRURIENS', cols: 2,},
+  {link:'/cacao', img: '/cacao2.webp', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2,},
+  {link:'/mazapan', img: '/maza.jpg', title: 'MAZAPAN', author: 'Mazapan Artezanal Tradicional', rows: 2, cols: 2, featured: true,},
+  {link:'/cardomomo', img: '/cardo.webp', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, }
 ];
 
 export default Main;
