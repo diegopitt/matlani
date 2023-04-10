@@ -4,13 +4,25 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import Divider from '@mui/material/Divider';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
+import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
+import InboxIcon from '@mui/icons-material/Inbox';
+import DraftsIcon from '@mui/icons-material/Drafts';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import Avatar from '@mui/material/Avatar';
+import ImageIcon from '@mui/icons-material/Image';
+import WorkIcon from '@mui/icons-material/Work';
+import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 
 const theme = createTheme();
 
@@ -39,7 +51,7 @@ export default function Blog() {
               </Grid>
             </Grid>
           </Paper>
-          <Grid container spacing={5} sx={{ mt: 3 }}>
+          <Grid container spacing={5} >
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Typography variant="h6" gutterBottom>
                 Mazapan de elavoracion cacera a base de cacahuate molido y piloncillo(panela).
@@ -48,9 +60,28 @@ export default function Blog() {
             <Grid item xs={12} md={4}>
               <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
                 <Typography variant="h6" gutterBottom>
-                  title
+                  Ingredientes
                 </Typography>
-                <Typography>desc</Typography>
+                <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent' }}>
+                  <ListItem>
+                    <ListItemIcon>
+                      <AddCircleTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Photos"  />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <AddCircleTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Work"  />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <AddCircleTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Vacation" />
+                  </ListItem>
+                </List>
               </Paper>
               <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
                 Archives
