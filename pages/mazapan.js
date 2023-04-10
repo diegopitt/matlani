@@ -28,7 +28,7 @@ export default function Blog() {
                     MAZAPAN ARTEZANAL
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
-                    Descripcion
+                    Elavorado con productos 100% artesanales
                   </Typography>
                 </Box>
               </Grid>
