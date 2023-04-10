@@ -28,7 +28,6 @@ export default function Blog() {
             <Grid container>
               <Grid item md={6}>
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-
                 <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h3" color="inherit" gutterBottom>
                     MAZAPAN ARTEZANAL
@@ -43,11 +42,7 @@ export default function Blog() {
           <Grid container spacing={5} sx={{ mt: 3 }}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Typography variant="h6" gutterBottom>
-                texto
-              </Typography>
-              <Divider />
-              <Typography variant="h6" gutterBottom>
-                texto 2
+                Mazapan de elavoracion cacera a base de cacahuate molido y piloncillo(panela).
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>
