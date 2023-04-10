@@ -30,7 +30,7 @@ function Main(props) {
                 <Typography variant="h5" color="inherit" paragraph>
                   Herbolaria, salud y nutricion
                 </Typography>
-                <Typography variant="subtitle1" gutterBottom="true">
+                <Typography variant="subtitle1" gutterBottom>
                   Somos un colectivo dedicado al rescate y prevalencia de los conocimientos tradicionales de las plantas medicinales y sus usos para la nutricion y salud
                 </Typography>
               </Box>
@@ -54,7 +54,7 @@ function Main(props) {
           <Grid item xs={12} sm={10}>
             <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
               <Box sx={{ position: 'relative', p: { xs: 2, md: 4 },}}>
-                <Typography align='justify' variant="subtitle1" gutterBottom="true">
+                <Typography align='justify' variant="subtitle1" gutterBottom>
                   Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
                 </Typography>
                 <Typography align='justify' variant="subtitle1">
@@ -65,11 +65,11 @@ function Main(props) {
           </Grid>
         </Grid>
         <Grid container>
-          <Grid container md={6} direction="row" justifyContent="flex-start" alignItems="flex-start">
+          <Grid item md={6} justifyContent="flex-start" alignItems="flex-start">
             <Box sx={{ }}>
             </Box>
           </Grid>
-          <Grid container md={6} direction="row" justifyContent="flex-end" alignItems="flex-end">
+          <Grid item md={6} justifyContent="flex-end" alignItems="flex-end">
             <Fab style={{boxShadow: "none"}} sx={{ bgcolor: '#25D366', '&:hover': { backgroundColor: '#25D366', opacity: [0.8, 0.7, 0.6], }, color: '#fff', margin: '24px', padding: '6px', border: '2px solid #25D366' }} aria-label="Whatsapp">
               <WhatsAppIcon sx={{ fontSize: 40 }} />
             </Fab>
