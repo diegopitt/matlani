@@ -76,7 +76,7 @@ function Main(props) {
           </Grid>
         </Grid>
       </Grid>
-    </div>
+    </div> 
   );
 }
 const itemData = [
