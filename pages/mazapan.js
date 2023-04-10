@@ -17,39 +17,13 @@ export default function Blog() {
       <CssBaseline />
       <Container maxWidth="lg">
         <main>
-          <Paper
-            sx={{
-              position: 'relative',
-              backgroundColor: 'grey.800',
-              color: '#fff',
-              mb: 4,
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center',
-              backgroundImage: `url(/coma.jpg)`,
-            }}
-          >
+          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/coma.jpg)`, }}>
             {/* Increase the priority of the hero background image */}
             {<img style={{ display: 'none' }} src="/coma.jpg" alt="" />}
-            <Box
-              sx={{
-                position: 'absolute',
-                top: 0,
-                bottom: 0,
-                right: 0,
-                left: 0,
-                backgroundColor: 'rgba(0,0,0,.3)',
-              }}
-            />
+            <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
             <Grid container>
               <Grid item md={6}>
-                <Box
-                  sx={{
-                    position: 'relative',
-                    p: { xs: 3, md: 6 },
-                    pr: { md: 0 },
-                  }}
-                >
+                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h3" color="inherit" gutterBottom>
                     MAZAPAN ARTEZANAL
                   </Typography>
@@ -60,12 +34,6 @@ export default function Blog() {
               </Grid>
             </Grid>
           </Paper>
-          <Grid item xs={12} md={6}>
-            1
-          </Grid>
-          <Grid item xs={12} md={6}>
-            2
-          </Grid>
           <Grid container spacing={5} sx={{ mt: 3 }}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Typography variant="h6" gutterBottom>
@@ -86,7 +54,6 @@ export default function Blog() {
               <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
                 Archives
               </Typography>
-
               <Link display="block" variant="body1" href="https://mui.com/" key="https://mui.com/">
                 algo
               </Link>
@@ -100,14 +67,6 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <Typography variant="body2" color="text.secondary" align="center">
-        {'Copyright © '}
-        <Link color="inherit" href="https://mui.com/">
-          Your Website
-        </Link>{' '}
-        {' Dia '}
-        {'.'}
-      </Typography>
     </ThemeProvider>
   );
 }
