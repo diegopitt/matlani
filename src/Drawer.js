@@ -2,11 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
-import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import Typography from '@mui/material/Typography';
-import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 
 export default function TemporaryDrawer() {

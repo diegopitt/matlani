@@ -8,10 +8,14 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useRouter } from 'next/router';
+import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
+import IconButton from '@mui/material/IconButton';
 
 const theme = createTheme();
 
 export default function Blog() {
+  const router = useRouter();
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -23,6 +27,8 @@ export default function Blog() {
             <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
             <Grid container>
               <Grid item md={6}>
+                <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+
                 <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h3" color="inherit" gutterBottom>
                     MAZAPAN ARTEZANAL
