@@ -10,10 +10,11 @@ import Typography from '@mui/material/Typography';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper'; 
-import Link from '@mui/material/Link';
+import { useRouter } from 'next/router'
 
 function Main(props) {
   const { } = props;
+  const router = useRouter();
   return (
     <div>
       <Grid item xs={12} md={8} sx={{'& .markdown': { py: 3, }, }}>
@@ -43,12 +44,10 @@ function Main(props) {
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {itemData.map((item) => (
-              <Link display="block" variant="body1" href="/mazapan" key="/mazapan">
-                <ImageListItem key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
+                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
                   <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
                 </ImageListItem>
-              </Link>
               ))}
             </ImageList>
           </Grid>
