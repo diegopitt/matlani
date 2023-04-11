@@ -52,6 +52,9 @@ export default function Cacao() {
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
+                    <ListItemIcon>
+                      <CircleTwoToneIcon />
+                    </ListItemIcon>
                     <ListItemText primary="Modo de uso: Disolver en agua recién hervida. Cantidad al gusto (se recomienda 1 cda. sopera por dos tasas)."  />
                   </ListItem>
                 </List>
