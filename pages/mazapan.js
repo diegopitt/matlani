@@ -15,6 +15,7 @@ import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
 import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
+import ViewAgendaTwoToneIcon from '@mui/icons-material/ViewAgendaTwoTone';
 import Divider from '@mui/material/Divider';
 
 const theme = createTheme();
@@ -74,6 +75,38 @@ export default function Blog() {
                       <AddCircleTwoToneIcon />
                     </ListItemIcon>
                     <ListItemText primary="Piloncillo (Panela)" />
+                  </ListItem>
+                </List>
+              </Paper>
+              <Paper elevation={0} sx={{ mt: 4, p: 2, bgcolor: 'grey.200' }}>
+                <Typography variant="h6" gutterBottom>
+                  PRESENTACION
+                </Typography>
+                <Divider />
+                <List sx={{ width: '100%', bgcolor: 'transparent' }}>
+                  <ListItem disableGutters>
+                    <ListItemIcon>
+                      <ViewAgendaTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="250 GRAMOS" secondary="$200"  />
+                  </ListItem>
+                  <ListItem disableGutters disablePadding>
+                    <ListItemIcon>
+                      <ViewAgendaTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="500 GRAMOS" secondary="$600" />
+                  </ListItem>
+                  <ListItem disableGutters disablePadding>
+                    <ListItemIcon>
+                      <ViewAgendaTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="1 KILO" secondary="$1000" />
+                  </ListItem>
+                  <ListItem disableGutters disablePadding>
+                    <ListItemIcon>
+                      <ViewAgendaTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="1.5 KILOS" secondary="$1600" />
                   </ListItem>
                 </List>
               </Paper>
