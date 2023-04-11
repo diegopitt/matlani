@@ -3,6 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
@@ -13,14 +14,14 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
+import LocalDrinkTwoToneIcon from '@mui/icons-material/LocalDrinkTwoTone';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
-import LocalDrinkTwoToneIcon from '@mui/icons-material/LocalDrinkTwoTone';
 import Divider from '@mui/material/Divider';
 
 const theme = createTheme();
 
-export default function Chilchaua() {
+export default function Chilchahua() {
   const router = useRouter();
   return (
     <ThemeProvider theme={theme}>
@@ -31,23 +32,23 @@ export default function Chilchaua() {
             {/* Increase the priority of the hero background image */}
             {<img style={{ display: 'none' }} src="/chil.jpg" alt="" />}
             <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container >
+            <Grid container>
               <Grid item md={6}>
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 10, md: 6 }, pr: { md: 0 }, }}>
-                  <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                    CHILCHAHUA
+                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+                  <Typography component="h1" variant="h2" color="inherit" gutterBottom>
+                  CHILCHAHUA
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
-                    TAGETES NELSONII GREENM
+                  TAGETES NELSONII GREENM
                   </Typography>
                 </Box>
               </Grid>
             </Grid>
           </Paper>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-              <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
+            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
+            <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
                  Auxiliar en el tratamiento de diarrea, parásitos, salmonella, fiebre tifoidea e infecciones gastrointestinales.
                 </Typography>
@@ -62,7 +63,7 @@ export default function Chilchaua() {
               </Paper>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
+            <Paper elevation={0} sx={{ p: 2, mb: 4, bgcolor: 'grey.200' }}>
                 <Typography variant="h6" gutterBottom>
                   PRESENTACION
                 </Typography>
