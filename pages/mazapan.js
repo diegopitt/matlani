@@ -15,6 +15,7 @@ import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
 import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
+import Divider from '@mui/material/Divider';
 
 const theme = createTheme();
 
@@ -54,6 +55,7 @@ export default function Blog() {
                 <Typography variant="h6" gutterBottom>
                   Ingredientes
                 </Typography>
+                <Divider />
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent' }}>
                   <ListItem>
                     <ListItemIcon>
