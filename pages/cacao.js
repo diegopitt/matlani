@@ -16,6 +16,7 @@ import IconButton from '@mui/material/IconButton';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 import Divider from '@mui/material/Divider';
+import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 
 const theme = createTheme();
 
@@ -81,19 +82,19 @@ export default function Cacao() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <Inventory2TwoToneIcon />
                     </ListItemIcon>
                     <ListItemText primary="150 GRAMOS" secondary="$100"  />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <Inventory2TwoToneIcon />
                     </ListItemIcon>
                     <ListItemText primary="500 GRAMOS" secondary="$300" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <Inventory2TwoToneIcon />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary="$400" />
                   </ListItem>

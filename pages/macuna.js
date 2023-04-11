@@ -3,7 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
+import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
@@ -100,19 +100,19 @@ export default function Macuna() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <Inventory2TwoToneIcon />
                     </ListItemIcon>
                     <ListItemText primary="200 GRAMOS" secondary="$200"  />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <Inventory2TwoToneIcon />
                     </ListItemIcon>
                     <ListItemText primary="500 GRAMOS" secondary="$400" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <Inventory2TwoToneIcon />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary="$700" />
                   </ListItem>
