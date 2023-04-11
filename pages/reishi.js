@@ -17,6 +17,7 @@ import IconButton from '@mui/material/IconButton';
 import LocalDrinkTwoToneIcon from '@mui/icons-material/LocalDrinkTwoTone';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
+import Divider from '@mui/material/Divider';
 
 const theme = createTheme();
 
@@ -89,6 +90,7 @@ export default function Reishi() {
                 <Typography variant="h6" gutterBottom>
                   Presentaciones
                 </Typography>
+                <Divider />
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
