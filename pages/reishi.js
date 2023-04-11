@@ -101,36 +101,36 @@ export default function Reishi() {
                 <Typography variant="h6" gutterBottom>
                   Presentaciones
                 </Typography>
-                <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent' }}>
+                <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="30 ML" secondary="$200"  />
+                    <ListItemText primary="30 MILILITROS" secondary="$200"  />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="125 ML" secondary="$600" />
+                    <ListItemText primary="125 MILILITROS" secondary="$600" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="250 ML" secondary="$1000" />
+                    <ListItemText primary="250 MILILITROS" secondary="$1000" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="500 ML" secondary="$1600" />
+                    <ListItemText primary="500 MILILITROS" secondary="$1600" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="1 LT" secondary="$2500" />
+                    <ListItemText primary="1 LITRO" secondary="$2500" />
                   </ListItem>
                 </List>
               </Paper>
