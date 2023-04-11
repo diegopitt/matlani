@@ -65,7 +65,7 @@ export default function Chilchaua() {
             <Grid item xs={12} md={4}>
               <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
                 <Typography variant="h6" gutterBottom>
-                  Presentaciones
+                  PRESENTACION
                 </Typography>
                 <Divider />
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
@@ -101,18 +101,6 @@ export default function Chilchaua() {
                   </ListItem>
                 </List>
               </Paper>
-              <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
-                Archives
-              </Typography>
-              <Link display="block" variant="body1" href="https://mui.com/" key="https://mui.com/">
-                algo
-              </Link>
-              <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
-                Social
-              </Typography>
-              <Link display="block" variant="body1" href="https://mui.com/" key="https://mui.com/">
-                algo2
-              </Link>
             </Grid>
           </Grid>
         </main>
