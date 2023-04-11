@@ -14,7 +14,6 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
-import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
@@ -31,10 +30,10 @@ export default function Chilchaua() {
             {/* Increase the priority of the hero background image */}
             {<img style={{ display: 'none' }} src="/chil.jpg" alt="" />}
             <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container>
+            <Grid container >
               <Grid item md={6}>
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+                <Box sx={{ position: 'relative', p: { xs: 10, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h3" color="inherit" gutterBottom>
                     CHILCHAHUA
                   </Typography>

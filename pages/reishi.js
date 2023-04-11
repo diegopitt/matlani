@@ -14,7 +14,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
-import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
+import LocalDrinkTwoToneIcon from '@mui/icons-material/LocalDrinkTwoTone';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
@@ -94,31 +94,31 @@ export default function Reishi() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="30 MILILITROS" secondary="$200"  />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200"  />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="125 MILILITROS" secondary="$600" />
+                    <ListItemText primary="GOTERO 125 MILILITROS" secondary="$600" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="250 MILILITROS" secondary="$1000" />
+                    <ListItemText primary="GOTERO 250 MILILITROS" secondary="$1000" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <LocalDrinkTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="500 MILILITROS" secondary="$1600" />
+                    <ListItemText primary="BOTELLA 500 MILILITROS" secondary="$1600" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <LocalDrinkTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="1 LITRO" secondary="$2500" />
+                    <ListItemText primary="BOTELLA 1 LITRO" secondary="$2500" />
                   </ListItem>
                 </List>
               </Paper>
