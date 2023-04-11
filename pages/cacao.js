@@ -25,7 +25,7 @@ export default function Cacao() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="lg"  sx={{position: 'relative'}}>
         <main>
           <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.png)`, }}>
             {/* Increase the priority of the hero background image */}
@@ -103,8 +103,9 @@ export default function Cacao() {
             </Grid>
           </Grid>
         </main>
+        <Fav />
       </Container>
-      <Fav />
+      
     </ThemeProvider>
   );
 }
