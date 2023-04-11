@@ -55,19 +55,7 @@ export default function Reishi() {
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en el tratamiento de:"  />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Ansiedad, insomnio, estrés, depresión."  />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Casos de daño hepático, alcoholismo, cirrosis, hepatitis."  />
+                    <ListItemText primary="Auxiliar en el tratamiento de Ansiedad, insomnio, estrés, depresión, casos de daño hepático, alcoholismo, cirrosis, hepatitis."  />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
