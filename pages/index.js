@@ -85,7 +85,7 @@ const itemData = [
   {link:'/reishi', img: '/reishi.jpg', title: 'HONGO REISHI', author: 'TINTURA - Ganoderma Lucidum', rows: 2, cols: 2, featured: true,},
   {link:'/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'TINTURA - Tagetes Nelsonii Greenm', },
   {link:'/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal',  },
-  {link:'/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe con MACUNA PRURIENS', cols: 2,},
+  {link:'/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe de MACUNA PRURIENS', cols: 2,},
   {link:'/cacao', img: '/cacao2.webp', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2,},
   {link:'/mazapan', img: '/maza.jpg', title: 'MAZAPAN', author: 'Mazapan Artezanal Tradicional', rows: 2, cols: 2, featured: true,},
   {link:'/cardomomo', img: '/cardo.webp', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, }
