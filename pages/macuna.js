@@ -62,7 +62,19 @@ export default function Macuna() {
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en el tratamiento de: Parkinson, por su contenido de L-DOPA ○Diabetes (fuerte actividad hipoglucemiante) ○Alzheimer y fertilidad."  />
+                    <ListItemText primary="Auxiliar en el tratamiento de: Parkinson, por su contenido de L-DOPA"  />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <CircleTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Diabetes (fuerte actividad hipoglucemiante)"  />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <CircleTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="Alzheimer y fertilidad."  />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>

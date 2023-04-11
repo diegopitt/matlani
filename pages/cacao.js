@@ -48,7 +48,7 @@ export default function Cacao() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Esta maravillosa planta, también conocida como <b>frijol terciopelo</b>, es un excelente suplemento alimenticio con un perfil químico muy extendido llevándolo a tener acciones profundas en el sistema nervioso humano.
+                Utilizar de 7 a 13 semillas al día ya sea en licuado o ingeridas a lo largo del día.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
