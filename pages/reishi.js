@@ -48,9 +48,9 @@ export default function Reishi() {
           </Paper>
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-              <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
+              <Paper sx={{ position: 'relative', mb: 4, backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Éste increíble hongo conocido como <b>Hongo de la Inmortalidad</b> o el <b>Hongo Rey</b>, se gana su nombre gracias a las siguientes y más cualidades: </Typography>
+                Este increíble hongo conocido como <b>Hongo de la Inmortalidad</b> o el <b>Hongo Rey</b>, se gana su nombre gracias a las siguientes y más cualidades: </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
@@ -86,7 +86,7 @@ export default function Reishi() {
               </Paper>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
+              <Paper elevation={0} sx={{ p: 2, mb: 4, bgcolor: 'grey.200' }}>
                 <Typography variant="h6" gutterBottom>
                   PRESENTACION
                 </Typography>
@@ -124,18 +124,6 @@ export default function Reishi() {
                   </ListItem>
                 </List>
               </Paper>
-              <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
-                Archives
-              </Typography>
-              <Link display="block" variant="body1" href="https://mui.com/" key="https://mui.com/">
-                algo
-              </Link>
-              <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
-                Social
-              </Typography>
-              <Link display="block" variant="body1" href="https://mui.com/" key="https://mui.com/">
-                algo2
-              </Link>
             </Grid>
           </Grid>
         </main>
