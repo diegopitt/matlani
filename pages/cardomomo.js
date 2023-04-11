@@ -14,32 +14,31 @@ import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
-import Fav from '../src/Fav';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 
 const theme = createTheme();
 
-export default function Cacao() {
+export default function Cardomomo() {
   const router = useRouter();
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.png)`, }}>
+          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cardo.webp)`, }}>
             {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/cacao.png" alt="" />}
+            {<img style={{ display: 'none' }} src="/cardo.webp" alt="" />}
             <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
             <Grid container>
               <Grid item md={6}>
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
                 <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h5" color="inherit" gutterBottom>
-                    CACAO SECADO AL SOL
+                  CARDOMOMO
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
-                  THEOBROMA CACAO
+                  Elattaria Cardomumum
                   </Typography>
                 </Box>
               </Grid>
@@ -49,26 +48,14 @@ export default function Cacao() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Utilizar de 7 a 13 semillas al día ya sea en licuado o ingeridas a lo largo del día.
+                Tratamiento de náuseas, vómito, indigestión y mal aliento. Tiene propiedades desinflamatorias, febrífugas y afrodisíacas.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en el tratamiento de enfermedades cardiovasculares, cerebrovasculares y visuales."  />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Contiene propiedades antivirales, antitumorales e incluso más antioxidantes que el café verde."  />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="Excelente regulador hormonal y digestivo. Utilizar de 7 a 13 semillas al día ya sea en licuado o ingeridas a lo largo del día." />
+                    <ListItemText primary="Tomar de 1 a 3 gr. en infusión o masticar 5 semillas después de los alimentos. Se puede usar en licuados o repostería."  />
                   </ListItem>
                 </List>
               </Paper>
@@ -84,19 +71,25 @@ export default function Cacao() {
                     <ListItemIcon>
                       <Inventory2TwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="150 GRAMOS" secondary="$100"  />
+                    <ListItemText primary="20 GRAMOS" secondary="$100"  />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="500 GRAMOS" secondary="$300" />
+                    <ListItemText primary="100 GRAMOS" secondary="$400" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="1 KILO" secondary="$400" />
+                    <ListItemText primary="250 GRAMOS" secondary="$900" />
+                  </ListItem>
+                  <ListItem disableGutters disablePadding>
+                    <ListItemIcon>
+                      <Inventory2TwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="1 KILO" secondary="$3000" />
                   </ListItem>
                 </List>
               </Paper>
@@ -104,7 +97,6 @@ export default function Cacao() {
           </Grid>
         </main>
       </Container>
-      <Fav />
     </ThemeProvider>
   );
 }
