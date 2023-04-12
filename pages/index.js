@@ -46,7 +46,7 @@ function Main(props) {
             </Typography>
             <ImageList>
               {tinturas.map((item) => (
-                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
+                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 1, md: 2 },}}>
                   <img style={{ minHeight: 210, maxHeight: 210}} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
                 </ImageListItem>
@@ -62,7 +62,7 @@ function Main(props) {
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {suplementos.map((item) => (
-                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
+                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 1, md: 2 },}}>
                   <img style={{ minHeight: 210, maxHeight: 210}} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
                 </ImageListItem>
@@ -77,7 +77,7 @@ function Main(props) {
             </Typography>
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
-                <ImageListItem onClick={() => { router.replace(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2 },}}>
+                <ImageListItem onClick={() => { router.replace(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 1, md: 2 },}}>
                   <img style={{ minHeight: 210, maxHeight: 210}}  src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
                   <ImageListItemBar title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`mazapan`}></IconButton>} />
                 </ImageListItem>
