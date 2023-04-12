@@ -119,7 +119,7 @@ const tinturas = [
   {link:'/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', author: 'Zingiber Officinale', },
   {link:'/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm', },
   {link:'/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica',  },
-  {link:'/hinojo', img: '/hinojo.jpg', title: 'Hinojo', author: 'Foeniculum Vulgare',  },
+  {link:'/hinojo', img: '/hinojo.jpg', title: 'HINOJO', author: 'Foeniculum Vulgare',  },
   {link:'/cempasuchil', img: '/tage.jpg', title: 'CEMPASHCHIL', author: 'TAGETES ERECTA L', rows: 2, cols: 2, featured: true, }
 ];
 const suplementos = [
