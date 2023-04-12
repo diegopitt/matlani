@@ -33,7 +33,7 @@ const theme = createTheme({
     body2: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 700,
-      fontSize: 32,
+      fontSize: 40,
 
     },
   },
