@@ -42,7 +42,7 @@ function Main(props) {
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10}>
             <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 2}}>
-              Extractos Herbles y Tinturas
+              Extractos Herbales y Tinturas
             </Typography>
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
@@ -73,20 +73,6 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10}>
-            <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
-              <Box sx={{ position: 'relative', p: { xs: 2, md: 4 },}}>
-                <Typography align='justify' variant="subtitle1" gutterBottom>
-                  Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
-                </Typography>
-                <Typography align='justify' variant="subtitle1">
-                  Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
-                </Typography>
-              </Box>
-            </Paper>
-          </Grid>
-        </Grid>
-        <Grid container direction="row" justifyContent="center" alignItems="center">
-          <Grid item xs={12} sm={10}>
             <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 2}}>
               Mazapan Artezanal
             </Typography>
@@ -97,6 +83,20 @@ function Main(props) {
                   <ImageListItemBar title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`mazapan`}></IconButton>} />
                 </ImageListItem>
             </ImageList>
+          </Grid>
+        </Grid>
+        <Grid container direction="row" justifyContent="center" alignItems="center">
+          <Grid item xs={12} sm={10}>
+            <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover',  backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
+              <Box sx={{ position: 'relative', p: { xs: 2, md: 4 },}}>
+                <Typography align='justify' variant="subtitle1" gutterBottom>
+                  Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
+                </Typography>
+                <Typography align='justify' variant="subtitle1">
+                  Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
+                </Typography>
+              </Box>
+            </Paper>
           </Grid>
         </Grid>
         <Grid container>
