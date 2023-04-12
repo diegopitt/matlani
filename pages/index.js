@@ -28,11 +28,11 @@ function Main(props) {
             <Grid item md={12}>
             <Grid container direction="row" justifyContent="center" alignItems="center">
               <Grid item sm={6} sx={{ flexGrow: 1}}>
-                <div  style={{ paddingTop: "28px", paddingLeft: "28px", textAlign: "left", width: '100%'}}>
+                <div  style={{ paddingTop: "38px", paddingLeft: "18px", textAlign: "left", width: '100%'}}>
                   <Image width={64} height={64} priority src={flower} alt="Matlani" />
                 </div>
               </Grid>
-              <Grid item md={6}>
+              <Grid item md={6} sx={{ flexGrow: 1 }}>
                 <Drawer />
               </Grid>
             </Grid>
