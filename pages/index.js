@@ -72,6 +72,23 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
+            <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4,}}>
+              Compuestos Herbales
+            </Typography>
+            <ImageList>
+              <ImageListItem key="Subheader" cols={2}></ImageListItem>
+              {compuestos.map((item) => (
+                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
+                  <img style={{ minHeight: 210, maxHeight: 210}} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                  <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
+                </ImageListItem>
+              ))}
+            </ImageList>
+          </Grid>
+        </Grid>
+
+        <Grid container direction="row" justifyContent="center" alignItems="center">
+          <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
             <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2}}>
               Mazapan Artezanal
             </Typography>
@@ -128,6 +145,11 @@ const suplementos = [
   {link:'/cacao', img: '/cacao2.webp', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2,},
   {link:'/cardomomo', img: '/cardo.webp', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },
 
+];
+const compuestos = [
+  {link:'/viasurinarias', img: '/extractos.jpg', title: 'COMPUESTO PARA VIAS URINARIAS', author: 'Riñones, Vejiga, Prostata y Uretra', rows: 2, cols: 2, featured: true, },
+  {link:'/imsomnio', img: '/extractos.jpg', title: 'COMPUESTO IMSOMNIO', author: 'Reishi - Yauhtli', rows: 2, cols: 2, featured: true, },
+  {link:'/epatico', img: '/extractos.jpg', title: 'COMPUSTO HEPATICO', author: 'ReishI - Cardo Mariano', rows: 2, cols: 2, featured: true, },
 ];
 
 export default Main;
