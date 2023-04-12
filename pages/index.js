@@ -18,7 +18,7 @@ function Main(props) {
   return (
     <div>
       <Grid item xs={12} md={8} sx={{'& .markdown': { py: 3, }, }}>
-        <Paper sx={{ position: 'relative', backgroundColor: '#756858', color: '#fff', mb: 2, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.png)`, }}>
+        <Paper sx={{ position: 'relative', backgroundColor: '#756858', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.png)`, }}>
           {/* Increase the priority of the hero background image */}
           {<img style={{ display: 'none' }} src='/cacao.png' alt='Matlani' />}
           <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.4)', }} />
@@ -30,7 +30,7 @@ function Main(props) {
                   MATLANI
                 </Typography>
                 <Typography variant="h4" color="inherit" paragraph>
-                  Herbolaria, salud y nutricion
+                  Herbolaria, Salud y Nutricion
                 </Typography>
                 <Typography variant="subtitle1" gutterBottom>
                   Somos un colectivo dedicado al rescate y prevalencia de los conocimientos tradicionales de las plantas medicinales y sus usos para la nutricion y salud
@@ -41,11 +41,10 @@ function Main(props) {
         </Paper>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2}}>
+            <Typography variant="body2" color="#255527" sx={{ pl: { xs: 1, md: 2 }, pt: 2,}}>
               Extractos Herbales y Tinturas
             </Typography>
             <ImageList>
-              <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {tinturas.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
                   <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
@@ -57,7 +56,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4,}}>
+            <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4,}}>
               Superalimentos Organicos
             </Typography>
             <ImageList>
@@ -73,7 +72,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2}}>
+            <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2}}>
               Mazapan Artezanal
             </Typography>
             <ImageList>

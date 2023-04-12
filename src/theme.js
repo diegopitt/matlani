@@ -1,14 +1,20 @@
-import { Open_Sans } from 'next/font/google';
+import {  Dancing_Script, Montserrat } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
 
-export const openS = Open_Sans({
-  weight: ['300', '400', '500', '600', '700'],
+export const Dancing = Dancing_Script({
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
+export const Montse = Montserrat({
+  weight: ['500', '600', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  fallback: ['Helvetica', 'Arial', 'sans-serif'],
+});
 // Create a theme instance.
 const theme = createTheme({
   palette: {
@@ -23,8 +29,15 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: openS.style.fontFamily,
+    fontFamily: Montse.style.fontFamily,
+    body2: {
+      fontFamily: Dancing.style.fontFamily,
+      fontWeight: 700,
+      fontSize: 46,
+
+    },
   },
+
 });
 
 export default theme;
