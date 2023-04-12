@@ -89,7 +89,7 @@ const itemData = [
   {link:'/cacao', img: '/cacao2.webp', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2,},
   {link:'/mazapan', img: '/maza.jpg', title: 'MAZAPAN', author: 'Mazapan Artezanal Tradicional', rows: 2, cols: 2, featured: true,},
   {link:'/cardomomo', img: '/cardo.webp', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },
-  {link:'/cempasuchi', img: '/tage.jpg', title: 'CEMPASHCHIL', author: 'TAGETES ERECTA L', rows: 2, cols: 2, featured: true, }
+  {link:'/cempasuchil', img: '/tage.jpg', title: 'CEMPASHCHIL', author: 'TAGETES ERECTA L', rows: 2, cols: 2, featured: true, }
 ];
 
 export default Main;
