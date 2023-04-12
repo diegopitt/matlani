@@ -85,6 +85,20 @@ function Main(props) {
             </Paper>
           </Grid>
         </Grid>
+        <Grid container direction="row" justifyContent="center" alignItems="center">
+          <Grid item xs={12} sm={10}>
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 2}}>
+              Mazapan Artezanal
+            </Typography>
+            <ImageList>
+              <ImageListItem key="Subheader" cols={2}></ImageListItem>
+                <ImageListItem onClick={() => { router.replace(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2 },}}>
+                  <img src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
+                  <ImageListItemBar title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`mazapan`}></IconButton>} />
+                </ImageListItem>
+            </ImageList>
+          </Grid>
+        </Grid>
         <Grid container>
           <Grid item md={6} justifyContent="flex-start" alignItems="flex-start">
             <Box sx={{ }}>
@@ -107,7 +121,6 @@ const tinturas = [
   {link:'/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm', },
   {link:'/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica',  },
   {link:'/hinojo', img: '/hinojo.jpg', title: 'Hinojo', author: 'Foeniculum Vulgare',  },
-  {link:'/mazapan', img: '/maza.jpg', title: 'MAZAPAN', author: 'Mazapan Artezanal Tradicional', rows: 2, cols: 2, featured: true,},
   {link:'/cempasuchil', img: '/tage.jpg', title: 'CEMPASHCHIL', author: 'TAGETES ERECTA L', rows: 2, cols: 2, featured: true, }
 ];
 const suplementos = [
