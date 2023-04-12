@@ -22,14 +22,18 @@ export default function SpeedDialTooltipOpen() {
   const handleClose = () => setOpen(false);
 
   return (
-    <Box sx={{transform: 'translateZ(0px)', flexGrow: 1 }}>
+    <div sx={{transform: 'translateZ(0px)', flexGrow: 1, height:0 }}>
       <SpeedDial
-        ariaLabel="SpeedDial tooltip example"
-        sx={{ position: 'absolute', bottom: 16, right: 16 }}
+        ariaLabel=""
+        sx={{ position: 'fixed', bottom: 16, right: 16 }}
         icon={<SpeedDialIcon />}
         onClose={handleClose}
         onOpen={handleOpen}
         open={open}
+        FabProps={{
+          color: 'secondary',
+          size: 'medium',
+        }}
       >
         {actions.map((action) => (
           <SpeedDialAction
@@ -41,6 +45,6 @@ export default function SpeedDialTooltipOpen() {
           />
         ))}
       </SpeedDial>
-    </Box>
+    </div>
   );
 }
