@@ -18,7 +18,7 @@ function Main(props) {
   return (
     <div>
       <Grid item xs={12} md={8} sx={{'& .markdown': { py: 3, }, }}>
-        <Paper sx={{ position: 'relative', backgroundColor: '#756858', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.png)`, }}>
+        <Paper sx={{ position: 'relative', backgroundColor: '#756858', color: '#fff', mb: 2, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.png)`, }}>
           {/* Increase the priority of the hero background image */}
           {<img style={{ display: 'none' }} src='/cacao.png' alt='Matlani' />}
           <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.4)', }} />
@@ -41,7 +41,7 @@ function Main(props) {
         </Paper>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2}}>
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 0}}>
               Extractos Herbales y Tinturas
             </Typography>
             <ImageList>
