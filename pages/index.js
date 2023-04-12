@@ -57,7 +57,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 4,}}>
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4,}}>
               Superalimentos Organicos
             </Typography>
             <ImageList>
@@ -73,7 +73,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 2}}>
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2}}>
               Mazapan Artezanal
             </Typography>
             <ImageList>
