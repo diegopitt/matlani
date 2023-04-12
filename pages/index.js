@@ -29,7 +29,7 @@ function Main(props) {
             <Grid container direction="row" justifyContent="center" alignItems="center">
               <Grid item sm={6} sx={{ flexGrow: 1}}>
                 <div  style={{ paddingTop: "26px", paddingLeft: "22px", textAlign: "left", width: '100%'}}>
-                  <Image width={64} height={64} priority src={flower} alt="Matlani" />
+                  <Image width={58} height={58} priority src={flower} alt="Matlani" />
                 </div>
               </Grid>
               <Grid item md={6} sx={{ flexGrow: 1 }}>
