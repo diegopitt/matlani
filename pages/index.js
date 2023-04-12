@@ -41,12 +41,28 @@ function Main(props) {
         </Paper>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2,}}>
-              Tinturas
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 2}}>
+              Extractos Herbles y Tinturas
             </Typography>
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {tinturas.map((item) => (
+                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
+                  <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                  <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
+                </ImageListItem>
+              ))}
+            </ImageList>
+          </Grid>
+        </Grid>
+        <Grid container direction="row" justifyContent="center" alignItems="center">
+          <Grid item xs={12} sm={10}>
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 4,}}>
+              Superalimentos Organicos
+            </Typography>
+            <ImageList>
+              <ImageListItem key="Subheader" cols={2}></ImageListItem>
+              {suplementos.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
                   <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
