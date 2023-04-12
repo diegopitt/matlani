@@ -1,4 +1,4 @@
-import { Open_Sans, open } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
 

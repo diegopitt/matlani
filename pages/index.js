@@ -29,7 +29,7 @@ function Main(props) {
                 <Typography component="span" variant="h3" color="inherit">
                   MATLANI
                 </Typography>
-                <Typography variant="h5" color="inherit" paragraph>
+                <Typography variant="h4" color="inherit" paragraph>
                   Herbolaria, salud y nutricion
                 </Typography>
                 <Typography variant="subtitle1" gutterBottom>
@@ -40,7 +40,7 @@ function Main(props) {
           </Grid>
         </Paper>
         <Grid container direction="row" justifyContent="center" alignItems="center">
-          <Grid item xs={12} sm={10}>
+          <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
             <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 2}}>
               Extractos Herbales y Tinturas
             </Typography>
@@ -56,7 +56,7 @@ function Main(props) {
           </Grid>
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
-          <Grid item xs={12} sm={10}>
+          <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
             <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 4,}}>
               Superalimentos Organicos
             </Typography>
@@ -72,7 +72,7 @@ function Main(props) {
           </Grid>
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
-          <Grid item xs={12} sm={10}>
+          <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
             <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2, pt: 2}}>
               Mazapan Artezanal
             </Typography>
