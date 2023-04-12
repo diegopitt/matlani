@@ -14,7 +14,6 @@ import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
-import Fav from '../src/Fav';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 
@@ -103,7 +102,6 @@ export default function Cacao() {
             </Grid>
           </Grid>
         </main>
-        <Fav />
       </Container>
       
     </ThemeProvider>
