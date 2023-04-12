@@ -48,7 +48,7 @@ export default function Cempasuchil() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Auxiliar en la reducción de dolores y cólicos menstruales, enfermedades en la piel, nervios, como desinflamatorio, en la reducción de fiebre. Ayuda contra la  indigestión, empacho, diarrea y parásitos intestinales.
+                Auxiliar en la <b>reducción de dolores y cólicos menstruales</b>, enfermedades en la piel, nervios, como <b>desinflamatorio</b>, en la reducción de fiebre. Ayuda contra la  indigestión, empacho, diarrea y parásitos intestinales.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >

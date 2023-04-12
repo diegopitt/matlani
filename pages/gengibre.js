@@ -19,26 +19,26 @@ import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
 const theme = createTheme();
 
-export default function Jamaica() {
+export default function Gengibre() {
   const router = useRouter();
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg"  sx={{position: 'relative'}}>
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/jamaica.jpg)`, }}>
+          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/jengi.jpg)`, }}>
             {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/jamaica.jpg" alt="" />}
+            {<img style={{ display: 'none' }} src="/jengi.jpg" alt="" />}
             <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
             <Grid container>
               <Grid item md={6}>
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
                 <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                  JAMAICA
+                  GENGIBRE
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
-                  Hibiscus Sabdariffa
+                  Zingiber Officinale
                   </Typography>
                 </Box>
               </Grid>
@@ -48,14 +48,14 @@ export default function Jamaica() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Extraordinario para <b>normalizar la presión</b> alta (hipertensión), contiene antioxidantes, auxiliar en la reducción de niveles de colesterol y para limpiar sangre y riñones
+                Excelente contrarrestante de <b>náuseas</b>, <b>mareos</b>, vértigo y dolores menstruales, auxiliar del sistema digestivo, contra gripes y resfríos,como <b>desinflamatorio</b>, <b>analgésico</b> y <b>antibacterial</b>. Mejora la <b>función cerebral</b>.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, durante 7 días. Tomar máximo 15 días y descansar 7 para volver a consumir."  />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días."  />
                   </ListItem>
                 </List>
               </Paper>
