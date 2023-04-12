@@ -41,9 +41,12 @@ function Main(props) {
         </Paper>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10}>
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: 2,}}>
+              Tinturas
+            </Typography>
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
-              {itemData.map((item) => (
+              {tinturas.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 },}}>
                   <img src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)',  }} aria-label={`info about ${item.title}`}></IconButton>} />
@@ -81,19 +84,22 @@ function Main(props) {
     </div> 
   );
 }
-const itemData = [
+const tinturas = [
   {link:'/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa', rows: 2, cols: 2, featured: true,},
   {link:'/reishi', img: '/reishi.jpg', title: 'HONGO REISHI', author: 'Ganoderma Lucidum', rows: 2, cols: 2, featured: true,},
   {link:'/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', author: 'Zingiber Officinale', },
   {link:'/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm', },
   {link:'/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica',  },
   {link:'/hinojo', img: '/hinojo.jpg', title: 'Hinojo', author: 'Foeniculum Vulgare',  },
+  {link:'/mazapan', img: '/maza.jpg', title: 'MAZAPAN', author: 'Mazapan Artezanal Tradicional', rows: 2, cols: 2, featured: true,},
+  {link:'/cempasuchil', img: '/tage.jpg', title: 'CEMPASHCHIL', author: 'TAGETES ERECTA L', rows: 2, cols: 2, featured: true, }
+];
+const suplementos = [
   {link:'/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal',  },
   {link:'/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe de MACUNA PRURIENS', cols: 2,},
   {link:'/cacao', img: '/cacao2.webp', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2,},
-  {link:'/mazapan', img: '/maza.jpg', title: 'MAZAPAN', author: 'Mazapan Artezanal Tradicional', rows: 2, cols: 2, featured: true,},
   {link:'/cardomomo', img: '/cardo.webp', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },
-  {link:'/cempasuchil', img: '/tage.jpg', title: 'CEMPASHCHIL', author: 'TAGETES ERECTA L', rows: 2, cols: 2, featured: true, }
+
 ];
 
 export default Main;
