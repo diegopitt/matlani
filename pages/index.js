@@ -41,7 +41,7 @@ function Main(props) {
         </Paper>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4,}}>
-            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 0}}>
+            <Typography variant="h4" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2}}>
               Extractos Herbales y Tinturas
             </Typography>
             <ImageList>
