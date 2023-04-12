@@ -82,6 +82,7 @@ function Main(props) {
   );
 }
 const itemData = [
+  {link:'/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa', rows: 2, cols: 2, featured: true,},
   {link:'/reishi', img: '/reishi.jpg', title: 'HONGO REISHI', author: 'TINTURA - Ganoderma Lucidum', rows: 2, cols: 2, featured: true,},
   {link:'/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'TINTURA - Tagetes Nelsonii Greenm', },
   {link:'/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal',  },
