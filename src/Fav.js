@@ -19,7 +19,7 @@ export default function SpeedDialTooltipOpen() {
       <SpeedDial
         ariaLabel=""
         sx={{ position: 'fixed', bottom: 16, right: 16 }}
-        icon={<CallTwoToneIcon sx={{ color: '#fff',fontSize: 36 }} />}
+        icon={<CallTwoToneIcon sx={{bgcolor: '#ff00d5',  color: '#fff',fontSize: 36 }} />}
         onClose={handleClose}
         onOpen={handleOpen}
         open={open}
