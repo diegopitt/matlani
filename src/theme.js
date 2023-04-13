@@ -19,7 +19,7 @@ export const Montse = Montserrat({
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#FFFFFF',
+      main: '#25D366',
     },
     secondary: {
       main: '#293423',

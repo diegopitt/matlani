@@ -6,7 +6,7 @@ import FileCopyIcon from '@mui/icons-material/FileCopyOutlined';
 import SaveIcon from '@mui/icons-material/Save';
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
-import { green } from '@mui/material/colors';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const actions = [
   { icon: <FileCopyIcon />, name: 'Copy' },
@@ -25,13 +25,13 @@ export default function SpeedDialTooltipOpen() {
       <SpeedDial
         ariaLabel=""
         sx={{ position: 'fixed', bottom: 16, right: 16 }}
-        icon={<SpeedDialIcon />}
+        icon={<WhatsAppIcon sx={{ bgcolor: '#25D366', '&:hover': { backgroundColor: '#25D366', opacity: [0.8, 0.7, 0.6], }, color: '#fff',fontSize: 40 }} />}
         onClose={handleClose}
         onOpen={handleOpen}
         open={open}
         FabProps={{
           color: 'primary',
-          size: 'medium',
+          size: 'large',
         }}
       >
         {actions.map((action) => (
