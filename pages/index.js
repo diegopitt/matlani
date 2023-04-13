@@ -86,8 +86,8 @@ function Main(props) {
             <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, }}>
               Compuestos Herbales
             </Typography>
-            <Typography variant="body3" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 0, }}>
-              mezclas de extractos para potencializar y especializar determinadas propiedades medicinales
+            <Typography variant="body3" color="#255527" paragraph sx={{mt: -1, pl: { xs: 2, md: 2 }, pt: 0, }}>
+              Mezclas de extractos para potencializar y especializar determinadas propiedades medicinales
             </Typography>
             <ImageList>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
