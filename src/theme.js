@@ -23,7 +23,7 @@ const theme = createTheme({
       telegram: '#0088CC',
     },
     primary: {
-      main: '#25D366',
+      main: '#F6F6F6',
     },
     secondary: {
       main: '#ff00d5',

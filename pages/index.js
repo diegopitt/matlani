@@ -38,13 +38,13 @@ function Main(props) {
               </Grid>
             </Grid>
               <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                <Typography component="span" variant="h3" color="inherit">
+                <Typography component="span" variant="h3" color="primary">
                   MATLANI
                 </Typography>
-                <Typography variant="h4" color="inherit" paragraph>
+                <Typography variant="h4" paragraph color="primary">
                   Herbolaria, Salud y Nutricion
                 </Typography>
-                <Typography variant="subtitle1" gutterBottom>
+                <Typography variant="subtitle1" color="primary">
                   Somos un colectivo dedicado al rescate y prevalencia de los conocimientos tradicionales de las plantas medicinales y sus usos para la nutricion y salud
                 </Typography>
               </Box>
