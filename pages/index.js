@@ -22,16 +22,16 @@ function Main(props) {
     <div>
       <Fav />
       <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-        <Paper sx={{ position: 'relative', backgroundColor: '#000000', opacity:0.9, color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/coma.jpg)`, }}>
+        <Paper sx={{ filter: 'brightness(40%)', background: 'url(/coma.jpg)', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
           {/* Increase the priority of the hero background image */}
           {<img style={{ display: 'none' }} src='/coma.jpg' alt='Matlani' />}
-          <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.4)', }} />
+          <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, }} />
           <Grid container>
             <Grid item md={12}>
             <Grid container direction="row" justifyContent="center" alignItems="center">
               <Grid item sm={6} sx={{ flexGrow: 1}}>
                 <div  style={{ paddingTop: "26px", paddingLeft: "22px", textAlign: "left", width: '100%'}}>
-                  <Image width={52} height={52} priority src={flower} alt="Matlani" />
+                  <Image sx={{ position: 'relative'}} width={52} height={52} priority src={flower} alt="Matlani" />
                 </div>
               </Grid>
               <Grid item md={6} sx={{ flexGrow: 1 }}>
