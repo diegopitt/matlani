@@ -18,12 +18,17 @@ export const Montse = Montserrat({
 // Create a theme instance.
 const theme = createTheme({
   palette: {
+    socials: {
+      whatsapp: '#25D366',
+      telegram: '#0088CC',
+    },
     primary: {
       main: '#25D366',
     },
     secondary: {
       main: '#ff00d5',
     },
+
     error: {
       main: red.A400,
     },
