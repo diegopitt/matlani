@@ -20,9 +20,9 @@ function Main(props) {
   return (
     <div>
       <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-        <Paper sx={{ position: 'relative', backgroundColor: '#756858', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.png)`, }}>
+        <Paper sx={{ position: 'relative', backgroundColor: '#756858', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/coma.jpg)`, }}>
           {/* Increase the priority of the hero background image */}
-          {<img style={{ display: 'none' }} src='/cacao.png' alt='Matlani' />}
+          {<img style={{ display: 'none' }} src='/coma.jpg' alt='Matlani' />}
           <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.4)', }} />
           <Grid container>
             <Grid item md={12}>
