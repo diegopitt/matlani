@@ -10,9 +10,11 @@ export default function SpeedDialTooltipOpen() {
   const handleOpen = () => setOpen(true);
   const handleClose = () =>  {
     setOpen(false);
-    window.location.href = 'http://wa.me/529161268169'
+    window.location.href = 'http://wa.me/529161268169';
    }
-  
+   const handleClose2 = () =>  {
+    setOpen(false);
+   }
  
 
   return (
@@ -21,7 +23,7 @@ export default function SpeedDialTooltipOpen() {
         ariaLabel=""
         sx={{ position: 'fixed', bottom: 16, right: 16 }}
         icon={<CallTwoToneIcon sx={{bgcolor: '#ff00d5',  color: '#fff',fontSize: 36 }} />}
-        onClose={handleClose}
+        onClose={handleClose2}
         onOpen={handleOpen}
         open={open}
         FabProps={{
