@@ -8,7 +8,12 @@ const wicon = <WhatsAppIcon sx={{ bgcolor: '#25D366', '&:hover': { backgroundCol
 export default function SpeedDialTooltipOpen() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClose = () =>  {
+    setOpen(false);
+    window.location.href = 'http://wa.me/529161268169'
+   }
+  
+ 
 
   return (
     <div sx={{transform: 'translateZ(0px)', flexGrow: 1 }}>
