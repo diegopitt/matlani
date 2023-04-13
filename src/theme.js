@@ -34,7 +34,7 @@ const theme = createTheme({
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 700,
       fontSize: 44,
-      lineHeight: 1.2
+      lineHeight: 1.1
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,
