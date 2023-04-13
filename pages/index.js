@@ -5,15 +5,13 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
-import Fab from '@mui/material/Fab';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { useRouter } from 'next/router'
 import Image from 'next/image';
-import flower from "../public/flower.svg";
+import flower from "../public/flowergreen.svg";
 
 function Main(props) {
   const { } = props;
@@ -38,13 +36,13 @@ function Main(props) {
               </Grid>
             </Grid>
               <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                <Typography component="span" variant="h3" color="primary">
+                <Typography component="span" variant="h3" color="gris">
                   MATLANI
                 </Typography>
-                <Typography variant="h4" paragraph color="primary">
+                <Typography variant="h4" paragraph color="gris">
                   Herbolaria, Salud y Nutricion
                 </Typography>
-                <Typography variant="subtitle1" color="primary">
+                <Typography variant="subtitle1" color="gris">
                   Somos un colectivo dedicado al rescate y prevalencia de los conocimientos tradicionales de las plantas medicinales y sus usos para la nutricion y salud
                 </Typography>
               </Box>
@@ -68,7 +66,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
-            <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, }}>
+            <Typography variant="body2" color="primary" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, }}>
               Superalimentos Organicos
             </Typography>
             <ImageList>

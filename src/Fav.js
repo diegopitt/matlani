@@ -35,7 +35,7 @@ export default function SpeedDialTooltipOpen() {
         onOpen={handleOpen}
         open={open}
         FabProps={{
-          color: 'secondary',
+          color: 'primary',
           size: 'large',
         }}
       >

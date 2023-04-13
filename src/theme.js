@@ -15,7 +15,7 @@ export const Montse = Montserrat({
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
-// Create a theme instance.
+// Create a theme instance. ff00d5
 const theme = createTheme({
   palette: {
     socials: {
@@ -23,15 +23,14 @@ const theme = createTheme({
       telegram: '#0088CC',
     },
     primary: {
-      main: '#F6F6F6',
+      main: '#255527',
     },
     secondary: {
+      main: '#81a46d',
+    },
+    gris: {
       main: '#ff00d5',
-    },
-
-    error: {
-      main: red.A400,
-    },
+    }
   },
   typography: {
     fontFamily: Montse.style.fontFamily,
