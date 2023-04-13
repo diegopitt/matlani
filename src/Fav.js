@@ -5,6 +5,7 @@ import SpeedDialAction from '@mui/material/SpeedDialAction';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import DialpadTwoToneIcon from '@mui/icons-material/DialpadTwoTone';
+import Backdrop from '@mui/material/Backdrop';
 
 const wicon = <WhatsAppIcon sx={{color: '#fff',fontSize: 26}} />
 const ticon = <TelegramIcon sx={{color: '#fff',fontSize: 26}} />
@@ -27,6 +28,7 @@ export default function SpeedDialTooltipOpen() {
 
   return (
     <div sx={{transform: 'translateZ(0px)', flexGrow: 1 }}>
+      <Backdrop open={open} />
       <SpeedDial
         ariaLabel=""
         sx={{ position: 'fixed', bottom: 16, right: 16 }}

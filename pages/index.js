@@ -99,7 +99,6 @@ function Main(props) {
             </ImageList>
           </Grid>
         </Grid>
-
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
             <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2 }}>
@@ -153,7 +152,6 @@ const suplementos = [
   { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe de MACUNA PRURIENS', cols: 2, },
   { link: '/cacao', img: '/cacao2.webp', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2, },
   { link: '/cardomomo', img: '/cardo.webp', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },
-
 ];
 const compuestos = [
   { link: '/viasurinarias', img: '/extractos.jpg', title: 'COMPUESTO PARA VIAS URINARIAS', author: 'Riñones, Vejiga, Prostata y Uretra', rows: 2, cols: 2, featured: true, },
