@@ -20,7 +20,6 @@ function Main(props) {
   const router = useRouter();
   return (
     <div>
-      <Fav />
       <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
         <Paper sx={{ position: 'relative', background: 'url(/banner.jpg)', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
           {/* Increase the priority of the hero background image */}
@@ -138,6 +137,7 @@ function Main(props) {
           </Grid>
         </Grid>
       </Grid>
+      <Fav />
     </div>
   );
 }
