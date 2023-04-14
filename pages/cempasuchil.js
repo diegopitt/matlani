@@ -35,7 +35,7 @@ export default function Cempasuchil() {
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
                 <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h4" color="inherit" gutterBottom>
-                    CEMPASHCHIL
+                  CEMPASUCHIL
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
                   TAGETES ERECTA L

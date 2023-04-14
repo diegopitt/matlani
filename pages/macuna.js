@@ -89,6 +89,9 @@ export default function Macuna() {
                     <ListItemText primary="Excelente suplemento alimenticio para niños y deportistas, estimula la glándula pituitaria, encargada del crecimiento y estimulación de otras glándulas." />
                   </ListItem>
                 </List>
+                <Typography variant="h6" gutterBottom color="inherit">
+                  Usar de 1 a 2 cucharadas al dia en licuado, como substituto de harinas, en los alimentos
+                </Typography>
               </Paper>
             </Grid>
             <Grid item xs={12} md={4}>

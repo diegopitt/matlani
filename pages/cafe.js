@@ -55,7 +55,7 @@ export default function Cacao() {
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Modo de uso: Disolver en agua recién hervida. Cantidad al gusto (se recomienda 1 cda. sopera por dos tasas)."  />
+                    <ListItemText primary="Disolver en agua recién hervida. Cantidad al gusto (se recomienda 1 cda. sopera por dos tasas)."  />
                   </ListItem>
                 </List>
               </Paper>

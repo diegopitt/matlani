@@ -73,31 +73,7 @@ export default function Chilchahua() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200"  />
-                  </ListItem>
-                  <ListItem disableGutters disablePadding>
-                    <ListItemIcon>
-                      <ColorizeTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="GOTERO 125 MILILITROS" secondary="$600" />
-                  </ListItem>
-                  <ListItem disableGutters disablePadding>
-                    <ListItemIcon>
-                      <ColorizeTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="GOTERO 250 MILILITROS" secondary="$1000" />
-                  </ListItem>
-                  <ListItem disableGutters disablePadding>
-                    <ListItemIcon>
-                      <LocalDrinkTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="BOTELLA 500 MILILITROS" secondary="$1600" />
-                  </ListItem>
-                  <ListItem disableGutters disablePadding>
-                    <ListItemIcon>
-                      <LocalDrinkTwoToneIcon />
-                    </ListItemIcon>
-                    <ListItemText primary="BOTELLA 1 LITRO" secondary="$2500" />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$100"  />
                   </ListItem>
                 </List>
               </Paper>
