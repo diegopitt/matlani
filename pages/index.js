@@ -140,7 +140,7 @@ function Main(props) {
 }
 const tinturas = [
   { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa', rows: 2, cols: 2, featured: true, },
-  { link: '/reishi', img: '/reishi.jpg', title: 'HONGO REISHI', author: 'Ganoderma Lucidum', rows: 2, cols: 2, featured: true, },
+  { link: '/reishi', img: '/reishi2.jpg', title: 'HONGO REISHI', author: 'Ganoderma Lucidum', rows: 2, cols: 2, featured: true, },
   { link: '/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', author: 'Zingiber Officinale', },
   { link: '/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm', },
   { link: '/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica', },

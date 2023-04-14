@@ -27,9 +27,9 @@ export default function Reishi() {
       <CssBaseline />
       <Container maxWidth="lg">
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/reishi.jpg)`, }}>
+          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/reishi2.jpg)`, }}>
             {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/reishi.jpg" alt="" />}
+            {<img style={{ display: 'none' }} src="/reishi2.jpg" alt="" />}
             <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
             <Grid container>
               <Grid item md={6}>
