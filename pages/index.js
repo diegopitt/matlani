@@ -51,7 +51,7 @@ function Main(props) {
         </Paper>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
-            <Typography variant="body2" color="#255527" sx={{ pl: { xs: 1, md: 2 }, pt: 2, }}>
+            <Typography align="center" variant="body2" color="#255527" sx={{ pl: { xs: 1, md: 2 }, pt: 2, }}>
               Extractos Herbales y Tinturas
             </Typography>
             <ImageList>
@@ -66,7 +66,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
-            <Typography variant="body2" color="primary" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, }}>
+            <Typography align="center" variant="body2" color="primary" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, }}>
               Superalimentos Organicos
             </Typography>
             <ImageList>
@@ -82,10 +82,10 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
-            <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, }}>
+            <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, }}>
               Compuestos Herbales
             </Typography>
-            <Typography variant="body3" color="#255527" paragraph sx={{mt: -1, pl: { xs: 2, md: 2 }, pt: 0, }}>
+            <Typography align="center" variant="body3" color="#255527" paragraph sx={{mt: -1, pl: { xs: 2, md: 2 }, pt: 0, }}>
               Mezclas de extractos para potencializar y especializar determinadas propiedades medicinales
             </Typography>
             <ImageList>
@@ -101,7 +101,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
-            <Typography variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2 }}>
+            <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2 }}>
               Mazapan Artezanal
             </Typography>
             <ImageList>
