@@ -57,7 +57,7 @@ export default function Chilchahua() {
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días. Tomar máximo 7 días seguidos. Evitar consumo en menores de 2 años.Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días. Tomar máximo 7 días seguidos. Evitar consumo en menores de 2 años."  />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días. Tomar máximo 7 días seguidos. Evitar consumo en menores de 2 años."  />
                   </ListItem>
                 </List>
               </Paper>
