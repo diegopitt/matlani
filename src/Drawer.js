@@ -32,7 +32,7 @@ export default function TemporaryDrawer() {
     <Box sx={{ backgroundColor: '#81a46d', height: '100%', width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }} role="presentation" onClick={toggleDrawer(anchor, false)} onKeyDown={toggleDrawer(anchor, false)}>
       <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent' }} component="nav" aria-labelledby="nested-list-subheader"
         subheader={
-          <ListSubheader color='primary' sx={{ bgcolor: 'transparent', fontWeight:600, fontSize:32,py:2,textAlign: 'center' }} component="div" id="nested-list-subheader">
+          <ListSubheader color='primary' sx={{ bgcolor: 'transparent', fontWeight:600, fontSize:32, py:2, textAlign: 'center' }} component="div" id="nested-list-subheader">
             MATLANI
           </ListSubheader>
         }>
