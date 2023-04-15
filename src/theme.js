@@ -10,7 +10,7 @@ export const Dancing = Dancing_Script({
 });
 
 export const Montse = Montserrat({
-  weight: ['400','500', '600'],
+  weight: ['400','500', '700'],
   subsets: ['latin'],
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
@@ -41,7 +41,7 @@ const theme = createTheme({
       lineHeight: 1.1
     },
     h3: {
-      fontWeight: 600,
+      fontWeight: 700,
 
     },
     body3: {
