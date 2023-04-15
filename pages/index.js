@@ -100,11 +100,11 @@ function Main(props) {
           </Grid>
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
-          <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
+          <Grid item xs={10} sm={6} md={4} sx={{ pb: 4, }} direction="row" justifyContent="center" alignItems="center">
             <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2,pr: { xs: 1, md: 2 } }}>
               Mazapan Artezanal
             </Typography>
-            <ImageList variant="standard" cols={2} gap={26}>
+            <ImageList variant="standard" cols={1} gap={0}>
               <ImageListItem onClick={() => { router.replace(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2, border: "2px inset #255527" }, }}>
                 <img style={{ minHeight: 210, maxHeight: 210 }} src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
                 <ImageListItemBar title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
