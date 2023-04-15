@@ -40,19 +40,19 @@ export default function TemporaryDrawer() {
           <ListItemIcon>
           <Image sx={{ position: 'relative'}} width={34} height={34} priority src={flower} alt="Quienes Somos" />
           </ListItemIcon>
-          <ListItemText primary="Quienes Somos" primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }} />
+          <ListItemText primary="Quienes Somos" primaryTypographyProps={{ ml:-1, color: 'primary', fontWeight: 'medium', variant: 'drawer', }} />
         </ListItemButton>
         <ListItemButton>
         <ListItemIcon>
           <Image sx={{ position: 'relative'}} width={34} height={34} priority src={flower} alt="Comunidades" />
           </ListItemIcon>
-          <ListItemText variant="drawer" primary="Comunidades"  primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }}/>
+          <ListItemText variant="drawer" primary="Comunidades"  primaryTypographyProps={{ ml:-1,  color: 'primary', fontWeight: 'medium', variant: 'drawer', }}/>
         </ListItemButton>
         <ListItemButton>
         <ListItemIcon>
           <Image sx={{ position: 'relative'}} width={34} height={34} priority src={flower} alt="Contacto" />
           </ListItemIcon>
-          <ListItemText variant="drawer" primary="Contacto"  primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }}/>
+          <ListItemText variant="drawer" primary="Contacto"  primaryTypographyProps={{ ml:-1,  color: 'primary', fontWeight: 'medium', variant: 'drawer', }}/>
         </ListItemButton>
       </List>
     </Box>
