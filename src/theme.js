@@ -40,6 +40,10 @@ const theme = createTheme({
       fontSize: 44,
       lineHeight: 1.1
     },
+    h3: {
+      fontWeight: 700,
+
+    },
     body3: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 400,
