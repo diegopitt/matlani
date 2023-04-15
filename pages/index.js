@@ -56,7 +56,7 @@ function Main(props) {
             </Typography>
             <ImageList variant="standard" cols={2} gap={26 }>
               {tinturas.map((item) => (
-                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "1px inset #255527"}}>
+                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px groove #255527"}}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar title={item.title} subtitle={item.author} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`info about ${item.title}`}></IconButton>} />
                 </ImageListItem>
