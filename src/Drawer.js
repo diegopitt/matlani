@@ -3,6 +3,13 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
 import Divider from '@mui/material/Divider';
+import Image from 'next/image';
+import flower from "../public/flowergreen.svg";
+import ListSubheader from '@mui/material/ListSubheader';
+import List from '@mui/material/List';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 
 export default function TemporaryDrawer() {
@@ -22,17 +29,31 @@ export default function TemporaryDrawer() {
   };
 
   const list = (anchor) => (
-    <Box
-      sx={{backgroundColor: '#81a46d', height: '100%', width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
-      role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}>
-      <Divider />
+    <Box sx={{ backgroundColor: '#81a46d', height: '100%', width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }} role="presentation" onClick={toggleDrawer(anchor, false)} onKeyDown={toggleDrawer(anchor, false)}>
+      <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent' }} component="nav" aria-labelledby="nested-list-subheader"
+        subheader={
+          <ListSubheader color='primary' sx={{ bgcolor: 'transparent', fontWeight:600, fontSize:32,py:2 }} component="div" id="nested-list-subheader">
+            MATLANI
+          </ListSubheader>
+        }>
+        <ListItemButton>
+          <ListItemIcon>
+          <Image sx={{ position: 'relative'}} width={42} height={42} priority src={flower} alt="Matlani" />
+          </ListItemIcon>
+          <ListItemText primary="Quienes Somos" primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }} />
+        </ListItemButton>
+        <ListItemButton>
+        <ListItemIcon>
+          <Image sx={{ position: 'relative'}} width={42} height={42} priority src={flower} alt="Matlani" />
+          </ListItemIcon>
+          <ListItemText variant="drawer" primary="Contacto"  primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }}/>
+        </ListItemButton>
+      </List>
     </Box>
   );
 
   return (
-    <div sx={{ color: "#ffffff", fontSize: 34 }} style={{ marginBottom: "-18px", paddingRight: "18px", textAlign: "right", width: '100%'}}>
+    <div sx={{ color: "#ffffff", fontSize: 34 }} style={{ marginBottom: "-18px", paddingRight: "18px", textAlign: "right", width: '100%' }}>
       <IconButton onClick={toggleDrawer('right', true)}><MenuTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
       <Drawer anchor={'right'} open={state['right']} onClose={toggleDrawer('right', false)}>
         {list('right')}
