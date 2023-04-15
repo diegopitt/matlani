@@ -35,7 +35,7 @@ export default function Hinojo() {
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
                 <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                  Hinojo
+                  HINOJO
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
                   Foeniculum Vulgare
