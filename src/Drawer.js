@@ -36,7 +36,8 @@ export default function TemporaryDrawer() {
             MATLANI
           </ListSubheader>
         }>
-        <ListItemButton>
+        <Divider variant="middle" />
+        <ListItemButton sx={{ mt:2 }}>
           <ListItemIcon>
           <Image sx={{ position: 'relative'}} width={34} height={34} priority src={flower} alt="Quienes Somos" />
           </ListItemIcon>
