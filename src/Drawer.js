@@ -38,13 +38,19 @@ export default function TemporaryDrawer() {
         }>
         <ListItemButton>
           <ListItemIcon>
-          <Image sx={{ position: 'relative'}} width={42} height={42} priority src={flower} alt="Matlani" />
+          <Image sx={{ position: 'relative'}} width={34} height={34} priority src={flower} alt="Quienes Somos" />
           </ListItemIcon>
           <ListItemText primary="Quienes Somos" primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }} />
         </ListItemButton>
         <ListItemButton>
         <ListItemIcon>
-          <Image sx={{ position: 'relative'}} width={42} height={42} priority src={flower} alt="Matlani" />
+          <Image sx={{ position: 'relative'}} width={34} height={34} priority src={flower} alt="Comunidades" />
+          </ListItemIcon>
+          <ListItemText variant="drawer" primary="Comunidades"  primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }}/>
+        </ListItemButton>
+        <ListItemButton>
+        <ListItemIcon>
+          <Image sx={{ position: 'relative'}} width={34} height={34} priority src={flower} alt="Contacto" />
           </ListItemIcon>
           <ListItemText variant="drawer" primary="Contacto"  primaryTypographyProps={{ color: 'primary', fontWeight: 'medium', variant: 'drawer', }}/>
         </ListItemButton>
