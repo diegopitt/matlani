@@ -156,7 +156,7 @@ const suplementos = [
 const compuestos = [
   { link: '/viasurinarias', img: '/extractos.jpg', title: 'COMPUESTO PARA VIAS URINARIAS', author: 'Riñones, Vejiga, Prostata y Uretra', rows: 2, cols: 2, featured: true, },
   { link: '/imsomnio', img: '/extractos.jpg', title: 'COMPUESTO IMSOMNIO', author: 'Reishi - Yauhtli', rows: 2, cols: 2, featured: true, },
-  { link: '/viasurinarias', img: '/extractos.jpg', title: 'COMPUSTO HEPATICO', author: 'ReishI - Cardo Mariano', rows: 2, cols: 2, featured: true, },
+  { link: '/hepatico', img: '/extractos.jpg', title: 'COMPUSTO HEPATICO', author: 'ReishI - Cardo Mariano', rows: 2, cols: 2, featured: true, },
 ];
 
 export default Main;

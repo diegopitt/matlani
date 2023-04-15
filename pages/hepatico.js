@@ -20,7 +20,7 @@ import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
 const theme = createTheme();
 
-export default function Imsomnio() {
+export default function Hepatico() {
   const router = useRouter();
   return (
     <ThemeProvider theme={theme}>
@@ -36,10 +36,10 @@ export default function Imsomnio() {
                 <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
                 <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                   <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                  COMPUESTO IMSOMNIO
+                  COMPUSTO HEPATICO
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
-                  Reishi - Yauhtli
+                  ReishI - Cardo Mariano
                   </Typography>
                 </Box>
               </Grid>
@@ -49,14 +49,14 @@ export default function Imsomnio() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Aprovecha todos los beneficios del Reishi y potencializa con esta mezcla su propiedad para tratar el insomnio principalmente. Para uso cotidiano.
+                Mezcla especializada en sanar cualquier tipo de daño hepático, hígado graso, cirrosis, hepatitis, etc. Excelente para dolores fuertes de cabeza
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar una gota por cada kilo de la persona por las noches antes de dormir."  />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos. Para uso cotidiano"  />
                   </ListItem>
                 </List>
               </Paper>
@@ -78,7 +78,7 @@ export default function Imsomnio() {
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="YAUHTLI" secondary="Tagetes Lucida"  />
+                    <ListItemText primary="CARDO MARIANO" secondary="Silybum Marianum"  />
                   </ListItem>               
                 </List>
               </Paper>
