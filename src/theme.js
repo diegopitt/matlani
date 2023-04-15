@@ -48,8 +48,8 @@ const theme = createTheme({
     },
     drawer: {
       fontFamily: Dancing.style.fontFamily,
-      fontWeight: 400,
-      fontSize: 24,
+      fontWeight: 700,
+      fontSize: 28,
       lineHeight: 0.76
     },
   },
