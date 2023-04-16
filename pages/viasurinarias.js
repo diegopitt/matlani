@@ -62,7 +62,7 @@ export default function Vias() {
               </Paper>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Paper elevation={0} sx={{ p: 2, mb: 0, bgcolor: 'grey.200' }}>
+              <Paper elevation={0} sx={{ p: 2, mb: 0, backgroundColor: '#dabca1' }}>
                 <Typography variant="h6" gutterBottom>
                   CONTIENE
                 </Typography>
@@ -70,43 +70,43 @@ export default function Vias() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon />
+                      <GrassTwoToneIcon color="theme.palette.primary" />
                     </ListItemIcon>
                     <ListItemText primary="Hoja de Níspero" secondary="Eriobotrya japonica" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon />
+                      <GrassTwoToneIcon color="theme.palette.primary" />
                     </ListItemIcon>
                     <ListItemText primary="Doradilla" secondary="Sellaginela lepidophilia" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon />
+                      <GrassTwoToneIcon color="theme.palette.primary" />
                     </ListItemIcon>
                     <ListItemText primary="Té limón" secondary="Cymbopogon citratus" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon />
+                      <GrassTwoToneIcon color="theme.palette.primary" />
                     </ListItemIcon>
                     <ListItemText primary="Pelo de maíz" secondary="Zea mays" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon />
+                      <GrassTwoToneIcon color="theme.palette.primary" />
                     </ListItemIcon>
                     <ListItemText primary="Hierba Santa" secondary="Piper auritum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon />
+                      <GrassTwoToneIcon color="theme.palette.primary" />
                     </ListItemIcon>
                     <ListItemText primary="Cola de Caballo" secondary="Equisetum arvense" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon />
+                      <GrassTwoToneIcon color="theme.palette.primary" />
                     </ListItemIcon>
                     <ListItemText primary="Hinojo" secondary="Foeniculum vulgare" />
                   </ListItem>

@@ -30,6 +30,9 @@ const theme = createTheme({
     },
     gris: {
       main: '#ff00d5',
+    },
+    yellow: {
+      main: '#dabca1',
     }
   },
   typography: {
