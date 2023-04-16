@@ -25,16 +25,16 @@ function Main(props) {
           <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, }} />
           <Grid container>
             <Grid item md={12}>
-            <Grid container direction="row" justifyContent="center" alignItems="center">
-              <Grid item sm={6} sx={{ flexGrow: 1}}>
-                <div  style={{ paddingTop: "26px", paddingLeft: "22px", textAlign: "left", width: '100%'}}>
-                  <Image sx={{ position: 'relative'}} width={52} height={52} priority src={flower} alt="Matlani" />
-                </div>
+              <Grid container direction="row" justifyContent="center" alignItems="center">
+                <Grid item sm={6} sx={{ flexGrow: 1 }}>
+                  <div style={{ paddingTop: "26px", paddingLeft: "22px", textAlign: "left", width: '100%' }}>
+                    <Image sx={{ position: 'relative' }} width={52} height={52} priority src={flower} alt="Matlani" />
+                  </div>
+                </Grid>
+                <Grid item md={6} sx={{ flexGrow: 1 }}>
+                  <Drawer />
+                </Grid>
               </Grid>
-              <Grid item md={6} sx={{ flexGrow: 1 }}>
-                <Drawer />
-              </Grid>
-            </Grid>
               <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
                 <Typography component="span" variant="h3" color="gris">
                   MATLANI
@@ -56,9 +56,9 @@ function Main(props) {
             </Typography>
             <ImageList variant="standard" cols={2} gap={26}>
               {tinturas.map((item) => (
-                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527"}}>
+                <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527" }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)'}} title={item.title} subtitle={item.author}  />
+                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -66,7 +66,7 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={12} sm={10} sx={{ pb: 4, }}>
-            <Typography align="center" variant="body2" color="primary" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, pr: { xs: 1, md: 2 }}}>
+            <Typography align="center" variant="body2" color="primary" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, pr: { xs: 1, md: 2 } }}>
               Superalimentos Organicos
             </Typography>
             <ImageList variant="standard" cols={2} gap={26}>
@@ -74,7 +74,7 @@ function Main(props) {
               {suplementos.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527", }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)'}} title={item.title} subtitle={item.author}  />
+                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -85,7 +85,7 @@ function Main(props) {
             <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, pr: { xs: 1, md: 2 }, }}>
               Compuestos Herbales
             </Typography>
-            <Typography align="center" variant="body3" color="#255527" paragraph sx={{mt: -1, pl: { xs: 2, md: 2 }, pt: 0,pr: { xs: 1, md: 2 }}}>
+            <Typography align="center" variant="body3" color="#255527" paragraph sx={{ mt: -1, pl: { xs: 2, md: 2 }, pt: 0, pr: { xs: 1, md: 2 } }}>
               Mezclas de extractos para potencializar y especializar determinadas propiedades medicinales
             </Typography>
             <ImageList variant="standard" cols={2} gap={26}>
@@ -93,7 +93,7 @@ function Main(props) {
               {compuestos.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527", }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)'}} title={item.title} subtitle={item.author}  />
+                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -101,13 +101,13 @@ function Main(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center">
           <Grid item xs={10} sm={6} md={4} sx={{ pb: 4, }} direction="row" justifyContent="center" alignItems="center">
-            <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2,pr: { xs: 1, md: 2 } }}>
+            <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2, pr: { xs: 1, md: 2 } }}>
               Mazapan Artezanal
             </Typography>
             <ImageList variant="standard" cols={1} gap={0}>
               <ImageListItem onClick={() => { router.replace(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2, border: "2px inset #255527" }, }}>
                 <img style={{ minHeight: 210, maxHeight: 210 }} src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
-                <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)'}} title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
+                <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
               </ImageListItem>
             </ImageList>
           </Grid>
