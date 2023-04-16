@@ -25,38 +25,38 @@ export default function Vias() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg"  sx={{position: 'relative'}}>
+      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/extractos.jpg)`, }}>
+        {/* Increase the priority of the hero background image */}
+        {<img style={{ display: 'none' }} src="/extractos.jpg" alt="" />}
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Grid container>
+          <Grid item md={6}>
+            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+            <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                COMPUESTO PARA VIAS URINARIAS
+              </Typography>
+              <Typography variant="h5" color="inherit" paragraph>
+                Riñones, Vejiga, Prostata y Uretra
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Paper>
+      <Container maxWidth="lg" sx={{ position: 'relative' }}>
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/extractos.jpg)`, }}>
-            {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/extractos.jpg" alt="" />}
-            <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container>
-              <Grid item md={6}>
-                <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                  <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                  COMPUESTO PARA VIAS URINARIAS
-                  </Typography>
-                  <Typography variant="h5" color="inherit" paragraph>
-                  Riñones, Vejiga, Prostata y Uretra
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          </Paper>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
+            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Compuesto para vías urinarias Riñones, vejiga, próstata y uretra. Efectivo contra infecciones en vías urinarias, retención de líquidos e incontinencia. Auxiliar como desintoxicante hepático y renal, ayuda a mitigar cálculos biliares y renales.
+                  Compuesto para vías urinarias Riñones, vejiga, próstata y uretra. Efectivo contra infecciones en vías urinarias, retención de líquidos e incontinencia. Auxiliar como desintoxicante hepático y renal, ayuda a mitigar cálculos biliares y renales.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, durante 7 días. Tomar máximo 7 días y descansar otros 7 para volver a consumir. "  />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, durante 7 días. Tomar máximo 7 días y descansar otros 7 para volver a consumir. " />
                   </ListItem>
                 </List>
               </Paper>
@@ -72,44 +72,44 @@ export default function Vias() {
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Hoja de Níspero" secondary="Eriobotrya japonica"  />
+                    <ListItemText primary="Hoja de Níspero" secondary="Eriobotrya japonica" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Doradilla" secondary="Sellaginela lepidophilia"  />
+                    <ListItemText primary="Doradilla" secondary="Sellaginela lepidophilia" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Té limón" secondary="Cymbopogon citratus"  />
+                    <ListItemText primary="Té limón" secondary="Cymbopogon citratus" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Pelo de maíz" secondary="Zea mays"  />
+                    <ListItemText primary="Pelo de maíz" secondary="Zea mays" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Hierba Santa" secondary="Piper auritum"  />
+                    <ListItemText primary="Hierba Santa" secondary="Piper auritum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Cola de Caballo" secondary="Equisetum arvense"  />
+                    <ListItemText primary="Cola de Caballo" secondary="Equisetum arvense" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Hinojo" secondary="Foeniculum vulgare"  />
-                  </ListItem>                  
+                    <ListItemText primary="Hinojo" secondary="Foeniculum vulgare" />
+                  </ListItem>
                 </List>
               </Paper>
             </Grid>
@@ -124,7 +124,7 @@ export default function Vias() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$150"  />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$150" />
                   </ListItem>
                 </List>
               </Paper>
@@ -132,7 +132,7 @@ export default function Vias() {
           </Grid>
         </main>
       </Container>
-      
+
     </ThemeProvider>
   );
 }

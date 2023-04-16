@@ -25,38 +25,38 @@ export default function Hepatico() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg"  sx={{position: 'relative'}}>
+      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/extractos.jpg)`, }}>
+        {/* Increase the priority of the hero background image */}
+        {<img style={{ display: 'none' }} src="/extractos.jpg" alt="" />}
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Grid container>
+          <Grid item md={6}>
+            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+            <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                COMPUSTO HEPATICO
+              </Typography>
+              <Typography variant="h5" color="inherit" paragraph>
+                ReishI - Cardo Mariano
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Paper>
+      <Container maxWidth="lg" sx={{ position: 'relative' }}>
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/extractos.jpg)`, }}>
-            {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/extractos.jpg" alt="" />}
-            <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container>
-              <Grid item md={6}>
-                <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                  <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                  COMPUSTO HEPATICO
-                  </Typography>
-                  <Typography variant="h5" color="inherit" paragraph>
-                  ReishI - Cardo Mariano
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          </Paper>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
+            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Mezcla especializada en sanar cualquier tipo de daño hepático, hígado graso, cirrosis, hepatitis, etc. Excelente para dolores fuertes de cabeza
+                  Mezcla especializada en sanar cualquier tipo de daño hepático, hígado graso, cirrosis, hepatitis, etc. Excelente para dolores fuertes de cabeza
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos. Para uso cotidiano"  />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos. Para uso cotidiano" />
                   </ListItem>
                 </List>
               </Paper>
@@ -72,14 +72,14 @@ export default function Hepatico() {
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="HONGO REISHI" secondary="Ganoderma Lucidum"  />
+                    <ListItemText primary="HONGO REISHI" secondary="Ganoderma Lucidum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="CARDO MARIANO" secondary="Silybum Marianum"  />
-                  </ListItem>               
+                    <ListItemText primary="CARDO MARIANO" secondary="Silybum Marianum" />
+                  </ListItem>
                 </List>
               </Paper>
             </Grid>
@@ -94,7 +94,7 @@ export default function Hepatico() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200"  />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200" />
                   </ListItem>
                 </List>
               </Paper>
@@ -102,7 +102,7 @@ export default function Hepatico() {
           </Grid>
         </main>
       </Container>
-      
+
     </ThemeProvider>
   );
 }

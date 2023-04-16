@@ -25,38 +25,38 @@ export default function Imsomnio() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg"  sx={{position: 'relative'}}>
+      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/extractos.jpg)`, }}>
+        {/* Increase the priority of the hero background image */}
+        {<img style={{ display: 'none' }} src="/extractos.jpg" alt="" />}
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Grid container>
+          <Grid item md={6}>
+            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+            <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                COMPUESTO IMSOMNIO
+              </Typography>
+              <Typography variant="h5" color="inherit" paragraph>
+                Reishi - Yauhtli
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Paper>
+      <Container maxWidth="lg" sx={{ position: 'relative' }}>
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/extractos.jpg)`, }}>
-            {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/extractos.jpg" alt="" />}
-            <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container>
-              <Grid item md={6}>
-                <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                  <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                  COMPUESTO IMSOMNIO
-                  </Typography>
-                  <Typography variant="h5" color="inherit" paragraph>
-                  Reishi - Yauhtli
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          </Paper>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
+            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Aprovecha todos los beneficios del Reishi y potencializa con esta mezcla su propiedad para tratar el insomnio principalmente. Para uso cotidiano.
+                  Aprovecha todos los beneficios del Reishi y potencializa con esta mezcla su propiedad para tratar el insomnio principalmente. Para uso cotidiano.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar una gota por cada kilo de la persona por las noches antes de dormir."  />
+                    <ListItemText primary="Tomar una gota por cada kilo de la persona por las noches antes de dormir." />
                   </ListItem>
                 </List>
               </Paper>
@@ -72,14 +72,14 @@ export default function Imsomnio() {
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="HONGO REISHI" secondary="Ganoderma Lucidum"  />
+                    <ListItemText primary="HONGO REISHI" secondary="Ganoderma Lucidum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
                       <GrassTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="YAUHTLI" secondary="Tagetes Lucida"  />
-                  </ListItem>               
+                    <ListItemText primary="YAUHTLI" secondary="Tagetes Lucida" />
+                  </ListItem>
                 </List>
               </Paper>
             </Grid>
@@ -94,7 +94,7 @@ export default function Imsomnio() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200"  />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200" />
                   </ListItem>
                 </List>
               </Paper>
@@ -102,7 +102,7 @@ export default function Imsomnio() {
           </Grid>
         </main>
       </Container>
-      
+
     </ThemeProvider>
   );
 }

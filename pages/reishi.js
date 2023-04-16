@@ -25,43 +25,43 @@ export default function Reishi() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/reishi2.jpg)`, }}>
+        {/* Increase the priority of the hero background image */}
+        {<img style={{ display: 'none' }} src="/reishi2.jpg" alt="" />}
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Grid container>
+          <Grid item md={6}>
+            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+            <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                HONGO REISHI
+              </Typography>
+              <Typography variant="h5" color="inherit" paragraph>
+                GANODERMA LUCIDUM
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Paper>
       <Container maxWidth="lg">
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/reishi2.jpg)`, }}>
-            {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/reishi2.jpg" alt="" />}
-            <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container>
-              <Grid item md={6}>
-                <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                  <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                    HONGO REISHI
-                  </Typography>
-                  <Typography variant="h5" color="inherit" paragraph>
-                    GANODERMA LUCIDUM
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          </Paper>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
+            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Este increíble hongo conocido como <b>Hongo de la Inmortalidad</b> o el <b>Hongo Rey</b>, se gana su nombre gracias a las siguientes y más cualidades: </Typography>
+                  Este increíble hongo conocido como <b>Hongo de la Inmortalidad</b> o el <b>Hongo Rey</b>, se gana su nombre gracias a las siguientes y más cualidades: </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en el tratamiento de Ansiedad, insomnio, estrés, depresión, casos de daño hepático, alcoholismo, cirrosis, hepatitis."  />
+                    <ListItemText primary="Auxiliar en el tratamiento de Ansiedad, insomnio, estrés, depresión, casos de daño hepático, alcoholismo, cirrosis, hepatitis." />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Estimula sistema inmunológico y cardiovascular. "  />
+                    <ListItemText primary="Estimula sistema inmunológico y cardiovascular. " />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
@@ -95,7 +95,7 @@ export default function Reishi() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200"  />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>

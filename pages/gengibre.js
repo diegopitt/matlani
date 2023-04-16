@@ -24,38 +24,38 @@ export default function Gengibre() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg"  sx={{position: 'relative'}}>
+      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/gengi.jpg)`, }}>
+        {/* Increase the priority of the hero background image */}
+        {<img style={{ display: 'none' }} src="/gengi.jpg" alt="" />}
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Grid container>
+          <Grid item md={6}>
+            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+            <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                GENGIBRE
+              </Typography>
+              <Typography variant="h5" color="inherit" paragraph>
+                Zingiber Officinale
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Paper>
+      <Container maxWidth="lg" sx={{ position: 'relative' }}>
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/gengi.jpg)`, }}>
-            {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/gengi.jpg" alt="" />}
-            <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container>
-              <Grid item md={6}>
-                <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                  <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                  GENGIBRE
-                  </Typography>
-                  <Typography variant="h5" color="inherit" paragraph>
-                  Zingiber Officinale
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          </Paper>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
+            <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Excelente contrarrestante de <b>náuseas</b>, <b>mareos</b>, vértigo y dolores menstruales, auxiliar del sistema digestivo, contra gripes y resfríos,como <b>desinflamatorio</b>, <b>analgésico</b> y <b>antibacterial</b>. Mejora la <b>función cerebral</b>.
+                  Excelente contrarrestante de <b>náuseas</b>, <b>mareos</b>, vértigo y dolores menstruales, auxiliar del sistema digestivo, contra gripes y resfríos,como <b>desinflamatorio</b>, <b>analgésico</b> y <b>antibacterial</b>. Mejora la <b>función cerebral</b>.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días."  />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días." />
                   </ListItem>
                 </List>
               </Paper>
@@ -71,7 +71,7 @@ export default function Gengibre() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$100"  />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$100" />
                   </ListItem>
                 </List>
               </Paper>
@@ -79,7 +79,7 @@ export default function Gengibre() {
           </Grid>
         </main>
       </Container>
-      
+
     </ThemeProvider>
   );
 }

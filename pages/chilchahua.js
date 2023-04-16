@@ -26,9 +26,7 @@ export default function Chilchahua() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg">
-        <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/chil.jpg)`, }}>
+      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/chil.jpg)`, }}>
             {/* Increase the priority of the hero background image */}
             {<img style={{ display: 'none' }} src="/chil.jpg" alt="" />}
             <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
@@ -46,6 +44,8 @@ export default function Chilchahua() {
               </Grid>
             </Grid>
           </Paper>
+      <Container maxWidth="lg">
+        <main>
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3,}, }}>
             <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>

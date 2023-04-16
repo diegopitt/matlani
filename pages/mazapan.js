@@ -24,26 +24,26 @@ export default function Blog() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/maza.jpg)`, }}>
+        {/* Increase the priority of the hero background image */}
+        {<img style={{ display: 'none' }} src="/maza.jpg" alt="" />}
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Grid container>
+          <Grid item md={6}>
+            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
+            <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
+              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                MAZAPAN ARTEZANAL
+              </Typography>
+              <Typography variant="h5" color="inherit" paragraph>
+                Elavorado con productos 100% artesanales
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+      </Paper>
       <Container maxWidth="lg">
         <main>
-          <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/maza.jpg)`, }}>
-            {/* Increase the priority of the hero background image */}
-            {<img style={{ display: 'none' }} src="/maza.jpg" alt="" />}
-            <Box sx={{position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)',}} />
-            <Grid container>
-              <Grid item md={6}>
-                <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
-                <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-                  <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                    MAZAPAN ARTEZANAL
-                  </Typography>
-                  <Typography variant="h5" color="inherit" paragraph>
-                    Elavorado con productos 100% artesanales
-                  </Typography>
-                </Box>
-              </Grid>
-            </Grid>
-          </Paper>
           <Grid container spacing={5} >
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Typography variant="h6" gutterBottom>
@@ -61,13 +61,13 @@ export default function Blog() {
                     <ListItemIcon>
                       <AddCircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Cacahuate"  />
+                    <ListItemText primary="Cacahuate" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <AddCircleTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Avena"  />
+                    <ListItemText primary="Avena" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
@@ -87,7 +87,7 @@ export default function Blog() {
                     <ListItemIcon>
                       <ViewAgendaTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText primary="250 GRAMOS" secondary="$200"  />
+                    <ListItemText primary="250 GRAMOS" secondary="$200" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
