@@ -54,7 +54,7 @@ export default function Vias() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon />
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, durante 7 días. Tomar máximo 7 días y descansar otros 7 para volver a consumir. " />
                   </ListItem>
@@ -70,43 +70,43 @@ export default function Vias() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon color="theme.palette.primary" />
+                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Hoja de Níspero" secondary="Eriobotrya japonica" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon color="theme.palette.primary" />
+                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Doradilla" secondary="Sellaginela lepidophilia" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon color="theme.palette.primary" />
+                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Té limón" secondary="Cymbopogon citratus" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon color="theme.palette.primary" />
+                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Pelo de maíz" secondary="Zea mays" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon color="theme.palette.primary" />
+                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Hierba Santa" secondary="Piper auritum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon color="theme.palette.primary" />
+                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Cola de Caballo" secondary="Equisetum arvense" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon color="theme.palette.primary" />
+                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Hinojo" secondary="Foeniculum vulgare" />
                   </ListItem>
@@ -122,7 +122,7 @@ export default function Vias() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon />
+                      <ColorizeTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 30 MILILITROS" secondary="$150" />
                   </ListItem>
