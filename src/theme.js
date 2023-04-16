@@ -1,6 +1,5 @@
 import {  Dancing_Script, Montserrat } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
-import { red } from '@mui/material/colors';
 
 export const Dancing = Dancing_Script({
   weight: ['400', '500', '600', '700'],
@@ -36,6 +35,7 @@ const theme = createTheme({
     }
   },
   typography: {
+
     fontFamily: Montse.style.fontFamily,
     body2: {
       fontFamily: Dancing.style.fontFamily,
@@ -45,7 +45,6 @@ const theme = createTheme({
     },
     h3: {
       fontWeight: 700,
-
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,
