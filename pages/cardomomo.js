@@ -24,7 +24,7 @@ export default function Cardomomo() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cardo.jpg)`, }}>
+      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cardo.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/cardo.jpg" alt="" />}
         <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
@@ -46,14 +46,14 @@ export default function Cardomomo() {
         <main>
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-              <Paper sx={{ position: 'relative', backgroundColor: 'grey.200', p: 4, }}>
+              <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
                   Tratamiento de <b>bnáuseas</b>, <b>vómito</b>, <b>indigestión</b> y <b>mal aliento</b>. Tiene propiedades <b>desinflamatorias</b>, <b>febrífugas</b> y <b>afrodisíacas</b>.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon />
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar de 1 a 3 gr. en infusión o masticar 5 semillas después de los alimentos. Se puede usar en licuados o repostería." />
                   </ListItem>
@@ -61,7 +61,7 @@ export default function Cardomomo() {
               </Paper>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Paper elevation={0} sx={{ p: 2, mb: 4, bgcolor: 'grey.200' }}>
+              <Paper elevation={0} sx={{ p: 2, mb: 4, backgroundColor: '#f7dfca' }}>
                 <Typography variant="h6" gutterBottom>
                   PRESENTACION
                 </Typography>
@@ -69,25 +69,25 @@ export default function Cardomomo() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon />
+                      <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="20 GRAMOS" secondary="$100" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon />
+                      <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="100 GRAMOS" secondary="$400" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon />
+                      <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="250 GRAMOS" secondary="$900" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon />
+                      <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary="$3000" />
                   </ListItem>

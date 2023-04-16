@@ -24,7 +24,7 @@ export default function Blog() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/maza.jpg)`, }}>
+      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/maza.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/maza.jpg" alt="" />}
         <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
@@ -51,7 +51,7 @@ export default function Blog() {
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
+              <Paper elevation={0} sx={{ p: 2, backgroundColor: '#f7dfca' }}>
                 <Typography variant="h6" gutterBottom>
                   INGREDIENTES
                 </Typography>
@@ -59,25 +59,25 @@ export default function Blog() {
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent' }}>
                   <ListItem>
                     <ListItemIcon>
-                      <AddCircleTwoToneIcon />
+                      <AddCircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Cacahuate" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <AddCircleTwoToneIcon />
+                      <AddCircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Avena" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <AddCircleTwoToneIcon />
+                      <AddCircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Piloncillo (Panela)" />
                   </ListItem>
                 </List>
               </Paper>
-              <Paper elevation={0} sx={{ mt: 4, mb: 4, p: 2, bgcolor: 'grey.200' }}>
+              <Paper elevation={0} sx={{ mt: 4, mb: 4, p: 2, backgroundColor: '#f7dfca' }}>
                 <Typography variant="h6" gutterBottom>
                   PRESENTACION
                 </Typography>
@@ -85,25 +85,25 @@ export default function Blog() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="250 GRAMOS" secondary="$200" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="500 GRAMOS" secondary="$600" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary="$1000" />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="1.5 KILOS" secondary="$1600" />
                   </ListItem>
