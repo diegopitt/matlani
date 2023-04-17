@@ -58,7 +58,7 @@ function Main(props) {
               {tinturas.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527" }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
+                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -74,7 +74,7 @@ function Main(props) {
               {suplementos.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527", }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
+                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -93,7 +93,7 @@ function Main(props) {
               {compuestos.map((item) => (
                 <ImageListItem onClick={() => { router.replace(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527", }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
+                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -107,7 +107,7 @@ function Main(props) {
             <ImageList variant="standard" cols={1} gap={0}>
               <ImageListItem onClick={() => { router.replace(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2, border: "2px inset #255527" }, }}>
                 <img style={{ minHeight: 210, maxHeight: 210 }} src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
-                <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
+                <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
               </ImageListItem>
             </ImageList>
           </Grid>
@@ -144,11 +144,11 @@ const tinturas = [
   { link: '/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm', },
   { link: '/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica', },
   { link: '/hinojo', img: '/hinojo.jpg', title: 'HINOJO', author: 'Foeniculum Vulgare', },
-  { link: '/cempasuchil', img: '/tage2.jpg', title: 'CEMPASUCHIL', author: 'TAGETES ERECTA L', rows: 2, cols: 2, featured: true, }
+  { link: '/cempasuchil', img: '/tage2.jpg', title: 'CEMPASUCHIL', author: 'Tagetes Erecta L', rows: 2, cols: 2, featured: true, }
 ];
 const suplementos = [
   { link: '/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal', },
-  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe de MACUNA PRURIENS', cols: 2, },
+  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe de Macuna Pruriens PRURIENS', cols: 2, },
   { link: '/cacao', img: '/cacao.jpg', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2, },
   { link: '/cardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },
 ];
