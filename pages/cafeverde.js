@@ -17,13 +17,10 @@ import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import Divider from '@mui/material/Divider';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
-const theme = createTheme();
-
 export default function Cafeverde() {
   const router = useRouter();
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <div>
       <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/arabica.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/arabica.jpg" alt="" />}
@@ -80,6 +77,6 @@ export default function Cafeverde() {
         </main>
       </Container>
 
-    </ThemeProvider>
+    </div>
   );
 }
