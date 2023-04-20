@@ -32,7 +32,7 @@ export default function Macuna() {
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
               <Typography component="h1" variant="h3" sx={{ pt: 4 }}>
-                MACUNA PRURIENS
+                MUCUNA PRURIENS
               </Typography>
               <Typography variant="detailstitle">
                 Dopamina y proteína vegetal
