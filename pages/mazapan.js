@@ -81,25 +81,25 @@ export default function Blog() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="250 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$500</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$1000</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1.5 KILOS" secondary={<Typography variant="presentacionsec" color="primary">$1600</Typography>} />
                   </ListItem>
