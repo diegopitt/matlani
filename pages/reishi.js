@@ -36,7 +36,7 @@ export default function Reishi() {
                 HONGO REISHI
               </Typography>
               <Typography variant="detailstitle">
-                GANODERMA LUCIDUM
+                Ganoderma Lucidum
               </Typography>
             </Box>
           </Grid>
