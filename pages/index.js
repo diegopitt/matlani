@@ -148,7 +148,7 @@ const tinturas = [
 ];
 const suplementos = [
   { link: '/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal', },
-  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Cafe de Macuna Pruriens PRURIENS', cols: 2, },
+  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Mucuna Pruriens', cols: 2, },
   { link: '/cacao', img: '/cacao.jpg', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2, },
   { link: '/cardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },
 ];
