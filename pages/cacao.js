@@ -88,7 +88,7 @@ export default function Cacao() {
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
                   </ListItem>
