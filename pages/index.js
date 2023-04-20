@@ -39,7 +39,7 @@ function Main(props) {
                 <Typography component="span" variant="h3" color="gris">
                   MATLANI
                 </Typography>
-                <Typography variant="h4" paragraph color="gris">
+                <Typography sx={{ fontWeight: 500, }} variant="h4" paragraph color="gris">
                   Herbolaria, Salud y Nutricion
                 </Typography>
                 <Typography variant="subtitle1" color="gris">
