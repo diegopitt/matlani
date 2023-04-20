@@ -17,26 +17,24 @@ import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 
-const theme = createTheme();
-
 export default function Cacao() {
   const router = useRouter();
   return (
-    <ThemeProvider theme={theme}>
+    <div>
       <CssBaseline />
       <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/cacao.jpg" alt="" />}
-        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.4)', }} />
         <Grid container>
           <Grid item md={6}>
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+              <Typography component="h1" variant="h3" sx={{ pt: 4 }}>
                 CACAO SECADO AL SOL
               </Typography>
-              <Typography variant="h5" color="inherit" paragraph>
-                THEOBROMA CACAO
+              <Typography variant="detailstitle">
+                Theobroma Cacao
               </Typography>
             </Box>
           </Grid>
@@ -104,6 +102,6 @@ export default function Cacao() {
         </main>
       </Container>
 
-    </ThemeProvider>
+    </div>
   );
 }
