@@ -1,5 +1,4 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
@@ -16,8 +15,6 @@ import IconButton from '@mui/material/IconButton';
 import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
 import ViewAgendaTwoToneIcon from '@mui/icons-material/ViewAgendaTwoTone';
 import Divider from '@mui/material/Divider';
-
-const theme = createTheme();
 
 export default function Blog() {
   const router = useRouter();

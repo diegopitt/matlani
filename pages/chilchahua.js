@@ -15,7 +15,6 @@ import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 import Divider from '@mui/material/Divider';
 
-
 export default function Chilchahua() {
   const router = useRouter();
   return (
