@@ -32,7 +32,7 @@ export default function Chilchahua() {
                 CHILCHAHUA
               </Typography>
               <Typography variant="detailstitle">
-                TAGETES NELSONII GREENM
+                Tagetes Nelsonii Greenm
               </Typography>
             </Box>
           </Grid>

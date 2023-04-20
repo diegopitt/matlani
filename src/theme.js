@@ -75,10 +75,9 @@ const theme = createTheme({
     },
     cardtitle: {
       fontFamily: Dancing.style.fontFamily,
-      fontWeight: 400,
-      fontSize: 18,
+      fontWeight: 500,
+      fontSize: 16,
       lineHeight: 1.35,
-      color: '#f7dfca'
     },
     drawer: {
       fontFamily: Dancing.style.fontFamily,
