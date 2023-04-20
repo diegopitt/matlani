@@ -65,13 +65,13 @@ export default function Imsomnio() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
+                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="HONGO REISHI" secondary="Ganoderma Lucidum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527' }} />
+                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="YAUHTLI" secondary="Tagetes Lucida" />
                   </ListItem>
