@@ -55,19 +55,19 @@ export default function Blog() {
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent' }}>
                   <ListItem>
                     <ListItemIcon>
-                      <AddCircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <AddCircleTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Cacahuate" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <AddCircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <AddCircleTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Avena" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <AddCircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <AddCircleTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Piloncillo (Panela)" />
                   </ListItem>
