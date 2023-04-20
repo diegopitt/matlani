@@ -83,7 +83,7 @@ export default function Imsomnio() {
               </Paper>
             </Grid>
             <Grid item xs={12} md={4}>
-              <Paper elevation={0} sx={{ p: 2, mb: 4, bgcolor: 'grey.200' }}>
+              <Paper elevation={0} sx={{ p: 2, mb: 4, bgcolor: '#f7dfca' }}>
                 <Typography variant="h6" gutterBottom>
                   PRESENTACION
                 </Typography>
