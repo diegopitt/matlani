@@ -22,8 +22,7 @@ const theme = createTheme();
 export default function Cardomomo() {
   const router = useRouter();
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <div>
       <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cardo.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/cardo.jpg" alt="" />}
@@ -32,7 +31,7 @@ export default function Cardomomo() {
           <Grid item md={6}>
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-              <Typography component="h1" variant="h4" sx={{ pt: 4 }}>
+              <Typography component="h1" variant="h3" sx={{ pt: 4 }}>
                 CARDOMOMO
               </Typography>
               <Typography variant="detailstitle">
@@ -97,6 +96,6 @@ export default function Cardomomo() {
           </Grid>
         </main>
       </Container>
-    </ThemeProvider>
+    </div>
   );
 }

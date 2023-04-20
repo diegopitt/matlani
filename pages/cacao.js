@@ -21,7 +21,6 @@ export default function Cacao() {
   const router = useRouter();
   return (
     <div>
-      <CssBaseline />
       <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/cacao.jpg" alt="" />}
