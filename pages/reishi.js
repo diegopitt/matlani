@@ -90,31 +90,31 @@ export default function Reishi() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200" />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 125 MILILITROS" secondary="$600" />
+                    <ListItemText primary="GOTERO 125 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$600</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ColorizeTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 250 MILILITROS" secondary="$1000" />
+                    <ListItemText primary="GOTERO 250 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$1000</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <LocalDrinkTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="BOTELLA 500 MILILITROS" secondary="$1600" />
+                    <ListItemText primary="BOTELLA 500 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$1600</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <LocalDrinkTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="BOTELLA 1 LITRO" secondary="$2500" />
+                    <ListItemText primary="BOTELLA 1 LITRO" secondary={<Typography variant="presentacionsec" color="primary">$2500</Typography>} />
                   </ListItem>
                 </List>
               </Paper>

@@ -67,25 +67,25 @@ export default function Cardomomo() {
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="20 GRAMOS" secondary="$100" />
+                    <ListItemText primary="20 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$100</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="100 GRAMOS" secondary="$400" />
+                    <ListItemText primary="100 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="250 GRAMOS" secondary="$900" />
+                    <ListItemText primary="250 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$900</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="1 KILO" secondary="$3000" />
+                    <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$3000</Typography>} />
                   </ListItem>
                 </List>
               </Paper>

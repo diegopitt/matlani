@@ -100,19 +100,19 @@ export default function Macuna() {
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="200 GRAMOS" secondary="$200" />
+                    <ListItemText primary="200 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="500 GRAMOS" secondary="$400" />
+                    <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="1 KILO" secondary="$700" />
+                    <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$700</Typography>} />
                   </ListItem>
                 </List>
               </Paper>

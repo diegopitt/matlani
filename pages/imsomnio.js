@@ -89,7 +89,7 @@ export default function Imsomnio() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$200" />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>
                 </List>
               </Paper>

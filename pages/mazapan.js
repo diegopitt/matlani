@@ -83,25 +83,25 @@ export default function Blog() {
                     <ListItemIcon>
                       <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="250 GRAMOS" secondary="$200" />
+                    <ListItemText primary="250 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="500 GRAMOS" secondary="$600" />
+                    <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$500</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="1 KILO" secondary="$1000" />
+                    <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$1000</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
                       <ViewAgendaTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="1.5 KILOS" secondary="$1600" />
+                    <ListItemText primary="1.5 KILOS" secondary={<Typography variant="presentacionsec" color="primary">$1600</Typography>} />
                   </ListItem>
                 </List>
               </Paper>

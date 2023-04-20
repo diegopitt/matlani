@@ -68,7 +68,7 @@ const theme = createTheme({
     },
     presentacionsec: {
       fontFamily: Montse.style.fontFamily,
-      fontWeight: 500,
+      fontWeight: 600,
       fontSize: 18,
     },
     detailstitle: {

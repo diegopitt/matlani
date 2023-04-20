@@ -119,7 +119,7 @@ export default function Vias() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$150" />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$150</Typography>} />
                   </ListItem>
                 </List>
               </Paper>

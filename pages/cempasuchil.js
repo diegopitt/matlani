@@ -66,7 +66,7 @@ export default function Cempasuchil() {
                     <ListItemIcon>
                       <ColorizeTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary="$100" />
+                    <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$100</Typography>} />
                   </ListItem>
                 </List>
               </Paper>
