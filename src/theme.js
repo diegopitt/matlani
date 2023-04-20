@@ -1,4 +1,4 @@
-import {  Dancing_Script, Montserrat } from 'next/font/google';
+import { Dancing_Script, Montserrat } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 
 export const Dancing = Dancing_Script({
@@ -9,13 +9,25 @@ export const Dancing = Dancing_Script({
 });
 
 export const Montse = Montserrat({
-  weight: ['400','500', '700'],
+  weight: ['400', '500', '700'],
   subsets: ['latin'],
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 // Create a theme instance. ff00d5
 const theme = createTheme({
+  components: {
+    MuiListItemText: {
+      styleOverrides: {
+        secondary: {
+          fontFamily: Dancing.style.fontFamily,
+          fontWeight: 500,
+          fontSize: 22,
+          lineHeight: 1.1
+        }
+      }
+    }
+  },
   palette: {
     socials: {
       whatsapp: '#25D366',
@@ -35,7 +47,6 @@ const theme = createTheme({
     }
   },
   typography: {
-
     fontFamily: Montse.style.fontFamily,
     body2: {
       fontFamily: Dancing.style.fontFamily,
@@ -52,12 +63,19 @@ const theme = createTheme({
       fontSize: 24,
       lineHeight: 0.76
     },
+    detailstitle: {
+      fontFamily: Dancing.style.fontFamily,
+      fontWeight: 500,
+      fontSize: 32,
+      lineHeight: 1.35,
+      color: '#f7dfca'
+    },
     cardtitle: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 400,
       fontSize: 18,
       lineHeight: 1.35,
-      color:'#f7dfca'
+      color: '#f7dfca'
     },
     drawer: {
       fontFamily: Dancing.style.fontFamily,
@@ -66,7 +84,6 @@ const theme = createTheme({
       lineHeight: 0.76
     },
   },
-
 });
 
 export default theme;

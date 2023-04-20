@@ -16,14 +16,14 @@ export default function SpeedDialTooltipOpen() {
   const handleOpen = () => setOpen(true);
   const handleClose = () =>  {
     setOpen(false);
-    window.location.href = 'http://wa.me/529161268169';
+    window.navigator.href = 'http://wa.me/529161268169';
    }
    const handleClose2 = () =>  {
     setOpen(false);
    }
    const handleClose3 = () =>  {
     setOpen(false);
-    window.location.href = 'http://t.me/529161268169';
+    window.navigator.href = 'http://t.me/529161268169';
    }
 
   return (
