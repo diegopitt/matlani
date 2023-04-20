@@ -1,5 +1,4 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
@@ -9,7 +8,6 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
@@ -17,25 +15,22 @@ import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import Divider from '@mui/material/Divider';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
-const theme = createTheme();
-
 export default function Gengibre() {
   const router = useRouter();
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <div>
       <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/gengi.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/gengi.jpg" alt="" />}
-        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.4)', }} />
         <Grid container>
           <Grid item md={6}>
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-              <Typography component="h1" variant="h3" gutterBottom>
+              <Typography component="h1" variant="h3" sx={{ pt: 4 }}>
                 GENGIBRE
               </Typography>
-              <Typography variant="h5" color="inherit" paragraph>
+              <Typography variant="detailstitle">
                 Zingiber Officinale
               </Typography>
             </Box>
@@ -79,7 +74,6 @@ export default function Gengibre() {
           </Grid>
         </main>
       </Container>
-
-    </ThemeProvider>
+    </div>
   );
 }

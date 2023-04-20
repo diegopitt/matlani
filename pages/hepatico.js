@@ -31,9 +31,9 @@ export default function Hepatico() {
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
               <Typography component="h1" variant="h3" color="inherit" sx={{ pt: 4 }}>
-                COMPUSTO HEPATICO
+                COMPUESTO HEPATICO
               </Typography>
-              <Typography variant="detailstitle" color="inherit" paragraph>
+              <Typography variant="detailstitle">
                 Reishi - Cardo Mariano
               </Typography>
             </Box>

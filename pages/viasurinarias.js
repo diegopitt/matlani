@@ -23,20 +23,19 @@ const theme = createTheme();
 export default function Vias() {
   const router = useRouter();
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <div>
       <Paper sx={{ position: 'relative', backgroundColor: 'grey.800', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/extractos.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
         {<img style={{ display: 'none' }} src="/extractos.jpg" alt="" />}
-        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.3)', }} />
+        <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.4)', }} />
         <Grid container>
           <Grid item md={6}>
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-              <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+              <Typography component="h1" variant="h4" sx={{ pt: 4 }}>
                 COMPUESTO PARA VIAS URINARIAS
               </Typography>
-              <Typography variant="h5" color="inherit" paragraph>
+              <Typography variant="detailstitle">
                 Riñones, Vejiga, Prostata y Uretra
               </Typography>
             </Box>
@@ -133,6 +132,6 @@ export default function Vias() {
         </main>
       </Container>
 
-    </ThemeProvider>
+    </div>
   );
 }
