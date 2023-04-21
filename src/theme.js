@@ -14,7 +14,7 @@ export const Montse = Montserrat({
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
-// Create a theme instance. ff00d5
+
 const theme = createTheme({
   components: {
     MuiListItemText: {
@@ -24,6 +24,13 @@ const theme = createTheme({
           fontWeight: 500,
           fontSize: 22,
           lineHeight: 1.1
+        }
+      }
+    },    
+    MuiDivider: {
+      styleOverrides: {
+        root: {
+          background:'#255527'
         }
       }
     }
@@ -59,6 +66,11 @@ const theme = createTheme({
     },
     h4: {
       fontWeight: 700,
+    },
+    h6: {
+      fontSize: 18,
+      color: '#255527',
+      fontWeight:600
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,
