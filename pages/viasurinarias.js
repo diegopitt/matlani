@@ -59,9 +59,9 @@ export default function Vias() {
             <Grid item xs={12} md={4}>
               <Paper elevation={0} sx={{ p: 2, mb: 0, backgroundColor: '#f7dfca' }}>
                 <Typography variant="h6" gutterBottom>
-                  CONTIENE
+                  CONTIENEs
                 </Typography>
-                <Divider />
+                <Divider color="#ac8d71" />
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
