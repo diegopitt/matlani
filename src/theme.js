@@ -76,7 +76,7 @@ const theme = createTheme({
       fontWeight: 500,
       fontSize: 32,
       lineHeight: 1.1,
-      color: '#ffffff'
+      color: '#dabca1'
     },
     cardtitle: {
       fontFamily: Dancing.style.fontFamily,
