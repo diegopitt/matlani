@@ -147,7 +147,7 @@ const tinturas = [
   { link: '/cempasuchil', img: '/tage2.jpg', title: 'CEMPASUCHIL', author: 'Tagetes Erecta L', rows: 2, cols: 2, featured: true, }
 ];
 const suplementos = [
-  { link: '/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Dopamina y Proteina vegetal', },
+  { link: '/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Mucuna Pruriens', },
   { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Mucuna Pruriens', cols: 2, },
   { link: '/cacao', img: '/cacao.jpg', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2, },
   { link: '/cardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },

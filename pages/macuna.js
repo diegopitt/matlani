@@ -32,7 +32,7 @@ export default function Macuna() {
                 MUCUNA PRURIENS
               </Typography>
               <Typography variant="detailstitle">
-                Dopamina y proteína vegetal
+                Mucuna Pruriens
               </Typography>
             </Box>
           </Grid>
