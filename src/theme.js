@@ -75,7 +75,7 @@ const theme = createTheme({
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 500,
       fontSize: 32,
-      textShadow: "#685849 0 -2px",
+      textShadow: "#685849 1px 0 10px",
       lineHeight: 1.1,
       color: '#dabca1'
     },
