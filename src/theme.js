@@ -30,7 +30,7 @@ const theme = createTheme({
     MuiDivider: {
       styleOverrides: {
         root: {
-          background:'#255527'
+          background:'#514336'
         }
       }
     }
@@ -70,7 +70,7 @@ const theme = createTheme({
     h6: {
       fontSize: 18,
       color: '#255527',
-      fontWeight:600
+      fontWeight:500
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,
