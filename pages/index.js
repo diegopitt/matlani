@@ -56,7 +56,7 @@ function Main(props) {
             </Typography>
             <ImageList variant="standard" cols={2} gap={26}>
               {tinturas.map((item) => (
-                <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527" }}>
+                <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527" }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
@@ -72,7 +72,7 @@ function Main(props) {
             <ImageList variant="standard" cols={2} gap={26}>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {suplementos.map((item) => (
-                <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527", }}>
+                <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                 </ImageListItem>
@@ -91,7 +91,7 @@ function Main(props) {
             <ImageList variant="standard" cols={2} gap={26}>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
                 {compuestos.map((item) => (
-                  <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px inset #255527", }}>
+                  <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
                     <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                     <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
                   </ImageListItem>
@@ -105,7 +105,7 @@ function Main(props) {
               Mazapan Artezanal
             </Typography>
             <ImageList variant="standard" cols={1} gap={0}>
-              <ImageListItem onClick={() => { router.push(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2, border: "2px inset #255527" }, }}>
+              <ImageListItem onClick={() => { router.push(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2, border: "2px solid #255527" }, }}>
                 <img style={{ minHeight: 210, maxHeight: 210 }} src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
                 <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
               </ImageListItem>
