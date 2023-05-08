@@ -139,6 +139,7 @@ function Main(props) {
 }
 const tinturas = [
   { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', author: 'Ocimun Basilicum', rows: 2, cols: 2, featured: true, },
+  { link: '/tcacao', img: '/cacao.jpg', title: 'CACAO', author: 'Theobroma Cacao', cols: 2, },
   { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa', rows: 2, cols: 2, featured: true, },
   { link: '/reishi', img: '/reishi2.jpg', title: 'HONGO REISHI', author: 'Ganoderma Lucidum', rows: 2, cols: 2, featured: true, },
   { link: '/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', author: 'Zingiber Officinale', },
