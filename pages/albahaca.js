@@ -28,7 +28,7 @@ export default function Albahaca() {
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38, m: 2 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
               <Typography component="h1" variant="h3" sx={{ pt: 5.5 }}>
-                Albahaca
+                ALBAHACA
               </Typography>
               <Typography variant="detailstitle">
                 Ocimun Basilicum
