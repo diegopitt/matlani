@@ -15,23 +15,23 @@ import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 
-export default function Canela() {
+export default function Chilcuague() {
   const router = useRouter();
   return (
     <div>
-      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/canela.jpg)`, }}>
+      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/chilcuague.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
-        {<img style={{ display: 'none' }} src="/canela.jpg" alt="" />}
+        {<img style={{ display: 'none' }} src="/chilcuague.jpg" alt="" />}
         <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.45)', }} />
         <Grid container>
           <Grid item md={6}>
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38, m:2 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
               <Typography component="h1" variant="h3" sx={{ pt: 4 }}>
-                CANELA
+                Chilcuague
               </Typography>
               <Typography variant="detailstitle">
-                Cinnamumum Ceylanicum
+                Heliopsis Longipes
               </Typography>
             </Box>
           </Grid>
@@ -43,20 +43,32 @@ export default function Canela() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Es un estimulante en general, regulador de periodos menstruales y es afrodisiaco en mujeres.  
+                  Fuerte antiséptico, antibiótico y antifúngico.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en tos, gripa, fiebre, dolores nervios y mejorador digestivo" />
+                    <ListItemText primary="Muy eficaz contra la tos, gripa y, en general para infecciones bucales y de garganta." />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar máximo 15 días y descansar 7 para volver a consumir." />
+                    <ListItemText primary="Exente para eliminar hongos en los pies, vaginales y mal olor en la sudoración. " />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Aplicar de dos a tres atomizaciones 3 veces al día en la zona requerida, diluir con agua al 50% en caso de hongos vaginales. Para uso cotidiano. " />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="" />
                   </ListItem>
                 </List>
               </Paper>
