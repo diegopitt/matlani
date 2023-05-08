@@ -138,28 +138,28 @@ function Main(props) {
   );
 }
 const tinturas = [
-  { link: '/chilcuague', img: '/chilcuague.jpg', title: 'CHILCUAGUE', author: 'Heliopsis Longipes', rows: 2, cols: 2, featured: true, },
-  { link: '/canela', img: '/canela.jpg', title: 'CANELA', author: 'Cinnamumum Ceylanicum', rows: 2, cols: 2, featured: true, },
-  { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', author: 'Ocimun Basilicum', rows: 2, cols: 2, featured: true, },
-  { link: '/tcacao', img: '/cacao.jpg', title: 'CACAO', author: 'Theobroma Cacao', cols: 2, },
-  { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa', rows: 2, cols: 2, featured: true, },
-  { link: '/reishi', img: '/reishi2.jpg', title: 'HONGO REISHI', author: 'Ganoderma Lucidum', rows: 2, cols: 2, featured: true, },
-  { link: '/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', author: 'Zingiber Officinale', },
-  { link: '/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm', },
-  { link: '/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica', },
+  { link: '/chilcuague', img: '/chilcuague.jpg', title: 'CHILCUAGUE', author: 'Heliopsis Longipes'},
+  { link: '/canela', img: '/canela.jpg', title: 'CANELA', author: 'Cinnamumum Ceylanicum' },
+  { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', author: 'Ocimun Basilicum' },
+  { link: '/tcacao', img: '/cacao.jpg', title: 'CACAO', author: 'Theobroma Cacao', },
+  { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa' },
+  { link: '/reishi', img: '/reishi2.jpg', title: 'HONGO REISHI', author: 'Ganoderma Lucidum' },
+  { link: '/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', author: 'Zingiber Officinale'},
+  { link: '/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm'},
+  { link: '/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica'},
   { link: '/hinojo', img: '/hinojo.jpg', title: 'HINOJO', author: 'Foeniculum Vulgare', },
-  { link: '/cempasuchil', img: '/tage2.jpg', title: 'CEMPASUCHIL', author: 'Tagetes Erecta L', rows: 2, cols: 2, featured: true, }
+  { link: '/cempasuchil', img: '/tage2.jpg', title: 'CEMPASUCHIL', author: 'Tagetes Erecta L' }
 ];
 const suplementos = [
   { link: '/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Mucuna Pruriens', },
-  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Mucuna Pruriens', cols: 2, },
-  { link: '/cacao', img: '/cacao.jpg', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao', cols: 2, },
-  { link: '/cardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', author: 'Elattaria Cardomumum', rows: 2, cols: 2, featured: true, },
+  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Mucuna Pruriens' },
+  { link: '/cacao', img: '/cacao.jpg', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao' },
+  { link: '/cardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', author: 'Elattaria Cardomumum' },
 ];
 const compuestos = [
-  { link: '/viasurinarias', img: '/extractos.jpg', title: 'COMPUESTO PARA VIAS URINARIAS', author: 'Riñones, Vejiga, Prostata y Uretra', rows: 2, cols: 2, featured: true, },
-  { link: '/imsomnio', img: '/extractos.jpg', title: 'COMPUESTO IMSOMNIO', author: 'Reishi - Yauhtli', rows: 2, cols: 2, featured: true, },
-  { link: '/hepatico', img: '/extractos.jpg', title: 'COMPUSTO HEPATICO', author: 'ReishI - Cardo Mariano', rows: 2, cols: 2, featured: true, },
+  { link: '/viasurinarias', img: '/extractos.jpg', title: 'COMPUESTO PARA VIAS URINARIAS', author: 'Riñones, Vejiga, Prostata y Uretra'},
+  { link: '/imsomnio', img: '/extractos.jpg', title: 'COMPUESTO IMSOMNIO', author: 'Reishi - Yauhtli'},
+  { link: '/hepatico', img: '/extractos.jpg', title: 'COMPUSTO HEPATICO', author: 'ReishI - Cardo Mariano'},
 ];
 
 export default Main;
