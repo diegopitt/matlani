@@ -138,7 +138,7 @@ function Main(props) {
   );
 }
 const tinturas = [
-  { link: '/Canela', img: '/canela.jpg', title: 'CANELA', author: 'Cinnamumum ceylanicum', rows: 2, cols: 2, featured: true, },
+  { link: '/canela', img: '/canela.jpg', title: 'CANELA', author: 'Cinnamumum ceylanicum', rows: 2, cols: 2, featured: true, },
   { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', author: 'Ocimun Basilicum', rows: 2, cols: 2, featured: true, },
   { link: '/tcacao', img: '/cacao.jpg', title: 'CACAO', author: 'Theobroma Cacao', cols: 2, },
   { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa', rows: 2, cols: 2, featured: true, },
