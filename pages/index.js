@@ -112,7 +112,7 @@ function Main(props) {
             </ImageList>
           </Grid>
         </Grid>
-        <Grid container direction="row" justifyContent="center" alignItems="center" sx={{ mb: 2, mt: 3, }}>
+        <Grid container direction="row" justifyContent="center" alignItems="center" sx={{ mb: 0, mt: 3, }}>
           <Grid item xs={12} sm={10}>
             <Paper sx={{ position: 'relative', backgroundColor: 'rgb(59, 34, 11)', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
               <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, }}>
@@ -129,8 +129,10 @@ function Main(props) {
         <Grid container>
           <Grid item md={6} justifyContent="flex-start" alignItems="flex-start">
             <Box sx={{ mb: 4, position: 'relative', p: { xs: 2, md: 4 }, }}>
-              <Image src="/leaf2.png" width={122} height={290} priority={true} quality={100} alt="Planta" />
-              <Image src="/leaf.png" width={80} height={87} priority={true} quality={100} alt="Planta" />
+              <Image src="/leaf2.png" width={102} height={270} priority={true} quality={100} alt="Planta" />
+                <div style={{ display: 'inline-block', marginLeft: -46 }}>
+                <Image src="/leaf.png" width={80} height={87} priority={true} quality={100} alt="Planta" />
+              </div>
             </Box>
           </Grid>
         </Grid>
