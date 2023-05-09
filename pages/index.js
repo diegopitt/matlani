@@ -138,6 +138,7 @@ function Main(props) {
   );
 }
 const tinturas = [
+  { link: '/tcardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', Species: 'Elattaria Cardomumum' },
   { link: '/dienteleon', img: '/diente.jpg', title: 'DIENTE DE LEON', Species: 'Taraxacum Officinale'},
   { link: '/damiana', img: '/damiana.jpg', title: 'DAMIANA', Species: 'Turnera Diffusa'},
   { link: '/coladecaballo', img: '/cola.jpg', title: 'COLA DE CABALLO', Species: 'Equisetum Arvense'},
