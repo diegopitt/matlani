@@ -50,7 +50,19 @@ export default function Diente() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Excelente diurético, disuelve cálculos biliares, auxiliar en tratamiento de gota, estreñimiento Y obesidad." />
+                    <ListItemText primary="Excelente diurético, disuelve cálculos biliares, auxiliar en tratamiento de gota, estreñimiento Y obesidad" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Para uso cotidiano" />
                   </ListItem>
                 </List>
               </Paper>
