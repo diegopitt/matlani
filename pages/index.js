@@ -146,6 +146,7 @@ const tinturas = [
   { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', Species: 'Ocimun Basilicum' },
   { link: '/tcacao', img: '/cacao.jpg', title: 'CACAO', Species: 'Theobroma Cacao', },
   { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', Species: 'Hibiscus Sabdariffa' },
+  { link: '/cuacha', img: '/cuacha.jpg', title: 'CUACHALALATE', Species: 'Amphipterygium Adstringens'},
   { link: '/reishi', img: '/reishi2.jpg', title: 'HONGO REISHI', Species: 'Ganoderma Lucidum' },
   { link: '/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', Species: 'Zingiber Officinale'},
   { link: '/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', Species: 'Tagetes Nelsonii Greenm'},
