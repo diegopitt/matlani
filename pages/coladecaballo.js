@@ -16,23 +16,23 @@ import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
-export default function Chilcuague() {
+export default function Coladecaballo() {
   const router = useRouter();
   return (
     <div>
-      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/chilcuague.jpg)`, }}>
+      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cola.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
-        {<img style={{ display: 'none' }} src="/chilcuague.jpg" alt="" />}
+        {<img style={{ display: 'none' }} src="/cola.jpg" alt="" />}
         <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.45)', }} />
         <Grid container>
           <Grid item md={6}>
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38, m:2 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
               <Typography component="h1" variant="h3" sx={{ pt: 4 }}>
-                CHILCUAGUE
+                COLA DE CABALLO
               </Typography>
               <Typography variant="detailstitle">
-                Heliopsis Longipes
+               Equisetum Arvense
               </Typography>
             </Box>
           </Grid>
@@ -44,32 +44,14 @@ export default function Chilcuague() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Fuerte antiséptico, antibiótico y antifúngico.
+                Auxiliar en el tratamiento de problemas renales y de próstata, eficaz para controlar menstruaciones abundantes y enfermedades pulmonares crónicas. 
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Muy eficaz contra la tos, gripa y, en general para infecciones bucales y de garganta." />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
-                    </ListItemIcon>
-                    <ListItemText primary="Exente para eliminar hongos en los pies, vaginales y mal olor en la sudoración. " />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
-                    </ListItemIcon>
-                    <ListItemText primary="Aplicar de dos a tres atomizaciones 3 veces al día en la zona requerida, diluir con agua al 50% en caso de hongos vaginales." />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
-                    </ListItemIcon>
-                    <ListItemText primary="Para uso cotidiano." />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos, máximo 15 días y descansa 7 para volver a consumir." />
                   </ListItem>
                 </List>
               </Paper>
