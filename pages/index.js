@@ -12,6 +12,7 @@ import Paper from '@mui/material/Paper';
 import { useRouter } from 'next/router'
 import Image from 'next/image';
 import flower from "../public/flowergreen.svg";
+import Image from 'next/image';
 
 function Main(props) {
   const { } = props;
@@ -129,6 +130,7 @@ function Main(props) {
         <Grid container>
           <Grid item md={6} justifyContent="flex-start" alignItems="flex-start">
             <Box sx={{}}>
+              <Image src="/leaf.png" width={500} priority={true} quality={100} alt="Planta" />
             </Box>
           </Grid>
         </Grid>
