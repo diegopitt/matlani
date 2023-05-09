@@ -14,6 +14,7 @@ import IconButton from '@mui/material/IconButton';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
+import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
 export default function Chilcuague() {
   const router = useRouter();
