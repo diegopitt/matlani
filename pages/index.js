@@ -128,8 +128,8 @@ function Main(props) {
         </Grid>
         <Grid container>
           <Grid item md={6} justifyContent="flex-start" alignItems="flex-start">
-            <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, }}>
-              <Image src="/leaf.png" width={180} height={187} priority={true} quality={100} alt="Planta" />
+            <Box sx={{ mb: 4, position: 'relative', p: { xs: 2, md: 4 }, }}>
+              <Image src="/leaf.png" width={160} height={167} priority={true} quality={100} alt="Planta" />
             </Box>
           </Grid>
         </Grid>
