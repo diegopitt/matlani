@@ -50,7 +50,7 @@ export default function Damiana() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="omar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
