@@ -27,7 +27,7 @@ export default function Cuachalalate() {
           <Grid item md={6}>
             <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38, m: 2 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
-              <Typography component="h1" variant="h3" sx={{ pt: 5.5 }}>
+              <Typography component="h1" variant="h4" sx={{ pt: 5.5 }}>
                 CUACHALALATE
               </Typography>
               <Typography variant="detailstitle">
