@@ -14,14 +14,15 @@ import IconButton from '@mui/material/IconButton';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
+import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
 export default function Canela() {
   const router = useRouter();
   return (
     <div>
-      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/canela.jpg)`, }}>
+      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
-        {<img style={{ display: 'none' }} src="/canela.jpg" alt="" />}
+        {<img style={{ display: 'none' }} src="/cacao.jpg" alt="" />}
         <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.45)', }} />
         <Grid container>
           <Grid item md={6}>
@@ -70,9 +71,21 @@ export default function Canela() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml: 0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
                     </ListItemIcon>
-                    <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$150</Typography>} />
+                    <ListItemText primary="150 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$100</Typography>} />
+                  </ListItem>
+                  <ListItem disableGutters disablePadding>
+                    <ListItemIcon>
+                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                    </ListItemIcon>
+                    <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$300</Typography>} />
+                  </ListItem>
+                  <ListItem disableGutters disablePadding>
+                    <ListItemIcon>
+                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                    </ListItemIcon>
+                    <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
                   </ListItem>
                 </List>
               </Paper>
