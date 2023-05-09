@@ -43,26 +43,26 @@ export default function Albahaca() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Ayuda a la lenta digestión, gastritis, parásitos, gases intestinales. Auxiliar en mareos, dolores de cabeza, tos y en casos de depresión.
+                  Ayuda a la lenta digestión, gastritis, parásitos, gases intestinales. Auxiliar en mareos, dolores de cabeza, tos y en casos de depresión
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos. " />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Máximo 15 días y descansar 7." />
+                    <ListItemText primary="Máximo 15 días y descansar 7" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Evitar su consumo  en menores de 2 años, en personas con afecciones hepáticas y de la tercera edad." />
+                    <ListItemText primary="Evitar su consumo  en menores de 2 años, en personas con afecciones hepáticas y de la tercera edad" />
                   </ListItem>
                 </List>
               </Paper>

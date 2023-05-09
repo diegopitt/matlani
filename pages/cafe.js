@@ -43,14 +43,14 @@ export default function Cacao() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Disfruta de una alternativa para tomar una bebida tipo café, libre de cafeína, con las propiedades de la dopamina y de un increíble sabor.
+                  Disfruta de una alternativa para tomar una bebida tipo café, libre de cafeína, con las propiedades de la dopamina y de un increíble sabor
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Disolver en agua recién hervida. Cantidad al gusto (se recomienda 1 cda. sopera por dos tasas)." />
+                    <ListItemText primary="Disolver en agua recién hervida. Cantidad al gusto (se recomienda 1 cda. sopera por dos tasas)" />
                   </ListItem>
                 </List>
               </Paper>

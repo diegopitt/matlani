@@ -43,14 +43,20 @@ export default function Tcacao() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Auxiliar en tratamiento de enfermedades visuales, cerebro  y cardiovasculares. Es un excelente regulador hormonal y digestivo. Contiene propiedades antivirales, antitumorales e incluso  más antioxidantes que el café verde. 
+                  Auxiliar en tratamiento de enfermedades visuales, cerebro  y cardiovasculares. Es un excelente regulador hormonal y digestivo. Contiene propiedades antivirales, antitumorales e incluso  más antioxidantes que el café verde
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos. Para uso cotidiano." />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Para uso cotidiano" />
                   </ListItem>
                 </List>
               </Paper>

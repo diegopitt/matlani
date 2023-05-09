@@ -44,14 +44,20 @@ export default function Cardomomo() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Tratamiento de <b>bnáuseas</b>, <b>vómito</b>, <b>indigestión</b> y <b>mal aliento</b>. Tiene propiedades <b>desinflamatorias</b>, <b>febrífugas</b> y <b>afrodisíacas</b>.
+                  Tratamiento de <b>náuseas</b>, <b>vómito</b>, <b>indigestión</b> y <b>mal aliento</b>. Tiene propiedades <b>desinflamatorias</b>, <b>febrífugas</b> y <b>afrodisíacas</b>.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 1 a 3 gr. en infusión o masticar 5 semillas después de los alimentos. Se puede usar en licuados o repostería." />
+                    <ListItemText primary="Tomar de 1 a 3 gramos en infusión o masticar 5 semillas después de los alimentos" />
+                  </ListItem>
+                  <ListItem >
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Se puede usar en licuados o repostería" />
                   </ListItem>
                 </List>
               </Paper>

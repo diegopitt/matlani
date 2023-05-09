@@ -43,14 +43,14 @@ export default function Gengibre() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Excelente contrarrestante de <b>náuseas</b>, <b>mareos</b>, vértigo y dolores menstruales, auxiliar del sistema digestivo, contra gripes y resfríos,como <b>desinflamatorio</b>, <b>analgésico</b> y <b>antibacterial</b>. Mejora la <b>función cerebral</b>.
+                  Excelente contrarrestante de <b>náuseas</b>, <b>mareos</b>, vértigo y dolores menstruales, auxiliar del sistema digestivo, contra gripes y resfríos,como <b>desinflamatorio</b>, <b>analgésico</b> y <b>antibacterial</b>. Mejora la <b>función cerebral</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días." />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días" />
                   </ListItem>
                 </List>
               </Paper>

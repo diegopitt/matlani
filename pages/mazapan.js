@@ -43,7 +43,7 @@ export default function Blog() {
           <Grid container spacing={5} >
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Typography variant="h6" gutterBottom>
-                Mazapan de elavoracion cacera a base de cacahuate molido y piloncillo (panela).
+                Mazapan de elavoracion cacera a base de cacahuate molido y piloncillo (panela)
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>

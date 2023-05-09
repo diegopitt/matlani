@@ -43,26 +43,26 @@ export default function Cacao() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Utilizar de 7 a 13 semillas al día ya sea en licuado o ingeridas a lo largo del día.
+                  Utilizar de 7 a 13 semillas al día ya sea en licuado o ingeridas a lo largo del día
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en el tratamiento de enfermedades cardiovasculares, cerebrovasculares y visuales." />
+                    <ListItemText primary="Auxiliar en el tratamiento de enfermedades cardiovasculares, cerebrovasculares y visuales" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Contiene propiedades antivirales, antitumorales e incluso más antioxidantes que el café verde." />
+                    <ListItemText primary="Contiene propiedades antivirales, antitumorales e incluso más antioxidantes que el café verde" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Excelente regulador hormonal y digestivo. Utilizar de 7 a 13 semillas al día ya sea en licuado o ingeridas a lo largo del día." />
+                    <ListItemText primary="Excelente regulador hormonal y digestivo" />
                   </ListItem>
                 </List>
               </Paper>

@@ -51,25 +51,25 @@ export default function Chilcuague() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Muy eficaz contra la tos, gripa y, en general para infecciones bucales y de garganta." />
+                    <ListItemText primary="Muy eficaz contra la tos, gripa y, en general para infecciones bucales y de garganta" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Exente para eliminar hongos en los pies, vaginales y mal olor en la sudoración. " />
+                    <ListItemText primary="Exente para eliminar hongos en los pies, vaginales y mal olor en la sudoración" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Aplicar de dos a tres atomizaciones 3 veces al día en la zona requerida, diluir con agua al 50% en caso de hongos vaginales." />
+                    <ListItemText primary="Aplicar de dos a tres atomizaciones 3 veces al día en la zona requerida, diluir con agua al 50% en caso de hongos vaginales" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Para uso cotidiano." />
+                    <ListItemText primary="Para uso cotidiano" />
                   </ListItem>
                 </List>
               </Paper>

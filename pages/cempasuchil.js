@@ -43,14 +43,14 @@ export default function Cempasuchil() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Auxiliar en la <b>reducción de dolores y cólicos menstruales</b>, enfermedades en la piel, nervios, como <b>desinflamatorio</b>, en la reducción de fiebre. Ayuda contra la  indigestión, empacho, diarrea y parásitos intestinales.
+                  Auxiliar en la <b>reducción de dolores y cólicos menstruales</b>, enfermedades en la piel, nervios, como <b>desinflamatorio</b>, en la reducción de fiebre. Ayuda contra la  indigestión, empacho, diarrea y parásitos intestinales
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días." />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días" />
                   </ListItem>
                 </List>
               </Paper>

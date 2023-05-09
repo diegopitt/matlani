@@ -44,37 +44,37 @@ export default function Reishi() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Este increíble hongo conocido como <b>Hongo de la Inmortalidad</b> o el <b>Hongo Rey</b>, se gana su nombre gracias a las siguientes y más cualidades: </Typography>
+                  Este increíble hongo conocido como <b>Hongo de la Inmortalidad</b> o el <b>Hongo Rey</b>, se gana su nombre gracias a las siguientes y más cualidades:</Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en el tratamiento de Ansiedad, insomnio, estrés, depresión, casos de daño hepático, alcoholismo, cirrosis, hepatitis." />
+                    <ListItemText primary="Auxiliar en el tratamiento de Ansiedad, insomnio, estrés, depresión, casos de daño hepático, alcoholismo, cirrosis, hepatitis" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Estimula sistema inmunológico y cardiovascular. " />
+                    <ListItemText primary="Estimula sistema inmunológico y cardiovascular" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Regula presión arterial, colesterol, triglicéridos y glucosa en la sangre. " />
+                    <ListItemText primary="Regula presión arterial, colesterol, triglicéridos y glucosa en la sangre" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Contiene propiedades antivirales, desinflamatorias y antioxidantes." />
+                    <ListItemText primary="Contiene propiedades antivirales, desinflamatorias y antioxidantes" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Excelente suplemento alimenticio, contiene todos los aminoácidos esenciales, vitaminas y minerales." />
+                    <ListItemText primary="Excelente suplemento alimenticio, contiene todos los aminoácidos esenciales, vitaminas y minerales" />
                   </ListItem>
                 </List>
               </Paper>

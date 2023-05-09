@@ -43,14 +43,20 @@ export default function Hinojo() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Auxiliar en problemas digestivos como  espasmos, distensión abdominal, gases e indigestión. También ayuda a disminuir fiebre, dolor de cabeza y es también un excelente productor de leche materna. Provoca la menstruación.
+                  Auxiliar en problemas digestivos como  espasmos, distensión abdominal, gases e indigestión. También ayuda a disminuir fiebre, dolor de cabeza y es también un excelente productor de leche materna. Provoca la menstruación
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos. Evitar su consumo en niños, mujeres embarazadas y personas con afecciones hepáticas." />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos" />
+                  </ListItem>
+                  <ListItem >
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Evitar su consumo en niños, mujeres embarazadas y personas con afecciones hepáticas" />
                   </ListItem>
                 </List>
               </Paper>

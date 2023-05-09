@@ -43,7 +43,7 @@ export default function Damiana() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Estimulante y fortalecedor del sistema nervioso, hormonal y cerebral. Afrodisiaco en hombres y mujeres, ayuda a mejorar la memoria y combatir la frigidez e impotencia sexual. 
+                Estimulante y fortalecedor del sistema nervioso, hormonal y cerebral. Afrodisiaco en hombres y mujeres, ayuda a mejorar la memoria y combatir la frigidez e impotencia sexual 
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>

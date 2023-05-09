@@ -44,7 +44,7 @@ export default function Canela() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                Es un estimulante en general, regulador de periodos menstruales y es afrodisiaco en mujeres.  
+                Es un estimulante en general, regulador de periodos menstruales y es afrodisiaco en mujeres  
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
@@ -57,7 +57,7 @@ export default function Canela() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar máximo 15 días y descansar 7 para volver a consumir." />
+                    <ListItemText primary="Tomar máximo 15 días y descansar 7 para volver a consumir" />
                   </ListItem>
                 </List>
               </Paper>

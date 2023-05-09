@@ -43,14 +43,26 @@ export default function Chilchahua() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
                 <Typography variant="h6" gutterBottom color="inherit">
-                  Auxiliar en el tratamiento de diarrea, parásitos, salmonella, fiebre tifoidea e infecciones gastrointestinales.
+                  Auxiliar en el tratamiento de diarrea, parásitos, salmonella, fiebre tifoidea e infecciones gastrointestinales
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días. Tomar máximo 7 días seguidos. Evitar consumo en menores de 2 años." />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días" />
+                  </ListItem>
+                  <ListItem >
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Tomar máximo 7 días seguidos. Evitar consumo en menores de 2 años" />
+                  </ListItem>
+                  <ListItem >
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Tomar máximo 7 días seguidos" />
                   </ListItem>
                 </List>
               </Paper>
