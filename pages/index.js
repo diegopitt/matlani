@@ -58,7 +58,7 @@ function Main(props) {
               {tinturas.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527" }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
+                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -74,7 +74,7 @@ function Main(props) {
               {suplementos.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
+                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
                 </ImageListItem>
               ))}
             </ImageList>
@@ -93,7 +93,7 @@ function Main(props) {
                 {compuestos.map((item) => (
                   <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
                     <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                    <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.author} />
+                    <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
                   </ImageListItem>
                 ))}
             </ImageList>
@@ -138,29 +138,29 @@ function Main(props) {
   );
 }
 const tinturas = [
-  { link: '/coladecaballo', img: '/cola.jpg', title: 'COLA DE CABALLO', author: 'Equisetum Arvense'},
-  { link: '/chilcuague', img: '/chilcuague.jpg', title: 'CHILCUAGUE', author: 'Heliopsis Longipes'},
-  { link: '/canela', img: '/canela.jpg', title: 'CANELA', author: 'Cinnamumum Ceylanicum' },
-  { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', author: 'Ocimun Basilicum' },
-  { link: '/tcacao', img: '/cacao.jpg', title: 'CACAO', author: 'Theobroma Cacao', },
-  { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', author: 'Hibiscus Sabdariffa' },
-  { link: '/reishi', img: '/reishi2.jpg', title: 'HONGO REISHI', author: 'Ganoderma Lucidum' },
-  { link: '/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', author: 'Zingiber Officinale'},
-  { link: '/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', author: 'Tagetes Nelsonii Greenm'},
-  { link: '/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', author: 'Coffea Arabica'},
-  { link: '/hinojo', img: '/hinojo.jpg', title: 'HINOJO', author: 'Foeniculum Vulgare', },
-  { link: '/cempasuchil', img: '/tage2.jpg', title: 'CEMPASUCHIL', author: 'Tagetes Erecta L' }
+  { link: '/coladecaballo', img: '/cola.jpg', title: 'COLA DE CABALLO', Species: 'Equisetum Arvense'},
+  { link: '/chilcuague', img: '/chilcuague.jpg', title: 'CHILCUAGUE', Species: 'Heliopsis Longipes'},
+  { link: '/canela', img: '/canela.jpg', title: 'CANELA', Species: 'Cinnamumum Ceylanicum' },
+  { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', Species: 'Ocimun Basilicum' },
+  { link: '/tcacao', img: '/cacao.jpg', title: 'CACAO', Species: 'Theobroma Cacao', },
+  { link: '/jamaica', img: '/jamaica.jpg', title: 'JAMAICA', Species: 'Hibiscus Sabdariffa' },
+  { link: '/reishi', img: '/reishi2.jpg', title: 'HONGO REISHI', Species: 'Ganoderma Lucidum' },
+  { link: '/gengibre', img: '/gengi.jpg', title: 'GENGIBRE', Species: 'Zingiber Officinale'},
+  { link: '/chilchahua', img: '/chil.jpg', title: 'CHILCHAHUA', Species: 'Tagetes Nelsonii Greenm'},
+  { link: '/cafeverde', img: '/arabica.jpg', title: 'CAFE VERDE', Species: 'Coffea Arabica'},
+  { link: '/hinojo', img: '/hinojo.jpg', title: 'HINOJO', Species: 'Foeniculum Vulgare', },
+  { link: '/cempasuchil', img: '/tage2.jpg', title: 'CEMPASUCHIL', Species: 'Tagetes Erecta L' }
 ];
 const suplementos = [
-  { link: '/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', author: 'Mucuna Pruriens', },
-  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', author: 'Mucuna Pruriens' },
-  { link: '/cacao', img: '/cacao.jpg', title: 'CACAO SECADO AL SOL', author: 'Theobroma Cacao' },
-  { link: '/cardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', author: 'Elattaria Cardomumum' },
+  { link: '/macuna', img: '/macuna.jpg', title: 'MACUNA PRURIENS', Species: 'Mucuna Pruriens', },
+  { link: '/cafe', img: '/coma.jpg', title: 'CAFE ALTERNTIVO DE MACUNA PRURIENS', Species: 'Mucuna Pruriens' },
+  { link: '/cacao', img: '/cacao.jpg', title: 'CACAO SECADO AL SOL', Species: 'Theobroma Cacao' },
+  { link: '/cardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', Species: 'Elattaria Cardomumum' },
 ];
 const compuestos = [
-  { link: '/viasurinarias', img: '/extractos.jpg', title: 'COMPUESTO PARA VIAS URINARIAS', author: 'Riñones, Vejiga, Prostata y Uretra'},
-  { link: '/imsomnio', img: '/extractos.jpg', title: 'COMPUESTO IMSOMNIO', author: 'Reishi - Yauhtli'},
-  { link: '/hepatico', img: '/extractos.jpg', title: 'COMPUSTO HEPATICO', author: 'ReishI - Cardo Mariano'},
+  { link: '/viasurinarias', img: '/extractos.jpg', title: 'COMPUESTO PARA VIAS URINARIAS', Species: 'Riñones, Vejiga, Prostata y Uretra'},
+  { link: '/imsomnio', img: '/extractos.jpg', title: 'COMPUESTO IMSOMNIO', Species: 'Reishi - Yauhtli'},
+  { link: '/hepatico', img: '/extractos.jpg', title: 'COMPUSTO HEPATICO', Species: 'ReishI - Cardo Mariano'},
 ];
 
 export default Main;
