@@ -65,12 +65,6 @@ export default function Chilcuague() {
                     </ListItemIcon>
                     <ListItemText primary="Aplicar de dos a tres atomizaciones 3 veces al día en la zona requerida, diluir con agua al 50% en caso de hongos vaginales. Para uso cotidiano. " />
                   </ListItem>
-                  <ListItem>
-                    <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
-                    </ListItemIcon>
-                    <ListItemText primary="" />
-                  </ListItem>
                 </List>
               </Paper>
             </Grid>
