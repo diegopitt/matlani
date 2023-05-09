@@ -120,7 +120,7 @@ function Main(props) {
                   Trabajamos en cooperacion principalmente con distintas comunidades indigenas Tzeltales de Chiapas, asegurandonos de que las plantas sean cultivadas y cocechadas en armonia y respeto con su entorno
                 </Typography>
                 <Typography align='justify' variant="subtitle1">
-                  Matlani del Nahuatl, "ayuda mutua", es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
+                  Matlani del Nahuatl, <b>ayuda mutua</b>, es la experiencia que queremos compartir desde las comunidades productoras hasta el consumidor final
                 </Typography>
               </Box>
             </Paper>
@@ -128,8 +128,8 @@ function Main(props) {
         </Grid>
         <Grid container>
           <Grid item md={6} justifyContent="flex-start" alignItems="flex-start">
-            <Box sx={{}}>
-              <Image src="/leaf.png" width={210} height={207} priority={true} quality={100} alt="Planta" />
+            <Box sx={{ position: 'relative', p: { xs: 2, md: 4 }, }}>
+              <Image src="/leaf.png" width={180} height={187} priority={true} quality={100} alt="Planta" />
             </Box>
           </Grid>
         </Grid>
