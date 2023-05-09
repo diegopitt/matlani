@@ -138,7 +138,7 @@ function Main(props) {
   );
 }
 const tinturas = [
-  { link: '/coladecaballo', img: '/cola.jpg', title: 'Cola De Caballo', author: 'Equisetum Arvense'},
+  { link: '/coladecaballo', img: '/cola.jpg', title: 'COLA DE CABALLO', author: 'Equisetum Arvense'},
   { link: '/chilcuague', img: '/chilcuague.jpg', title: 'CHILCUAGUE', author: 'Heliopsis Longipes'},
   { link: '/canela', img: '/canela.jpg', title: 'CANELA', author: 'Cinnamumum Ceylanicum' },
   { link: '/albahaca', img: '/albahaca.jpg', title: 'ALBAHACA', author: 'Ocimun Basilicum' },
