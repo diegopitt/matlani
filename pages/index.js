@@ -128,7 +128,7 @@ function Main(props) {
         </Grid>
         <Grid container>
           <Grid item md={6} justifyContent="flex-start" alignItems="flex-start">
-            <Box sx={{ position: 'relative', p: { xs: 0, md: 1 }, }}>
+            <Box sx={{ position: 'relative', marginLeft: 1, p: { xs: 0, md: 1 }, }}>
               <Image style={{ display: 'inline-block', marginBottom: 38 }} src="/leaf2.png" width={102} height={270} priority={true} quality={100} alt="Planta" />
                 <div style={{ display: 'inline-block', marginLeft: -8 }}>
                 <Image src="/leaf.png" width={80} height={87} priority={true} quality={100} alt="Planta" />
