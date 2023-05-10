@@ -133,7 +133,7 @@ function Main(props) {
                 <div style={{ display: 'inline-block', marginLeft: -8 }}>
                 <Image src="/leaf.png" width={80} height={87} priority={true} quality={100} alt="Planta" />
               </div>
-              <div style={{ display: 'inline-block', marginLeft: -8 }}>
+              <div style={{ display: 'inline-block', marginLeft: 18 }}>
                 <Image src="/leaf3.png" width={114} height={168} priority={true} quality={100} alt="Planta" />
               </div>
             </Box>
