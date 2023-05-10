@@ -134,7 +134,7 @@ function Main(props) {
                 <Image src="/leaf.png" width={80} height={87} priority={true} quality={100} alt="Planta" />
               </div>
               <div style={{ display: 'inline-block', marginLeft: -8 }}>
-                <Image src="/leaf3.png" width={414} height={800} priority={true} quality={100} alt="Planta" />
+                <Image src="/leaf3.png" width={84} height={470} priority={true} quality={100} alt="Planta" />
               </div>
             </Box>
           </Grid>
