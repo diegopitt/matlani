@@ -59,7 +59,7 @@ function Main(props) {
             <ImageList variant="standard" cols={matches ? 3 : 2} gap={26}>
               {tinturas.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527" }}>
-                  <img style={{ minHeight: 240, maxHeight: 300 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                  <img style={{ minHeight: 240, maxHeight: 320 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
                 </ImageListItem>
               ))}
@@ -74,7 +74,7 @@ function Main(props) {
             <ImageList cols={matches ? 3 : 2} variant="standard" gap={26}>
               {suplementos.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
-                  <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                  <img style={{ minHeight: 240, maxHeight: 320 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
                 </ImageListItem>
               ))}
@@ -92,7 +92,7 @@ function Main(props) {
             <ImageList cols={matches ? 3 : 2} variant="standard" gap={26}>
                 {compuestos.map((item) => (
                   <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
-                    <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                    <img style={{ minHeight: 240, maxHeight: 320 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                     <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
                   </ImageListItem>
                 ))}
@@ -106,7 +106,7 @@ function Main(props) {
             </Typography>
             <ImageList variant="standard" cols={1} gap={0}>
               <ImageListItem onClick={() => { router.push(`/mazapan`) }} key={`mazapan`} sx={{ m: { xs: 0, md: 2, border: "2px solid #255527" }, }}>
-                <img style={{ minHeight: 210, maxHeight: 210 }} src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
+                <img style={{ minHeight: 240, maxHeight: 320 }} src={`/maza.jpg?w=248&fit=crop&auto=format`} srcSet={`/maza.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`mazapan`} loading="lazy" />
                 <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)' }} title={`MAZAPAN`} subtitle={`Mazapan Artezanal`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
               </ImageListItem>
             </ImageList>
