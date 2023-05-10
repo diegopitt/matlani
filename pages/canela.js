@@ -14,15 +14,14 @@ import IconButton from '@mui/material/IconButton';
 import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
-import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
 export default function Canela() {
   const router = useRouter();
   return (
     <div>
-      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/cacao.jpg)`, }}>
+      <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', color: '#fff', mb: 4, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundImage: `url(/canela.jpg)`, }}>
         {/* Increase the priority of the hero background image */}
-        {<img style={{ display: 'none' }} src="/cacao.jpg" alt="" />}
+        {<img style={{ display: 'none' }} src="/canela.jpg" alt="" />}
         <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.45)', }} />
         <Grid container>
           <Grid item md={6}>
