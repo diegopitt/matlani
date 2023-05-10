@@ -72,7 +72,6 @@ function Main(props) {
               Superalimentos Organicos
             </Typography>
             <ImageList cols={matches ? 3 : 2} variant="standard" gap={26}>
-              <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {suplementos.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
@@ -91,7 +90,6 @@ function Main(props) {
               Mezclas de extractos para potencializar y especializar determinadas propiedades medicinales
             </Typography>
             <ImageList cols={matches ? 3 : 2} variant="standard" gap={26}>
-              <ImageListItem key="Subheader" cols={2}></ImageListItem>
                 {compuestos.map((item) => (
                   <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
                     <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
