@@ -12,9 +12,11 @@ import Paper from '@mui/material/Paper';
 import { useRouter } from 'next/router'
 import Image from 'next/image';
 import flower from "../public/flowergreen.svg";
+import { useMediaQuery } from '@mui/material';
 
 function Main(props) {
   const { } = props;
+  const matches = useMediaQuery('(min-width:796px)');
   const router = useRouter();
   return (
     <div>
@@ -54,7 +56,7 @@ function Main(props) {
             <Typography align="center" variant="body2" color="#255527" sx={{ pl: { xs: 1, md: 2 }, pt: 2, pr: { xs: 1, md: 2 } }}>
               Extractos Herbales y Tinturas
             </Typography>
-            <ImageList variant="standard" cols={2} gap={26}>
+            <ImageList variant="standard" cols={matches ? 3 : 2} gap={26}>
               {tinturas.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527" }}>
                   <img style={{ minHeight: 210, maxHeight: 210 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
@@ -69,7 +71,7 @@ function Main(props) {
             <Typography align="center" variant="body2" color="primary" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 4, pr: { xs: 1, md: 2 } }}>
               Superalimentos Organicos
             </Typography>
-            <ImageList variant="standard" cols={2} gap={26}>
+            <ImageList cols={matches ? 3 : 2} variant="standard" gap={26}>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
               {suplementos.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
@@ -88,7 +90,7 @@ function Main(props) {
             <Typography align="center" variant="body3" color="#255527" paragraph sx={{ mt: -1, pl: { xs: 2, md: 2 }, pt: 0, pr: { xs: 1, md: 2 } }}>
               Mezclas de extractos para potencializar y especializar determinadas propiedades medicinales
             </Typography>
-            <ImageList variant="standard" cols={2} gap={26}>
+            <ImageList cols={matches ? 3 : 2} variant="standard" gap={26}>
               <ImageListItem key="Subheader" cols={2}></ImageListItem>
                 {compuestos.map((item) => (
                   <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527", }}>
