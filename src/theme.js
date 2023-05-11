@@ -98,6 +98,13 @@ const theme = createTheme({
       lineHeight: 1.35,
       color: '#f7dfca'
     },
+    title: {
+      fontFamily: Montse.style.fontFamily,
+      fontWeight: 400,
+      fontSize: 16,
+      lineHeight: 1.35,
+      color: '#f7dfca'
+    },
     drawer: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 600,

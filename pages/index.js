@@ -60,7 +60,7 @@ function Main(props) {
               {tinturas.map((item) => (
                 <ImageListItem onClick={() => { router.push(item.link) }} key={item.img} sx={{ m: { xs: 0, md: 2 }, border: "2px solid #255527" }}>
                   <img style={{ minHeight: 240, maxHeight: 308 }} src={`${item.img}?w=248&fit=crop&auto=format`} srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
+                  <ImageListItemBar sx={{"& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle,"& .MuiImageListItemBar-title":(theme) => theme.typography.title, background: 'rgba(23,53,24,0.86)' }} title={item.title} subtitle={item.Species} />
                 </ImageListItem>
               ))}
             </ImageList>
