@@ -1,10 +1,18 @@
-import { Dancing_Script, Montserrat } from 'next/font/google';
+import { Dancing_Script, Montserrat, Amatic_SC } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 
 export const Dancing = Dancing_Script({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
+  fallback: ['Helvetica', 'Arial', 'sans-serif'],
+});
+
+export const Amatic = Amatic_SC({
+  weight: ['400'],
+  display: 'swap',
+  subsets: ['latin-ext'],
+  preload: false,
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
@@ -68,7 +76,8 @@ const theme = createTheme({
       fontWeight: 700,
     },
     h6: {
-      fontSize: 16,
+      fontFamily: Amatic.style.fontFamily,
+      fontSize: 26,
       color: '#255527',
       fontWeight:500
     },
