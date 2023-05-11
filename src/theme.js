@@ -69,7 +69,7 @@ const theme = createTheme({
     },
     h6: {
       fontSize: 16,
-      color: '#255527',
+      color:'#e2bc99',
       fontWeight:500
     },
     body3: {
