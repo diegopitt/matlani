@@ -9,7 +9,7 @@ export const Dancing = Dancing_Script({
 });
 
 export const Amatic = Amatic_SC({
-  weight: ['400', '700'],
+  weight: ['700'],
   display: 'swap',
   subsets: ['latin-ext'],
   preload: false,
@@ -62,7 +62,7 @@ const theme = createTheme({
     }
   },
   typography: {
-    fontFamily: Montse.style.fontFamily,
+    fontFamily: Amatic.style.fontFamily,
     body2: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 700,
@@ -70,16 +70,17 @@ const theme = createTheme({
       lineHeight: 1.1
     },
     h3: {
+      fontFamily: Montse.style.fontFamily,
       fontWeight: 700,
     },
     h4: {
+      fontFamily: Montse.style.fontFamily,
       fontWeight: 700,
     },
     h6: {
-      fontFamily: Amatic_SC.style.fontFamily,
-      fontSize: 30,
+      fontSize: 16,
       color: '#255527',
-      fontWeight:700
+      fontWeight:500
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,
