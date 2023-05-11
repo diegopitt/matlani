@@ -81,7 +81,7 @@ const theme = createTheme({
       fontFamily: Montse.style.fontFamily,
     },
     h6: {
-      fontSize: 16,
+      fontSize: 30,
       color: '#255527',
       fontWeight:500
     },
@@ -107,7 +107,7 @@ const theme = createTheme({
     cardtitle: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 400,
-      fontSize: 18,
+      fontSize: 24,
       lineHeight: 1.35,
       color: '#f7dfca'
     },
