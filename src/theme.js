@@ -77,6 +77,9 @@ const theme = createTheme({
       fontFamily: Montse.style.fontFamily,
       fontWeight: 700,
     },
+    subtitle1: {
+      fontFamily: Montse.style.fontFamily,
+    },
     h6: {
       fontSize: 16,
       color: '#255527',
