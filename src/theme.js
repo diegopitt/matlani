@@ -16,8 +16,8 @@ export const Amatic = Amatic_SC({
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
-export const Montse = Montserrat({
-  weight: ['400', '500', '700'],
+export const Montse = Amatic_SC({
+  weight: ['400', '700'],
   subsets: ['latin'],
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
