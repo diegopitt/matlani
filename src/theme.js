@@ -77,9 +77,9 @@ const theme = createTheme({
     },
     h6: {
       fontFamily: Amatic.style.fontFamily,
-      fontSize: 36,
+      fontSize: 26,
       color: '#255527',
-      fontWeight:500
+      fontWeight:400
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,
