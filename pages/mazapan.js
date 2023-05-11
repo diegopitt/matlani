@@ -26,7 +26,7 @@ export default function Blog() {
         <Box sx={{ position: 'absolute', top: 0, bottom: 0, right: 0, left: 0, backgroundColor: 'rgba(0,0,0,.45)', }} />
         <Grid container>
           <Grid item md={6}>
-            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38, m:2 }} /></IconButton>
+            <IconButton onClick={() => { router.replace("/") }}><ReplyTwoToneIcon sx={{ color: "#ffffff", fontSize: 38, m: 2 }} /></IconButton>
             <Box sx={{ position: 'relative', p: { xs: 3, md: 6 }, pr: { md: 0 }, }}>
               <Typography component="h1" variant="h3" sx={{ pt: 4 }}>
                 MAZAPAN ARTEZANAL
@@ -42,9 +42,15 @@ export default function Blog() {
         <main>
           <Grid container spacing={5} >
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-              <Typography variant="h6" gutterBottom>
-                Mazapan de elavoracion cacera a base de cacahuate molido y piloncillo (panela)
-              </Typography>
+              <Paper elevation={0} sx={{ p: 2, backgroundColor: '#f7dfca' }}>
+                <Typography variant="h6" gutterBottom>
+                  DETALLES
+                </Typography>
+                <Divider />
+                <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
+                  Mazapan de elavoracion cacera a base de cacahuate molido y piloncillo (panela)
+                </Typography>
+              </Paper>
             </Grid>
             <Grid item xs={12} md={4}>
               <Paper elevation={0} sx={{ p: 2, backgroundColor: '#f7dfca' }}>
@@ -81,25 +87,25 @@ export default function Blog() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml: 0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="250 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml: 0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$500</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml: 0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$1000</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ViewAgendaTwoToneIcon sx={{ color: '#255527', ml: 0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1.5 KILOS" secondary={<Typography variant="presentacionsec" color="primary">$1600</Typography>} />
                   </ListItem>

@@ -41,8 +41,12 @@ export default function Cardomomo() {
         <main>
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-              <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
-                <Typography variant="h6" gutterBottom color="inherit">
+              <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 2, }}>
+              <Typography variant="h6" gutterBottom>
+                  DETALLES
+                </Typography>
+                <Divider />
+                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Auxiliar de el tratamiento de náuseas, vomito, indigestión y mal aliento. Tiene propiedades desinflamatorios, febrífugas y afrodisíacas
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
