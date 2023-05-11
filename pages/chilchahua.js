@@ -47,7 +47,7 @@ export default function Chilchahua() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Auxiliar en el tratamiento de diarrea, parásitos, salmonella, fiebre tifoidea e infecciones gastrointestinales
+                  Auxiliar en el tratamiento de <b>diarrea</b>, <b>parásitos</b>, <b>salmonella</b>, <b>fiebre tifoidea</b> e <b>infecciones</b>gastrointestinales
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >

@@ -47,7 +47,7 @@ export default function Albahaca() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Ayuda a la lenta digestión, gastritis, parásitos, gases intestinales. Auxiliar en mareos, dolores de cabeza, tos y en casos de depresión
+                  Ayuda a la lenta <b>digestión</b>, <b>gastritis</b>, <b>parásitos</b>, <b>gases intestinales</b>. Auxiliar en mareos, dolores de cabeza, tos y en casos de <b>depresión</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>

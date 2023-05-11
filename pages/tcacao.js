@@ -47,7 +47,7 @@ export default function Tcacao() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Auxiliar en tratamiento de enfermedades visuales, cerebro  y cardiovasculares. Es un excelente regulador hormonal y digestivo. Contiene propiedades antivirales, antitumorales e incluso  más antioxidantes que el café verde
+                  Auxiliar en tratamiento de enfermedades visuales, cerebro  y cardiovasculares. Es un excelente <b>regulador hormonal y digestivo</b>. Contiene propiedades antivirales, antitumorales e incluso  más antioxidantes que el <b>café verde</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>

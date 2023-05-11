@@ -48,7 +48,7 @@ export default function Chilcuague() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Fuerte antiséptico, antibiótico y antifúngico.
+                  Fuerte <b>antiséptico</b>, <b>antibiótico</b> y <b>antifúngico</b>.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >

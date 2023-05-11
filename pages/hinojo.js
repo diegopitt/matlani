@@ -47,7 +47,7 @@ export default function Hinojo() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Auxiliar en problemas digestivos como  espasmos, distensión abdominal, gases e indigestión. También ayuda a disminuir fiebre, dolor de cabeza y es también un excelente productor de leche materna. Provoca la menstruación
+                  Auxiliar en problemas digestivos como  espasmos, distensión abdominal, gases e indigestión. También ayuda a disminuir fiebre, <b>dolor de cabeza</b> y es también un excelente productor de <b>leche materna</b>. Provoca la menstruación
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >

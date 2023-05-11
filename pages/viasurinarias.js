@@ -48,7 +48,7 @@ export default function Vias() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Compuesto para vías urinarias Riñones, vejiga, próstata y uretra. Efectivo contra infecciones en vías urinarias, retención de líquidos e incontinencia. Auxiliar como desintoxicante hepático y renal, ayuda a mitigar cálculos biliares y renales.
+                  Compuesto para vías urinarias Riñones, vejiga, próstata y uretra. Efectivo contra infecciones en vías urinarias, retención de líquidos e incontinencia. Auxiliar como <b>desintoxicante hepático y renal</b>, ayuda a mitigar cálculos <b>biliares</b> y <b>renales</b>.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >

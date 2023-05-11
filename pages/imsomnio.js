@@ -48,7 +48,7 @@ export default function Imsomnio() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Aprovecha todos los beneficios del Reishi y potencializa con esta mezcla su propiedad para tratar el insomnio principalmente. Para uso cotidiano.
+                  Aprovecha todos los beneficios del Reishi y potencializa con esta mezcla su propiedad para tratar el <b>insomnio</b> principalmente. Para uso cotidiano.
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
