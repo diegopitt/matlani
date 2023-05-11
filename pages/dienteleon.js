@@ -41,8 +41,12 @@ export default function Diente() {
         <main>
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-              <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
-                <Typography variant="h6" gutterBottom color="inherit">
+              <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 2, }}>
+              <Typography variant="h6" gutterBottom>
+                  DETALLES
+                </Typography>
+                <Divider />
+                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
                 Estimulante y fortalecedor del sistema nervioso, hormonal y cerebral. Afrodisiaco en hombres y mujeres, ayuda a mejorar la memoria y combatir la frigidez e impotencia sexual 
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

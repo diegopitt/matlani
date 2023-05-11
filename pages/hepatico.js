@@ -43,7 +43,11 @@ export default function Hepatico() {
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
-                <Typography variant="h6" gutterBottom color="inherit">
+                <Typography variant="h6" gutterBottom>
+                  DETALLES
+                </Typography>
+                <Divider />
+                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Mezcla especializada en sanar cualquier tipo de daño hepático, hígado graso, cirrosis, hepatitis, etc. Excelente para dolores fuertes de cabeza
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
