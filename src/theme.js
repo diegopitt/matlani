@@ -9,7 +9,7 @@ export const Dancing = Dancing_Script({
 });
 
 export const Amatic = Amatic_SC({
-  weight: ['400'],
+  weight: ['500'],
   display: 'swap',
   subsets: ['latin-ext'],
   preload: false,
@@ -79,7 +79,7 @@ const theme = createTheme({
       fontFamily: Amatic.style.fontFamily,
       fontSize: 26,
       color: '#255527',
-      fontWeight:400
+      fontWeight:500
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,
