@@ -27,6 +27,9 @@ const theme = createTheme({
   components: {
     MuiListItemText: {
       styleOverrides: {
+        primary: {
+          fontSize: 28,
+        },
         secondary: {
           fontFamily: Dancing.style.fontFamily,
           fontWeight: 500,
@@ -107,7 +110,7 @@ const theme = createTheme({
     cardtitle: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 400,
-      fontSize: 24,
+      fontSize: 18,
       lineHeight: 1.35,
       color: '#f7dfca'
     },
