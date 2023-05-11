@@ -9,15 +9,15 @@ export const Dancing = Dancing_Script({
 });
 
 export const Amatic = Amatic_SC({
-  weight: ['700'],
+  weight: ['400', '700'],
   display: 'swap',
   subsets: ['latin-ext'],
   preload: false,
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
-export const Montse = Amatic_SC({
-  weight: ['400', '700'],
+export const Montse = Montserrat({
+  weight: ['400', '500', '700'],
   subsets: ['latin'],
   display: 'swap',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
@@ -28,8 +28,9 @@ const theme = createTheme({
     MuiListItemText: {
       styleOverrides: {
         secondary: {
-          fontWeight: 700,
-          fontSize: 26,
+          fontFamily: Dancing.style.fontFamily,
+          fontWeight: 500,
+          fontSize: 22,
           lineHeight: 1.1
         }
       }
@@ -61,7 +62,7 @@ const theme = createTheme({
     }
   },
   typography: {
-    fontFamily: Amatic.style.fontFamily,
+    fontFamily: Montse.style.fontFamily,
     body2: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 700,
@@ -75,8 +76,8 @@ const theme = createTheme({
       fontWeight: 700,
     },
     h6: {
-      fontFamily: Amatic.style.fontFamily,
-      fontSize: 28,
+      fontFamily: Amatic_SC.style.fontFamily,
+      fontSize: 30,
       color: '#255527',
       fontWeight:700
     },
@@ -87,13 +88,13 @@ const theme = createTheme({
       lineHeight: 0.76
     },
     presentacionsec: {
-      fontFamily: Amatic.style.fontFamily,
-      fontWeight: 700,
+      fontFamily: Montse.style.fontFamily,
+      fontWeight: 500,
       fontSize: 16,
     },
     detailstitle: {
-      fontFamily: Amatic.style.fontFamily,
-      fontWeight: 700,
+      fontFamily: Dancing.style.fontFamily,
+      fontWeight: 500,
       fontSize: 32,
       textShadow: "#685849 1px 0 10px",
       lineHeight: 1.1,
