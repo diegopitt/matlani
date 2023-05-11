@@ -1,18 +1,10 @@
-import { Dancing_Script, Montserrat, Amatic_SC } from 'next/font/google';
+import { Dancing_Script, Montserrat } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 
 export const Dancing = Dancing_Script({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
-  fallback: ['Helvetica', 'Arial', 'sans-serif'],
-});
-
-export const Amatic = Amatic_SC({
-  weight: ['700'],
-  display: 'swap',
-  subsets: ['latin-ext'],
-  preload: false,
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
@@ -27,9 +19,6 @@ const theme = createTheme({
   components: {
     MuiListItemText: {
       styleOverrides: {
-        primary: {
-          fontSize: 20,
-        },
         secondary: {
           fontFamily: Dancing.style.fontFamily,
           fontWeight: 500,
@@ -65,7 +54,7 @@ const theme = createTheme({
     }
   },
   typography: {
-    fontFamily: Amatic.style.fontFamily,
+    fontFamily: Montse.style.fontFamily,
     body2: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 700,
@@ -73,18 +62,13 @@ const theme = createTheme({
       lineHeight: 1.1
     },
     h3: {
-      fontFamily: Montse.style.fontFamily,
       fontWeight: 700,
     },
     h4: {
-      fontFamily: Montse.style.fontFamily,
       fontWeight: 700,
     },
-    subtitle1: {
-      fontFamily: Montse.style.fontFamily,
-    },
     h6: {
-      fontSize: 26,
+      fontSize: 16,
       color: '#255527',
       fontWeight:500
     },
