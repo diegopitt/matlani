@@ -60,7 +60,7 @@ export default function Jamaica() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar máximo 15 días y descansar 7 para volver a consumir." />
+                    <ListItemText primary="Tomar máximo 15 días y descansar 7 para volver a consumir" />
                   </ListItem>
                 </List>
               </Paper>

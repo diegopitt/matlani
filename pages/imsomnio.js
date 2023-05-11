@@ -48,14 +48,20 @@ export default function Imsomnio() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Aprovecha todos los beneficios del Reishi y potencializa con esta mezcla su propiedad para tratar el <b>insomnio</b> principalmente. Para uso cotidiano.
+                  Aprovecha todos los beneficios del Reishi y potencializa con esta mezcla su propiedad para tratar el <b>insomnio</b> principalmente
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar una gota por cada kilo de la persona por las noches antes de dormir." />
+                    <ListItemText primary="Tomar una gota por cada kilo de la persona por las noches antes de dormir" />
+                  </ListItem>
+                  <ListItem >
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Para uso cotidiano" />
                   </ListItem>
                 </List>
               </Paper>

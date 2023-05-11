@@ -47,7 +47,7 @@ export default function Cuachalalate() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                <b>Antibiótico</b>, <b>antiinflamatorio</b>, auxiliar en el tratamiento de gastritis y Cáncer.
+                <b>Antibiótico</b>, <b>antiinflamatorio</b>, auxiliar en el tratamiento de gastritis y Cáncer
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>

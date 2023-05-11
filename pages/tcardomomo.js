@@ -54,13 +54,13 @@ export default function Cardomomo() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Otros usos: agrega unas gotas al gusto a tus licuados, cafés, smuties y hasta en repostería. " />
+                    <ListItemText primary="Tomar de 5 a 15 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 5 a 15 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
+                    <ListItemText primary="Como ingrediente, agrega unas gotas al gusto a tus licuados, cafés, smoothies y hasta en repostería" />
                   </ListItem>
                 </List>
               </Paper>

@@ -47,7 +47,7 @@ export default function Chilchahua() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Auxiliar en el tratamiento de <b>diarrea</b>, <b>parásitos</b>, <b>salmonella</b>, <b>fiebre tifoidea</b> e <b>infecciones</b>gastrointestinales
+                  Auxiliar en el tratamiento de <b>diarrea</b>, <b>parásitos</b>, <b>salmonella</b>, <b>fiebre tifoidea</b> e <b>infecciones</b> gastrointestinales
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
@@ -60,13 +60,13 @@ export default function Chilchahua() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar máximo 7 días seguidos. Evitar consumo en menores de 2 años" />
+                    <ListItemText primary="Tomar máximo 7 días seguidos" />
                   </ListItem>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar máximo 7 días seguidos" />
+                    <ListItemText primary="Evitar consumo en menores de 2 años" />
                   </ListItem>
                 </List>
               </Paper>
