@@ -28,7 +28,7 @@ const theme = createTheme({
     MuiListItemText: {
       styleOverrides: {
         primary: {
-          fontSize: 24,
+          fontSize: 20,
         },
         secondary: {
           fontFamily: Dancing.style.fontFamily,
