@@ -48,14 +48,20 @@ export default function Vias() {
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
-                  Compuesto para vías urinarias Riñones, vejiga, próstata y uretra. Efectivo contra infecciones en vías urinarias, retención de líquidos e incontinencia. Auxiliar como <b>desintoxicante hepático y renal</b>, ayuda a mitigar cálculos <b>biliares</b> y <b>renales</b>.
+                  Compuesto para vías urinarias Riñones, vejiga, próstata y uretra. Efectivo contra infecciones en vías urinarias, retención de líquidos e incontinencia. Auxiliar como <b>desintoxicante hepático y renal</b>, ayuda a mitigar cálculos <b>biliares</b> y <b>renales</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, durante 7 días. Tomar máximo 7 días y descansar otros 7 para volver a consumir. " />
+                    <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, durante 7 días " />
+                  </ListItem>
+                  <ListItem >
+                    <ListItemIcon>
+                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Tomar máximo 7 días y descansar otros 7 para volver a consumir " />
                   </ListItem>
                 </List>
               </Paper>
