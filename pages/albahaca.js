@@ -41,8 +41,12 @@ export default function Albahaca() {
         <main>
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
-              <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 4, }}>
-                <Typography variant="h6" gutterBottom color="inherit">
+              <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 2, }}>
+              <Typography variant="h6" gutterBottom>
+                  DETALLES
+                </Typography>
+                <Divider />
+                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 2 }}>
                   Ayuda a la lenta digestión, gastritis, parásitos, gases intestinales. Auxiliar en mareos, dolores de cabeza, tos y en casos de depresión
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
