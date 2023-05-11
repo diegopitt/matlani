@@ -84,7 +84,7 @@ const theme = createTheme({
       fontFamily: Montse.style.fontFamily,
     },
     h6: {
-      fontSize: 30,
+      fontSize: 26,
       color: '#255527',
       fontWeight:500
     },
