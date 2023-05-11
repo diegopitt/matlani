@@ -42,7 +42,7 @@ export default function Albahaca() {
           <Grid container spacing={5}>
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper sx={{ position: 'relative', backgroundColor: '#f7dfca', p: 2, }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6">
                   DETALLES
                 </Typography>
                 <Divider />
