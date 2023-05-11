@@ -100,8 +100,8 @@ const theme = createTheme({
     },
     title: {
       fontFamily: Montse.style.fontFamily,
-      fontWeight: 400,
-      fontSize: 15,
+      fontWeight: 500,
+      fontSize: 14,
       lineHeight: 1.35,
       color: '#f7dfca'
     },
