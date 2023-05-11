@@ -88,13 +88,13 @@ const theme = createTheme({
       lineHeight: 0.76
     },
     presentacionsec: {
-      fontFamily: Montse.style.fontFamily,
-      fontWeight: 500,
+      fontFamily: Amatic.style.fontFamily,
+      fontWeight: 700,
       fontSize: 16,
     },
     detailstitle: {
-      fontFamily: Dancing.style.fontFamily,
-      fontWeight: 500,
+      fontFamily: Amatic.style.fontFamily,
+      fontWeight: 700,
       fontSize: 32,
       textShadow: "#685849 1px 0 10px",
       lineHeight: 1.1,
