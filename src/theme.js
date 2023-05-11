@@ -28,9 +28,8 @@ const theme = createTheme({
     MuiListItemText: {
       styleOverrides: {
         secondary: {
-          fontFamily: Dancing.style.fontFamily,
-          fontWeight: 500,
-          fontSize: 22,
+          fontWeight: 700,
+          fontSize: 26,
           lineHeight: 1.1
         }
       }
@@ -62,7 +61,7 @@ const theme = createTheme({
     }
   },
   typography: {
-    fontFamily: Montse.style.fontFamily,
+    fontFamily: Amatic.style.fontFamily,
     body2: {
       fontFamily: Dancing.style.fontFamily,
       fontWeight: 700,
@@ -77,7 +76,7 @@ const theme = createTheme({
     },
     h6: {
       fontFamily: Amatic.style.fontFamily,
-      fontSize: 26,
+      fontSize: 28,
       color: '#255527',
       fontWeight:700
     },
