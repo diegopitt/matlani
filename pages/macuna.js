@@ -61,7 +61,7 @@ export default function Macuna() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Auxiliar en el tratamiento de: Parkinson, por su contenido de L-DOPA" />
+                    <ListItemText primary="Auxiliar en el tratamiento de Parkinson, por su contenido de L-DOPA" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
