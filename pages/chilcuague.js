@@ -53,25 +53,25 @@ export default function Chilcuague() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Muy eficaz contra la tos, gripa y, en general para infecciones bucales y de garganta" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Exente para eliminar hongos en los pies, vaginales y mal olor en la sudoración" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Aplicar de dos a tres atomizaciones 3 veces al día en la zona requerida, diluir con agua al 50% en caso de hongos vaginales" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Para uso cotidiano" />
                   </ListItem>
@@ -87,7 +87,7 @@ export default function Chilcuague() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml: 0.7 }} />
+                      <ColorizeTwoToneIcon sx={{ color: '#6e5b4b', ml: 0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$150</Typography>} />
                   </ListItem>

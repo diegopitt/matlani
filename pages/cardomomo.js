@@ -53,13 +53,13 @@ export default function Cardomomo() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar de 1 a 3 gramos en infusión o masticar 5 semillas después de los alimentos" />
                   </ListItem>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Se puede usar en licuados o repostería" />
                   </ListItem>
@@ -75,25 +75,25 @@ export default function Cardomomo() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="20 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$100</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="100 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="250 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$900</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$3000</Typography>} />
                   </ListItem>

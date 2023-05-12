@@ -53,13 +53,13 @@ export default function Hepatico() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos" />
                   </ListItem>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Para uso cotidiano" />
                   </ListItem>
@@ -75,13 +75,13 @@ export default function Hepatico() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="HONGO REISHI" secondary="Ganoderma Lucidum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="CARDO MARIANO" secondary="Silybum Marianum" />
                   </ListItem>
@@ -97,7 +97,7 @@ export default function Hepatico() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ColorizeTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>

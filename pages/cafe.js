@@ -52,7 +52,7 @@ export default function Cacao() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Disolver en agua recién hervida. Cantidad al gusto (se recomienda una cucharada sopera por dos tasas)" />
                   </ListItem>
@@ -68,19 +68,19 @@ export default function Cacao() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="150 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$100</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$300</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
                   </ListItem>

@@ -52,13 +52,13 @@ export default function Cardomomo() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar de 5 a 15 gotas con un poco de agua 3 veces al día antes o después de los alimentos" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Como ingrediente, agrega unas gotas al gusto a tus licuados, cafés, smoothies y hasta en repostería" />
                   </ListItem>
@@ -74,7 +74,7 @@ export default function Cardomomo() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml: 0.7 }} />
+                      <ColorizeTwoToneIcon sx={{ color: '#6e5b4b', ml: 0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$150</Typography>} />
                   </ListItem>

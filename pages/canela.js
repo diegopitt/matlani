@@ -52,13 +52,13 @@ export default function Canela() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Auxiliar en tos, gripa, fiebre, dolores nervios y mejorador digestivo" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar máximo 15 días y descansar 7 para volver a consumir" />
                   </ListItem>
@@ -74,19 +74,19 @@ export default function Canela() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="150 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$100</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$300</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <Inventory2TwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
                   </ListItem>

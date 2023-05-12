@@ -53,13 +53,13 @@ export default function Vias() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <CircleTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, durante 7 días " />
                   </ListItem>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <CircleTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar máximo 7 días y descansar otros 7 para volver a consumir " />
                   </ListItem>
@@ -75,43 +75,43 @@ export default function Vias() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Hoja de Níspero" secondary="Eriobotrya Japonica" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Doradilla" secondary="Sellaginela Lepidophilia" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Té limón" secondary="Cymbopogon Citratus" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Pelo de maíz" secondary="Zea Mays" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Hierba Santa" secondary="Piper Auritum" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Cola de Caballo" secondary="Equisetum Arvense" />
                   </ListItem>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <GrassTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <GrassTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="Hinojo" secondary="Foeniculum Vulgare" />
                   </ListItem>
@@ -127,7 +127,7 @@ export default function Vias() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ColorizeTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$150</Typography>} />
                   </ListItem>

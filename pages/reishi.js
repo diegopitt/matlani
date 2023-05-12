@@ -52,31 +52,31 @@ export default function Reishi() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Auxiliar en el tratamiento de Ansiedad, insomnio, estrés, depresión, casos de daño hepático, alcoholismo, cirrosis, hepatitis" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Estimula sistema inmunológico y cardiovascular" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Regula presión arterial, colesterol, triglicéridos y glucosa en la sangre" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Contiene propiedades antivirales, desinflamatorias y antioxidantes" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Excelente suplemento alimenticio, contiene todos los aminoácidos esenciales, vitaminas y minerales" />
                   </ListItem>
@@ -92,31 +92,31 @@ export default function Reishi() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem disableGutters>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ColorizeTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 30 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ColorizeTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 125 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$600</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <ColorizeTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <ColorizeTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="GOTERO 250 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$1000</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <LocalDrinkTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <LocalDrinkTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="BOTELLA 500 MILILITROS" secondary={<Typography variant="presentacionsec" color="primary">$1600</Typography>} />
                   </ListItem>
                   <ListItem disableGutters disablePadding>
                     <ListItemIcon>
-                      <LocalDrinkTwoToneIcon sx={{ color: '#255527', ml:0.7 }} />
+                      <LocalDrinkTwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
                     <ListItemText primary="BOTELLA 1 LITRO" secondary={<Typography variant="presentacionsec" color="primary">$2500</Typography>} />
                   </ListItem>
