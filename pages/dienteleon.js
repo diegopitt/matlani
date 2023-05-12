@@ -52,7 +52,7 @@ export default function Diente() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Excelente diurético, disuelve cálculos biliares, auxiliar en tratamiento de gota, estreñimiento Y obesidad" />
                   </ListItem>
@@ -64,7 +64,7 @@ export default function Diente() {
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#6e5b4b' }} />
                     </ListItemIcon>
                     <ListItemText primary="Para uso cotidiano" />
                   </ListItem>
