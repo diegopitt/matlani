@@ -54,7 +54,7 @@ export default function Cacao() {
                     <ListItemIcon>
                       <CircleTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
-                    <ListItemText primary="Disolver en agua recién hervida. Cantidad al gusto (se recomienda 1 cda. sopera por dos tasas)" />
+                    <ListItemText primary="Disolver en agua recién hervida. Cantidad al gusto (se recomienda una cucharada sopera por dos tasas)" />
                   </ListItem>
                 </List>
               </Paper>
