@@ -11,7 +11,7 @@ import Container from '@mui/material/Container';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
-import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
+import FilterVintageTwoToneIcon from '@mui/icons-material/FilterVintageTwoTone';
 import Divider from '@mui/material/Divider';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 
@@ -52,7 +52,7 @@ export default function Gengibre() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Tomar de 15 a 25 gotas con un poco de agua 3 veces al día, antes o después de los alimentos, de 5 a 7 días" />
                   </ListItem>

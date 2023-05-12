@@ -12,7 +12,7 @@ import Container from '@mui/material/Container';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
-import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
+import FilterVintageTwoToneIcon from '@mui/icons-material/FilterVintageTwoTone';
 import Divider from '@mui/material/Divider';
 
 
@@ -53,37 +53,37 @@ export default function Macuna() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Contiene entre 3 y 6% de L-DOPA, precursor de la dopamina, aprox. 30% de proteína, serotonina conocida como hormona de la felicidad, y más" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Auxiliar en el tratamiento de Parkinson, por su contenido de L-DOPA" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Diabetes (fuerte actividad hipoglucemiante)" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Alzheimer y fertilidad" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Contiene propiedades afrodisíacas" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Excelente suplemento alimenticio para niños y deportistas, estimula la glándula pituitaria, encargada del crecimiento y estimulación de otras glándulas" />
                   </ListItem>

@@ -12,7 +12,7 @@ import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
 import LocalDrinkTwoToneIcon from '@mui/icons-material/LocalDrinkTwoTone';
-import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
+import FilterVintageTwoToneIcon from '@mui/icons-material/FilterVintageTwoTone';
 import ColorizeTwoToneIcon from '@mui/icons-material/ColorizeTwoTone';
 import Divider from '@mui/material/Divider';
 
@@ -52,31 +52,31 @@ export default function Reishi() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Auxiliar en el tratamiento de Ansiedad, insomnio, estrés, depresión, casos de daño hepático, alcoholismo, cirrosis, hepatitis" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Estimula sistema inmunológico y cardiovascular" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Regula presión arterial, colesterol, triglicéridos y glucosa en la sangre" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Contiene propiedades antivirales, desinflamatorias y antioxidantes" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Excelente suplemento alimenticio, contiene todos los aminoácidos esenciales, vitaminas y minerales" />
                   </ListItem>

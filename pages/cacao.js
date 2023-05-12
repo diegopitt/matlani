@@ -11,7 +11,7 @@ import Container from '@mui/material/Container';
 import { useRouter } from 'next/router';
 import ReplyTwoToneIcon from '@mui/icons-material/ReplyTwoTone';
 import IconButton from '@mui/material/IconButton';
-import CircleTwoToneIcon from '@mui/icons-material/CircleTwoTone';
+import FilterVintageTwoToneIcon from '@mui/icons-material/FilterVintageTwoTone';
 import Divider from '@mui/material/Divider';
 import Inventory2TwoToneIcon from '@mui/icons-material/Inventory2TwoTone';
 
@@ -52,19 +52,19 @@ export default function Cacao() {
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Auxiliar en el tratamiento de enfermedades cardiovasculares, cerebrovasculares y visuales" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Contiene propiedades antivirales, antitumorales e incluso más antioxidantes que el café verde" />
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
-                      <CircleTwoToneIcon sx={{ color: '#255527' }} />
+                      <FilterVintageTwoToneIcon sx={{ color: '#255527' }} />
                     </ListItemIcon>
                     <ListItemText primary="Excelente regulador hormonal y digestivo" />
                   </ListItem>

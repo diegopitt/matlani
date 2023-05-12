@@ -17,6 +17,9 @@ export const Montse = Montserrat({
 
 const theme = createTheme({
   components: {
+    MuiListItemIcon: {
+      fontSize: 82,
+    }, 
     MuiListItemText: {
       styleOverrides: {
         secondary: {
