@@ -118,7 +118,7 @@ function Main(props) {
             <ImageList variant="standard" cols={1} gap={0}>
               <ImageListItem onClick={() => { router.push(`/vainilla`) }} key={`vainilla`} sx={{ m: { xs: 0, md: 2, border: "2px solid #255527" }, }}>
                 <img style={{ minHeight: 240, maxHeight: 320 }} src={`/vainilla.jpg?w=248&fit=crop&auto=format`} srcSet={`/vainilla.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`Vainilla en Vaina`} loading="lazy" />
-                <ImageListItemBar sx={{ "& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle,background: 'rgba(23,53,24,0.86)', "& .MuiImageListItemBar-title":(theme) => theme.typography.title }} title={`Vainilla en Vainas`} subtitle={`Vanilla Planifolia`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
+                <ImageListItemBar sx={{ "& .MuiImageListItemBar-subtitle":(theme) => theme.typography.cardtitle,background: 'rgba(23,53,24,0.86)', "& .MuiImageListItemBar-title":(theme) => theme.typography.title }} title={`Vainilla en Vaina`} subtitle={`Vanilla Planifolia`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
               </ImageListItem>
             </ImageList>
           </Grid>
