@@ -111,6 +111,17 @@ function Main(props) {
               </ImageListItem>
             </ImageList>
           </Grid>
+          <Grid item xs={10} sm={6} md={4} sx={{ pb: 4, }} direction="row" justifyContent="center" alignItems="center">
+            <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2, pr: { xs: 1, md: 2 } }}>
+              Vainilla en Vaina
+            </Typography>
+            <ImageList variant="standard" cols={1} gap={0}>
+              <ImageListItem onClick={() => { router.push(`/vainilla`) }} key={`vainilla`} sx={{ m: { xs: 0, md: 2, border: "2px solid #255527" }, }}>
+                <img style={{ minHeight: 240, maxHeight: 320 }} src={`/vainilla.jpg?w=248&fit=crop&auto=format`} srcSet={`/vainilla.jpg?w=248&fit=crop&auto=format&dpr=2 2x`} alt={`Vainilla en Vaina`} loading="lazy" />
+                <ImageListItemBar sx={{ background: 'rgba(23,53,24,0.86)', "& .MuiImageListItemBar-title":(theme) => theme.typography.title }} title={`Vainilla en Vaina`} subtitle={`Vainilla en Vaina`} actionIcon={<IconButton sx={{ color: 'rgba(255, 255, 255, 0.54)', }} aria-label={`mazapan`}></IconButton>} />
+              </ImageListItem>
+            </ImageList>
+          </Grid>
         </Grid>
         <Grid container direction="row" justifyContent="center" alignItems="center" sx={{ mb: 0, mt: 3, }}>
           <Grid item xs={12} sm={10}>
