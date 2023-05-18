@@ -73,7 +73,7 @@ const theme = createTheme({
     h6: {
       fontSize: 14,
       color:'#6e5b4b',
-      fontWeight:500
+      fontWeight:400
     },
     body3: {
       fontFamily: Dancing.style.fontFamily,

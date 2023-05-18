@@ -47,7 +47,7 @@ export default function Reishi() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Este increíble hongo conocido como <b>Hongo de la Inmortalidad</b> o el <b>Hongo Rey</b>, se gana su nombre gracias a las siguientes y más cualidades:</Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
                   <ListItem >
