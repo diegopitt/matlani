@@ -23,6 +23,11 @@ const theme = createTheme({
     MuiListItemText: {
       styleOverrides: {
         secondary: {
+          fontFamily: Montse.style.fontFamily,
+          fontWeight: 500,
+          fontSize: 14,
+        },
+        primary: {
           fontFamily: Dancing.style.fontFamily,
           fontWeight: 500,
           fontSize: 22,
@@ -84,7 +89,7 @@ const theme = createTheme({
     presentacionsec: {
       fontFamily: Montse.style.fontFamily,
       fontWeight: 500,
-      fontSize: 14,
+      fontSize: 16,
     },
     detailstitle: {
       fontFamily: Dancing.style.fontFamily,
