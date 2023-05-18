@@ -46,7 +46,7 @@ export default function Cempasuchil() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Auxiliar en la <b>reducción de dolores y cólicos menstruales</b>, enfermedades en la piel, nervios, como <b>desinflamatorio</b>, en la reducción de fiebre. Ayuda contra la  <b>indigestión</b>, empacho, diarrea y <b>parásitos intestinales</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

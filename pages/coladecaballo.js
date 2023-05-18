@@ -47,7 +47,7 @@ export default function Coladecaballo() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                 Auxiliar en el tratamiento de problemas <b>renales</b> y de <b>próstata</b>, eficaz para controlar <b>menstruaciones abundantes</b> y enfermedades <b>pulmonares crónicas</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

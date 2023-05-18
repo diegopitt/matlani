@@ -46,7 +46,7 @@ export default function Diente() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                 Estimulante y fortalecedor del <b>sistema nervioso</b>, <b>hormonal</b> y <b>cerebral</b>. Afrodisiaco en hombres y mujeres, ayuda a mejorar la memoria y combatir la <b>frigidez</b> e <b>impotencia sexual</b> 
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

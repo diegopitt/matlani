@@ -46,7 +46,7 @@ export default function Cafeverde() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Favorece la capacidad <b>antioxidante</b> del organismo, es auxiliar en personas que enfrentan un problema de sobrepeso u <b>obesidad</b> y mejora el <b>sistema inmunológico</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

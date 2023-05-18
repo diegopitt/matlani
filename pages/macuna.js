@@ -47,7 +47,7 @@ export default function Macuna() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Esta maravillosa planta, también conocida como <b>frijol terciopelo</b>, es un excelente suplemento alimenticio con un perfil químico muy extendido llevándolo a tener acciones profundas en el sistema nervioso humano
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
@@ -88,7 +88,7 @@ export default function Macuna() {
                     <ListItemText primary="Excelente suplemento alimenticio para niños y deportistas, estimula la glándula pituitaria, encargada del crecimiento y estimulación de otras glándulas" />
                   </ListItem>
                 </List>
-                <Typography variant="h6" gutterBottom color="inherit">
+                <Typography gutterBottom color="inherit">
                   Usar de 1 a 2 cucharadas al dia en licuado, como substituto de harinas, en los alimentos
                 </Typography>
               </Paper>

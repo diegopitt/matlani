@@ -46,7 +46,7 @@ export default function Gengibre() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Excelente contrarrestante de <b>náuseas</b>, <b>mareos</b>, vértigo y dolores menstruales, auxiliar del sistema digestivo, contra gripes y resfríos,como <b>desinflamatorio</b>, <b>analgésico</b> y <b>antibacterial</b>. Mejora la <b>función cerebral</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

@@ -46,7 +46,7 @@ export default function Jamaica() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Extraordinario para <b>normalizar la presión</b> alta (hipertensión), contiene antioxidantes, auxiliar en la reducción de niveles de colesterol y para limpiar sangre y riñones
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

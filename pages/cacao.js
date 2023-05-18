@@ -46,7 +46,7 @@ export default function Cacao() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Utilizar de 7 a 13 semillas al día ya sea en licuado o ingeridas a lo largo del día
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

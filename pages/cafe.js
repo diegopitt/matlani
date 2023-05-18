@@ -46,7 +46,7 @@ export default function Cacao() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Disfruta de una <b>alternativa</b> para tomar una bebida tipo café, libre de cafeína, con las propiedades de la <b>dopamina</b> y de un <b>increíble sabor</b>
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

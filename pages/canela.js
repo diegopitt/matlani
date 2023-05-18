@@ -46,7 +46,7 @@ export default function Canela() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                 Es un estimulante en general, regulador de <b>periodos menstruales</b> y es <b>afrodisiaco</b> en mujeres  
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

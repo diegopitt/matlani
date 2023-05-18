@@ -46,7 +46,7 @@ export default function Cardomomo() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Auxiliar de el tratamiento de <b>náuseas</b>, <b>vomito</b>, <b>indigestión</b> y <b>mal aliento</b>. Tiene propiedades desinflamatorias, febrífugas y afrodisíacas
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>

@@ -47,7 +47,7 @@ export default function Hepatico() {
                   INDICACIONES
                 </Typography>
                 <Divider />
-                <Typography variant="h6" gutterBottom color="inherit" sx={{ mt: 3 }}>
+                <Typography gutterBottom color="inherit" sx={{ mt: 3 }}>
                   Mezcla especializada en sanar cualquier tipo de daño <b>hepático</b>, <b>hígado graso</b>, <b>cirrosis</b>, <b>hepatitis</b>, etc. Excelente para dolores <b>fuertes</b> de cabeza
                 </Typography>
                 <List sx={{ width: '100%', bgcolor: 'transparent' }}>
