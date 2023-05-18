@@ -71,7 +71,7 @@ const theme = createTheme({
       fontWeight: 700,
     },
     h6: {
-      fontSize: 16,
+      fontSize: 14,
       color:'#6e5b4b',
       fontWeight:500
     },
