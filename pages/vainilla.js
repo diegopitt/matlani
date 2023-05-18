@@ -104,19 +104,19 @@ export default function Vainilla() {
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
-                    <ListItemText primary="200 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$200</Typography>} />
+                    <ListItemText primary="De 30 a 99 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$40 por Gramo</Typography>} />
                   </ListItem>
-                  <ListItem disableGutters disablePadding>
+                  <ListItem disableGutters>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
-                    <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$400</Typography>} />
+                    <ListItemText primary="De 100 a 400 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$25 por Gramo</Typography>} />
                   </ListItem>
-                  <ListItem disableGutters disablePadding>
+                  <ListItem disableGutters>
                     <ListItemIcon>
                       <Inventory2TwoToneIcon sx={{ color: '#6e5b4b', ml:0.7 }} />
                     </ListItemIcon>
-                    <ListItemText primary="1 KILO" secondary={<Typography variant="presentacionsec" color="primary">$700</Typography>} />
+                    <ListItemText primary="500 GRAMOS" secondary={<Typography variant="presentacionsec" color="primary">$20 por Gramo</Typography>} />
                   </ListItem>
                 </List>
               </Paper>
