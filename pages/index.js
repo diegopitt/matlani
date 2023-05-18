@@ -113,7 +113,7 @@ function Main(props) {
           </Grid>
           <Grid item xs={10} sm={6} md={4} sx={{ pb: 4, }} direction="row" justifyContent="center" alignItems="center">
             <Typography align="center" variant="body2" color="#255527" paragraph sx={{ pl: { xs: 1, md: 2 }, pt: 2, pr: { xs: 1, md: 2 } }}>
-              Vainilla en Vaina
+              VAINILLA EN VAINA
             </Typography>
             <ImageList variant="standard" cols={1} gap={0}>
               <ImageListItem onClick={() => { router.push(`/vainilla`) }} key={`vainilla`} sx={{ m: { xs: 0, md: 2, border: "2px solid #255527" }, }}>
