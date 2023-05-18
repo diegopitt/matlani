@@ -25,12 +25,12 @@ const theme = createTheme({
         secondary: {
           fontFamily: Dancing.style.fontFamily,
           fontWeight: 500,
-          fontSize: 22,
+          fontSize: 23,
           lineHeight: 1.1
         },
         primary: {
           fontFamily: Montse.style.fontFamily,
-          fontSize: 14
+          fontSize: 15
         }
       }
     },    
