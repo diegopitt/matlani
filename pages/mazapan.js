@@ -44,7 +44,7 @@ export default function Blog() {
             <Grid item xs={12} md={8} sx={{ '& .markdown': { py: 3, }, }}>
               <Paper elevation={0} sx={{ p: 2, backgroundColor: '#f7dfca' }}>
                 <Typography variant="h6" gutterBottom>
-                  DETALLES
+                  INDICACIONES
                 </Typography>
                 <Divider />
                 <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
