@@ -40,7 +40,7 @@ export default function TemporaryDrawer() {
           </ListItem>
         ))}
       </List>
-      <Divider />
+      <Divider /><Divider />
     </Box>
   );
 
