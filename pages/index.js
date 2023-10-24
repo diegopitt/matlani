@@ -157,6 +157,7 @@ function Main(props) {
 }
 const tinturas = [
   { link: '/mentha', img: '/mentha.jpg', title: 'MENTA', Species: 'Mentha Piperita' },
+  { link: '/nispero', img: '/nispero.jpg', title: 'Nispero', Species: 'Eriobotrya japónica' },
   { link: '/tcardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', Species: 'Elattaria Cardomumum' },
   { link: '/dienteleon', img: '/diente.jpg', title: 'DIENTE DE LEON', Species: 'Taraxacum Officinale'},
   { link: '/damiana', img: '/damiana.jpg', title: 'DAMIANA', Species: 'Turnera Diffusa'},
