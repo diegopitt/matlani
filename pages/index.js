@@ -156,6 +156,7 @@ function Main(props) {
   );
 }
 const tinturas = [
+  { link: '/pericon', img: '/lucida.jpg', title: 'Pericon', Species: 'Tagetes lucida' },
   { link: '/mentha', img: '/mentha.jpg', title: 'MENTA', Species: 'Mentha Piperita' },
   { link: '/nispero', img: '/nispero.jpg', title: 'Nispero', Species: 'Eriobotrya japónica' },
   { link: '/tcardomomo', img: '/cardo.jpg', title: 'CARDOMOMO', Species: 'Elattaria Cardomumum' },
