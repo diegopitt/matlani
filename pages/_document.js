@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import PropTypes from 'prop-types';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
@@ -20,6 +21,7 @@ export default function MyDocument(props) {
       <body style={{ backgroundColor: '#81a46d' }}>
         <Main />
         <NextScript />
+        <Analytics />
       </body>
     </Html>
   );
